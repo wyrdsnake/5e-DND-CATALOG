@@ -111,9 +111,26 @@ async def rtd(ctx, arg):
             embed.add_field(name=f":game_die: {i}/{x}", value=f"{curr_val}/{y}", inline=False)
 
     embed.add_field(name="TOTAL: ", value=f"{score}/{x*y}", inline=False)
-    embed.add_field(name="Links", value="![Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
+    embed.add_field(name="Links", value="[Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
 
     await ctx.send(embed=embed)
 
+
+@client.command()
+async def meat(ctx, member=None):
+    msg = None
+    if member is None:
+        if ctx.message.author.id == 560601419564974081:
+            msg = f"{ctx.message.author.mention} {random.choice(MEAT['big'])}"
+        else: 
+            msg = f"{ctx.message.author.mention} {random.choice(MEAT['small'])}"   
+
+    else: 
+        if str(member) == "<@!560601419564974081>":
+            msg = f"{member} {random.choice(MEAT['big'])}"
+        else: 
+            msg = f"{member} {random.choice(MEAT['small'])}"   
+    
+    await ctx.send(msg)
 
 client.run(KEY)

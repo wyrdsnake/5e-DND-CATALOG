@@ -37,8 +37,14 @@ N.B. Cascading bullet points means the sub-bullet woul be prefixed by parent, e.
   - [ ] class? 
     - [ ] fireball -> info about firball cast by (class) type
   - [ ] not sure 
+- [ ] Proficiencies
+  - [ ] need to filter down to list and probably just remove the ones that aren't relevant
+- [ ] special effect (drinks/elixirs)
 - [ ] dice commands
-  - [ ] e.g. `?dnd` xdy (x rolls of a dy) 
+  - [x] e.g. `?dnd` xdy (x rolls of a dy) 
+    - [ ] make the formatting better
+- [ ] Maintain list of prefixes by server
+- [ ] Maintain list of donors for... special color or quips?
 - [ ] import -> allows the user to import homebrew material 
   - Probably done via raw JSON?  ... shouldn't accept links or files... { "race" : "new_race" [race features]
    
