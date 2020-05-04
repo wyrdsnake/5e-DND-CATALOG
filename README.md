@@ -48,3 +48,25 @@ N.B. Cascading bullet points means the sub-bullet woul be prefixed by parent, e.
 - [ ] import -> allows the user to import homebrew material 
   - Probably done via raw JSON?  ... shouldn't accept links or files... { "race" : "new_race" [race features]
    
+## Dev Guide
+
+# Working in a branch:
+
+Your branch is like your version of the remote (master)
+
+create branch with `git branch name-of-your-branch`.  This will create a copy of whatever branch you're currently in (master) 
+
+Switch out of master and into your branch with `git checkout name-of-your-branch`.  You can verify you correctly switched branches with `git branch` which will highlight the branch you're currently in
+
+push changes from your local git repo to your remote branch with:
+- `git add .` to add all the files in the current directory and (recursively) to the staging area
+- `git commit -m "brief description of what you're committing"` to package up the staged changes into a hashed commit
+- `git push origin name-of-your-branch` to push your changes to your branch
+
+From here, you'll want to open a PR from your branch into the master branch and tag one of the other devs to look over your changes and merge them into master
+
+Once a change has been pushed to master, you'll want to update your local repo & branch accordingly with `git pull origin master` 
+
+You'll probably need to manually review any merge conflicts (VSCode makes this easy as well as the Git Desktop tool if you're more comfy with that) and just make sure you're taking in the desired changes.  
+
+Helps to ping your teammembers once you've pushed something to your branch that you want to be pulled into master.
