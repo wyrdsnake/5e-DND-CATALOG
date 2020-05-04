@@ -38,20 +38,55 @@ async def change_status():
 
 
 @client.command(aliases=["r", "races"])
-async def race(ctx):
+async def race(ctx, race=None):
     embed = std_embed()
-    res = requests.get('http://www.dnd5eapi.co/api/races/')
-    d = dict(res.json())
 
-    races = []
-    ls = ""
-    for n in d['results']:
-        races.append(n['name'])
-        ls += f"- {n['name']}\n"
+    if race is None:
+        res = requests.get('http://www.dnd5eapi.co/api/races/')
+        d = dict(res.json())
 
-    ls =ls[:-2] 
-    
-    embed.add_field(name="Supported Races", value=ls, inline=False)
+        races = []
+        ls = ""
+        for n in d['results']:
+            races.append(n['name'])
+            ls += f"{n['name']}, "
+        ls =ls[:-2] 
+        embed.add_field(name="Supported Races", value=ls, inline=False)
+    else: # TODO make a better race cog
+        res = requests.get(f'http://www.dnd5eapi.co/api/races/{race.lower()}')
+        if res.status_code != "200": # response 200 == success
+            d = dict(res.json())
+            for key in d.keys():
+                embed.add_field(name=key, value=d[key], inline=False)
+        else: 
+            embed.add_field(name="error", value="Make sure the race specified is supported", inline=False)
+
+    await ctx.send(embed=embed)
+
+ # here we use _class since 'class' is a reserved keyword in python and just add 'class' as an alias
+@client.command(aliases=["c", "classes", "class"])
+async def _class(ctx, _class=None): 
+    embed = std_embed()
+
+    if _class is None:
+        res = requests.get('http://www.dnd5eapi.co/api/classes/')
+        d = dict(res.json())
+
+        classes = []
+        ls = ""
+        for n in d['results']:
+            classes.append(n['name'])
+            ls += f"{n['name']}, "
+        ls =ls[:-2] 
+        embed.add_field(name="Supported Classes", value=ls, inline=False)
+    else: # TODO make a better class cog
+        res = requests.get(f'http://www.dnd5eapi.co/api/classes/{_class.lower()}')
+        if res.status_code != "200": # response 200 == success
+            d = dict(res.json())
+            for key in d.keys():
+                embed.add_field(name=key, value=d[key], inline=False)
+        else: 
+            embed.add_field(name="error", value="Make sure the class specified is supported", inline=False)
 
     await ctx.send(embed=embed)
 
@@ -97,23 +132,27 @@ async def rtd(ctx, arg):
     vals = arg.split("d")
     x = int(vals[0])
     y = int(vals[1])
+    print(x, y)
+
+    if x is None or y is None or x <= 0 or y <= 0:
+        await ctx.send("invalid dice roll: try `?dnd xdy` where `x` and `y` are positive integers") 
+    
     embed = std_embed()
 
-    if x is None or y is None:
-        await ctx.send("invalid args: try `?dnd xdy` where `x` and `y` are integers") 
-    
     score = 0
+    rolls = ""
     for i in range(x):
         curr_val = random.randint(1, y)
         score += curr_val
         if curr_val == 1:
-            embed.add_field(name=f":game_die: {i}/{x}", value=f"{curr_val}/{y} -- oof crit. failure.", inline=False)
+            rolls += f"#{i+1}: **{curr_val}**/{y} -- oof crit. failure\n"
         elif curr_val == y:
-            embed.add_field(name=f":game_die: {i}/{x}", value=f"{curr_val}/{y} -- Max roll baby", inline=False)
+            rolls += f"#{i+1}: **{curr_val}**/{y} -- max roll\n"
         else:
-            embed.add_field(name=f":game_die: {i}/{x}", value=f"{curr_val}/{y}", inline=False)
+            rolls += f"#{i+1}: **{curr_val}**/{y}\n"
 
-    embed.add_field(name="TOTAL: ", value=f"{score}/{x*y}", inline=False)
+    embed.add_field(name=f":game_die: {x}d{y}", value=rolls, inline=False)
+    embed.add_field(name="TOTAL: ", value=f"**{score}**/{x*y}", inline=False)
     embed.add_field(name="Links", value="[Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
 
     await ctx.send(embed=embed)
