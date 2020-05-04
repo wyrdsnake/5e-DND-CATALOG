@@ -38,20 +38,30 @@ async def change_status():
 
 
 @client.command(aliases=["r", "races"])
-async def race(ctx):
+async def race(ctx, race=None):
     embed = std_embed()
-    res = requests.get('http://www.dnd5eapi.co/api/races/')
-    d = dict(res.json())
 
-    races = []
-    ls = ""
-    for n in d['results']:
-        races.append(n['name'])
-        ls += f"- {n['name']}\n"
+    if race is None:
+        res = requests.get('http://www.dnd5eapi.co/api/races/')
+        d = dict(res.json())
 
-    ls =ls[:-2] 
-    
-    embed.add_field(name="Supported Races", value=ls, inline=False)
+        races = []
+        ls = ""
+        for n in d['results']:
+            races.append(n['name'])
+            ls += f"{n['name']}, "
+        ls =ls[:-2] 
+        embed.add_field(name="Supported Races", value=ls, inline=False)
+    else: # TODO make a better race cog
+        print(race)
+        res = requests.get(f'http://www.dnd5eapi.co/api/races/{race}')
+        print(res.status_code)
+        if res.status_code != "200": # response 200 == success
+            d = dict(res.json())
+            for key in d.keys():
+                embed.add_field(name=key, value=d[key], inline=False)
+        else: 
+            embed.add_field(name="error", value="Make sure the race specified is supported", inline=False)
 
     await ctx.send(embed=embed)
 

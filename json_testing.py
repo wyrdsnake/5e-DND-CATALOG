@@ -1,19 +1,20 @@
 import requests
 import json
 
-url = 'http://www.dnd5eapi.co/api/races/'
+url = 'http://www.dnd5eapi.co/api/races/elf'
 res = requests.get(url)
+print(res.status_code)
 res_json = res.json()
-print(list(res_json))
 
 d = dict(res_json)
 
-print(d['results'])
-names = []
-for n in d['results']:
-    names.append(n['index'])
+for key in d.keys():
+    print(f"{key}: {d[key]}")
 
-print(names)
+# for n in d['results']:
+#     names.append(n['index'])
+
+# print(names)
 
 
 # # Lists proficiencies
