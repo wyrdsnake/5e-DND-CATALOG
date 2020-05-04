@@ -47,8 +47,9 @@ async def _prof(ctx):
 
     profs = []
     for n in d['results']:
-        embed.add_field(name=n, value="idrk what u expected fuckwhite", inline=True)
+        embed.add_field(name=n, value="idrk what u expected", inline=True)
 
+    embed.add_field(name="Links", value="![Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
     await ctx.send(embed=embed)
 
 @client.command(aliases=['i'])
@@ -57,6 +58,7 @@ async def info(ctx):
     embed.add_field(name="Written", value="@wyrdsnake\n@MurphyPone\n@Kabir")
     embed.add_field(name="Server count", value=f"{len(client.guilds)}")
     embed.add_field(name="Invite", value="TODO")
+    embed.add_field(name="Links", value="![Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
     await ctx.send(embed=embed)
 
 @client.command(name="help", aliases=['h'])
@@ -66,25 +68,25 @@ async def help(ctx, *args):
         embed.add_field(name=":necktie: `class`", value="lists supported classes", inline=False)
         embed.add_field(name=":unicorn: `race`", value="lists supported races", inline=False)
         embed.add_field(name=":game_die: `rtd`", value="moderate rtd", inline=False)
+        embed.add_field(name="Links", value="![Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
         await ctx.send(embed=embed)
+        return 
     else: # parse the next arg
 
         # TODO move to individual helpers in a separate class
         if args[0] == 'class':
             embed.add_field(name=":necktie: `class`", value="type `?dnd class <class>` for information about a given class.\ne.g.: `?dnd class bard`", inline=False)
-            await ctx.send(embed=embed)
         elif args[0] == 'race':
             embed.add_field(name=":necktie: `race`", value="type `?dnd race <class>` for information about a given class.\ne.g.: `?dnd race elf`", inline=False)
-            await ctx.send(embed=embed)
         elif args[0] == 'prof':
             embed.add_field(name=":scales: `prof`", value="type `?dnd p <skill>` for information about a given proficiency.\ne.g.: `?dnd p skill-arcana`", inline=False)
-            await ctx.send(embed=embed)
         elif args[0] == 'rtd':
             embed.add_field(name=":game_die: `rtd`", value="type `?dnd rtd xdy` to roll x amount of dy\ng e.g. `?dnd 1d6` rolls 1d6", inline=False)
-            await ctx.send(embed=embed)
         else:
             embed.add_field(name="error", value="are you sure you typed the correct command?", inline=False)
-            await ctx.send(embed=embed)
+
+    embed.add_field(name="Links", value="[Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
+    await ctx.send(embed=embed)
 
 @client.command()
 async def rtd(ctx, arg):
@@ -102,13 +104,14 @@ async def rtd(ctx, arg):
         curr_val = random.randint(1, y)
         score += curr_val
         if curr_val == 1:
-            embed.add_field(name=f":game_die: {i}/{x}", value=f"{curr_val}/{y} -- oof crit. failure.  You gonna kys, stinky?", inline=False)
+            embed.add_field(name=f":game_die: {i}/{x}", value=f"{curr_val}/{y} -- oof crit. failure.", inline=False)
         elif curr_val == y:
             embed.add_field(name=f":game_die: {i}/{x}", value=f"{curr_val}/{y} -- Max roll baby", inline=False)
         else:
             embed.add_field(name=f":game_die: {i}/{x}", value=f"{curr_val}/{y}", inline=False)
 
     embed.add_field(name="TOTAL: ", value=f"{score}/{x*y}", inline=False)
+    embed.add_field(name="Links", value="![Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
 
     await ctx.send(embed=embed)
 
