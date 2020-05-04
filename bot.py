@@ -36,20 +36,23 @@ async def ping(ctx):
 async def change_status():
     await client.change_presence(activity=discord.Game(next(STATUSES)))
 
-# Lists proficiencies
-@client.command(aliases=['p', 'proficiencies'])
-async def _prof(ctx):
+
+@client.command(aliases=["r", "races"])
+async def race(ctx):
     embed = std_embed()
-    
-    res = requests.get('http://www.dnd5eapi.co/api/proficiencies/')
-    res_json = res.json()
-    d = dict(res_json)
+    res = requests.get('http://www.dnd5eapi.co/api/races/')
+    d = dict(res.json())
 
-    profs = []
+    races = []
+    ls = ""
     for n in d['results']:
-        embed.add_field(name=n, value="idrk what u expected", inline=True)
+        races.append(n['name'])
+        ls += f"- {n['name']}\n"
 
-    embed.add_field(name="Links", value="![Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
+    ls =ls[:-2] 
+    
+    embed.add_field(name="Supported Races", value=ls, inline=False)
+
     await ctx.send(embed=embed)
 
 @client.command(aliases=['i'])
@@ -58,7 +61,7 @@ async def info(ctx):
     embed.add_field(name="Written", value="@wyrdsnake\n@MurphyPone\n@Kabir")
     embed.add_field(name="Server count", value=f"{len(client.guilds)}")
     embed.add_field(name="Invite", value="TODO")
-    embed.add_field(name="Links", value="![Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
+    embed.add_field(name="Links", value="[Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
     await ctx.send(embed=embed)
 
 @client.command(name="help", aliases=['h'])
@@ -68,7 +71,7 @@ async def help(ctx, *args):
         embed.add_field(name=":necktie: `class`", value="lists supported classes", inline=False)
         embed.add_field(name=":unicorn: `race`", value="lists supported races", inline=False)
         embed.add_field(name=":game_die: `rtd`", value="moderate rtd", inline=False)
-        embed.add_field(name="Links", value="![Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
+        embed.add_field(name="Links", value="[Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
         await ctx.send(embed=embed)
         return 
     else: # parse the next arg
