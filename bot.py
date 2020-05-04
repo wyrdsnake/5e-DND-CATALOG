@@ -53,15 +53,40 @@ async def race(ctx, race=None):
         ls =ls[:-2] 
         embed.add_field(name="Supported Races", value=ls, inline=False)
     else: # TODO make a better race cog
-        print(race)
-        res = requests.get(f'http://www.dnd5eapi.co/api/races/{race}')
-        print(res.status_code)
+        res = requests.get(f'http://www.dnd5eapi.co/api/races/{race.lower()}')
         if res.status_code != "200": # response 200 == success
             d = dict(res.json())
             for key in d.keys():
                 embed.add_field(name=key, value=d[key], inline=False)
         else: 
             embed.add_field(name="error", value="Make sure the race specified is supported", inline=False)
+
+    await ctx.send(embed=embed)
+
+ # here we use _class since 'class' is a reserved keyword in python and just add 'class' as an alias
+@client.command(aliases=["c", "classes", "class"])
+async def _class(ctx, _class=None): 
+    embed = std_embed()
+
+    if _class is None:
+        res = requests.get('http://www.dnd5eapi.co/api/classes/')
+        d = dict(res.json())
+
+        classes = []
+        ls = ""
+        for n in d['results']:
+            classes.append(n['name'])
+            ls += f"{n['name']}, "
+        ls =ls[:-2] 
+        embed.add_field(name="Supported Classes", value=ls, inline=False)
+    else: # TODO make a better class cog
+        res = requests.get(f'http://www.dnd5eapi.co/api/classes/{_class.lower()}')
+        if res.status_code != "200": # response 200 == success
+            d = dict(res.json())
+            for key in d.keys():
+                embed.add_field(name=key, value=d[key], inline=False)
+        else: 
+            embed.add_field(name="error", value="Make sure the class specified is supported", inline=False)
 
     await ctx.send(embed=embed)
 
