@@ -132,23 +132,27 @@ async def rtd(ctx, arg):
     vals = arg.split("d")
     x = int(vals[0])
     y = int(vals[1])
+    print(x, y)
+
+    if x is None or y is None or x <= 0 or y <= 0:
+        await ctx.send("invalid dice roll: try `?dnd xdy` where `x` and `y` are positive integers") 
+    
     embed = std_embed()
 
-    if x is None or y is None:
-        await ctx.send("invalid args: try `?dnd xdy` where `x` and `y` are integers") 
-    
     score = 0
+    rolls = ""
     for i in range(x):
         curr_val = random.randint(1, y)
         score += curr_val
         if curr_val == 1:
-            embed.add_field(name=f":game_die: {i}/{x}", value=f"{curr_val}/{y} -- oof crit. failure.", inline=False)
+            rolls += f"#{i+1}: **{curr_val}**/{y} -- oof crit. failure\n"
         elif curr_val == y:
-            embed.add_field(name=f":game_die: {i}/{x}", value=f"{curr_val}/{y} -- Max roll baby", inline=False)
+            rolls += f"#{i+1}: **{curr_val}**/{y} -- max roll\n"
         else:
-            embed.add_field(name=f":game_die: {i}/{x}", value=f"{curr_val}/{y}", inline=False)
+            rolls += f"#{i+1}: **{curr_val}**/{y}\n"
 
-    embed.add_field(name="TOTAL: ", value=f"{score}/{x*y}", inline=False)
+    embed.add_field(name=f":game_die: {x}d{y}", value=rolls, inline=False)
+    embed.add_field(name="TOTAL: ", value=f"**{score}**/{x*y}", inline=False)
     embed.add_field(name="Links", value="[Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
 
     await ctx.send(embed=embed)

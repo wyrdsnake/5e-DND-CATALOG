@@ -28,23 +28,21 @@ N.B. Cascading bullet points means the sub-bullet woul be prefixed by parent, e.
 - [ ] help -> return list of outermost heirarchy commands:
 
 - [ ] race -> list of supported race info
- - [ ] elf ->  info about elf rac
+ - [ ] elf ->  info about elf race
 - [ ] class -> list of supported classes
-  - [ ] sorcerer -> info about the sorcerer class
+  - [ ] barbarian -> info about the sorcerer class
 - [ ] weapon
   - [ ] pocket-dimension-sword -> _zmp_ noise sword that can be pulled from a pocket dimension
 - [ ] spell -> returns a list of the different types of spells
   - [ ] class? 
     - [ ] fireball -> info about firball cast by (class) type
-  - [ ] not sure 
-- [ ] Proficiencies
-  - [ ] need to filter down to list and probably just remove the ones that aren't relevant
 - [ ] special effect (drinks/elixirs)
 - [ ] dice commands
   - [x] e.g. `?dnd` xdy (x rolls of a dy) 
     - [ ] make the formatting better
 - [ ] Maintain list of prefixes by server
 - [ ] Maintain list of donors for... special color or quips?
+- [ ] Move from local --> AWS bucket
 - [ ] import -> allows the user to import homebrew material 
   - Probably done via raw JSON?  ... shouldn't accept links or files... { "race" : "new_race" [race features]
    
