@@ -28,6 +28,8 @@ N.B. Cascading bullet points means the sub-bullet woul be prefixed by parent, e.
 - [ ] help -> return list of outermost heirarchy commands:
 
 - [ ] race -> list of supported race info
+- [ ] trait -> list of traits
+  - [ ] brave -> information about the brave trait
  - [ ] elf ->  info about elf race
 - [ ] class -> list of supported classes
   - [ ] barbarian -> info about the sorcerer class
