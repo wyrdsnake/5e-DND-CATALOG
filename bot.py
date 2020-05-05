@@ -8,6 +8,9 @@ from utils import *
 from _class import * 
 from race import *
 from feat import *
+from language import *
+from ability import *
+from skills import *
 
 client = commands.Bot(command_prefix = '?dnd ') # set our prefix acc. to guild.id 
 client.remove_command('help')                   # Remove the default help command
@@ -101,10 +104,28 @@ async def feat(ctx, *args):
     std_footer(embed)
     await ctx.send(embed=embed)
 
+@client.command(aliases=['l', 'lang', 'languages'])
+async def language(ctx):
+    embed = language_embed()
+    await ctx.send(embed=embed)
 
+@client.command(aliases=['skill', 'sk'])
+async def skills(ctx, *args):
+    if len(args) == 0:
+        embed = skills_embed()
+    else: 
+        embed = skills_embed(args[0])  
+    std_footer(embed)
+    await ctx.send(embed=embed)
 
-
-
+@client.command(aliases=['abs', 'ab', 'as', 'ab scores', 'ability'])
+async def abilities(ctx, *args):
+    if len(args) == 0:
+        embed = ability_embed()
+    else:
+        embed = ability_embed(args[0])
+    std_footer(embed)
+    await ctx.send(embed=embed)
 
 # Displays information about the bot
 @client.command(aliases=['i'])
@@ -124,6 +145,9 @@ async def help(ctx, *args):
     if len(args) == 0: 
         embed.add_field(name=":necktie: `class`", value="Lists supported classes", inline=False)
         embed.add_field(name=":unicorn: `race`", value="Lists supported races", inline=False)
+        embed.add_field(name=":scroll: `languages`", value="Lists supported languages", inline=False)
+        embed.add_field(name=":tools: `skills`", value="Lists supported skills", inline=False)
+        embed.add_field(name=":beginner: `abilities`", value="Lists supported abilities", inline=False)
         embed.add_field(name=":game_die: `rtd`", value="Roll Some Dice", inline=False)
     else: # parse the next arg
 
@@ -175,6 +199,7 @@ async def rtd(ctx, arg):
     await ctx.send(embed=embed)
 
 
+
 # This should be entirely removed probably
 @client.command()
 async def meat(ctx, member=None):
@@ -192,5 +217,6 @@ async def meat(ctx, member=None):
             msg = f"{member} {random.choice(MEAT['small'])}"   
     
     await ctx.send(msg)
+
 
 client.run(KEY)
