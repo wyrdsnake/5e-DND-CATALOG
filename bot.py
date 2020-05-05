@@ -52,7 +52,7 @@ async def race(ctx, race=None):
             ls += f"{n['name']}, "
         ls =ls[:-2] 
         embed.add_field(name="Supported Races", value=ls, inline=False)
-    else: # TODO make a better race cog
+    else: 
         embed = race_embed(race)
     
     embed.add_field(name="Links", value="[Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
@@ -60,8 +60,8 @@ async def race(ctx, race=None):
 
  # here we use _class since 'class' is a reserved keyword in python and just add 'class' as an alias
 @client.command(aliases=["c", "classes", "class"])
-async def _class(ctx, _class=None): 
-    if _class is None:
+async def _class(ctx, *args): 
+    if len(args) == 0:
         embed = std_embed()
         res = requests.get('http://www.dnd5eapi.co/api/classes/')
         d = dict(res.json())
@@ -73,16 +73,12 @@ async def _class(ctx, _class=None):
             ls += f"{n['name']}, "
         ls =ls[:-2] 
         embed.add_field(name="Supported Classes", value=ls, inline=False)
-    else: # TODO make a better class cog
-        embed = std_embed()
-        res = requests.get(f'http://www.dnd5eapi.co/api/classes/{_class.lower()}')
-        if res.status_code != "200": # response 200 == success
-            d = dict(res.json())
-            for key in d.keys():
-                embed.add_field(name=key, value=d[key], inline=False)
-        else: 
-            embed.add_field(name="error", value="Make sure the class specified is supported", inline=False)
+    elif len(args) == 1: # asking about a specific class
+        embed = class_embed(args[0])
+    elif len(args) == 2 and (args[1] == "sc" or args[1] == "sub" or args[1] == "subclass" or args[1] == "subclasses"): # asking about subclasses
+        embed = subclass_embed(args[0])
 
+    embed.add_field(name="Links", value="[Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
     await ctx.send(embed=embed)
 
 @client.command(aliases=['i'])
@@ -98,9 +94,9 @@ async def info(ctx):
 async def help(ctx, *args):
     embed = std_embed()
     if len(args) == 0: 
-        embed.add_field(name=":necktie: `class`", value="lists supported classes", inline=False)
-        embed.add_field(name=":unicorn: `race`", value="lists supported races", inline=False)
-        embed.add_field(name=":game_die: `rtd`", value="moderate rtd", inline=False)
+        embed.add_field(name=":necktie: `class`", value="Lists supported classes", inline=False)
+        embed.add_field(name=":unicorn: `race`", value="Lists supported races", inline=False)
+        embed.add_field(name=":game_die: `rtd`", value="Roll Some Dice", inline=False)
         embed.add_field(name="Links", value="[Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
         await ctx.send(embed=embed)
         return 

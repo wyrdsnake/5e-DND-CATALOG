@@ -1,0 +1,35 @@
+{
+    "count": 1,
+    "results": [
+        {
+            "index": "berserker",
+            "name": "Berserker",
+            "url": "/api/subclasses/berserker"
+        }
+    ]
+}
+
+{
+    "_id": "5eab26e40b1bb138c5b8d9b5",
+    "index": "berserker",
+    "class": {
+        "url": "/api/classes/barbarian",
+        "name": "Barbarian"
+    },
+    "name": "Berserker",
+    "subclass_flavor": "Primal Path",
+    "desc": [
+        "For some barbarians, rage is a means to an end--that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being."
+    ],
+    "features": [
+        {
+            "name": "Primal Path",
+            "url": "/api/features/primal-path"
+        },
+        {
+            "name": "Frenzy",
+            "url": "/api/features/frenzy"
+        }
+    ],
+    "url": "/api/subclasses/berserker"
+}

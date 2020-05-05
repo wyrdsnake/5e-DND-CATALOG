@@ -33,6 +33,9 @@ N.B. Cascading bullet points means the sub-bullet woul be prefixed by parent, e.
  - [ ] elf ->  info about elf race
 - [ ] class -> list of supported classes
   - [ ] barbarian -> info about the sorcerer class
+    - [ ] subclass -> information about subclasses for the given class
+      - [ ] berseker -> information about specific subclass
+    - [ ] levels -> information about the levels of a given class
 - [ ] weapon
   - [ ] pocket-dimension-sword -> _zmp_ noise sword that can be pulled from a pocket dimension
 - [ ] spell -> returns a list of the different types of spells
@@ -48,6 +51,11 @@ N.B. Cascading bullet points means the sub-bullet woul be prefixed by parent, e.
 - [ ] import -> allows the user to import homebrew material 
   - Probably done via raw JSON?  ... shouldn't accept links or files... { "race" : "new_race" [race features]
    
+## TODO:
+- [ ] change the description of std_embed to be nonstandardper command
+- [ ] make the api usage more extensible by heirarchichal reference calls to the child apis  
+ 
+
 ## Dev Guide
 
 # Working in a branch:
