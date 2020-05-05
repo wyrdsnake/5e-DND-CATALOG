@@ -5,6 +5,9 @@ from discord.ext import commands, tasks
 import requests
 from conf import *
 from utils import *
+from _class import * 
+from race import *
+from feat import *
 
 client = commands.Bot(command_prefix = '?dnd ') # set our prefix acc. to guild.id 
 client.remove_command('help')                   # Remove the default help command
@@ -26,7 +29,8 @@ async def on_memeber_remove(member):
     print(f'{member} has left a server')
 
 
-## client commands
+## client commands ##
+
 @client.command()
 async def ping(ctx):
     await ctx.send(f'Pong! ping = {round(client.latency *1000)} ms')
@@ -36,7 +40,7 @@ async def ping(ctx):
 async def change_status():
     await client.change_presence(activity=discord.Game(next(STATUSES)))
 
-
+# Displays information about supported races
 @client.command(aliases=["r", "races"])
 async def race(ctx, race=None):
 
@@ -55,14 +59,14 @@ async def race(ctx, race=None):
     else: 
         embed = race_embed(race)
     
-    embed.add_field(name="Links", value="[Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
+    std_footer(embed)
     await ctx.send(embed=embed)
 
  # here we use _class since 'class' is a reserved keyword in python and just add 'class' as an alias
 @client.command(aliases=["c", "classes", "class"])
 async def _class(ctx, *args): 
+    embed = std_embed()
     if len(args) == 0:
-        embed = std_embed()
         res = requests.get('http://www.dnd5eapi.co/api/classes/')
         d = dict(res.json())
 
@@ -73,23 +77,47 @@ async def _class(ctx, *args):
             ls += f"{n['name']}, "
         ls =ls[:-2] 
         embed.add_field(name="Supported Classes", value=ls, inline=False)
-    elif len(args) == 1: # asking about a specific class
+    elif len(args) == 1: # ?dnd class args[0]
         embed = class_embed(args[0])
     elif len(args) == 2 and (args[1] == "sc" or args[1] == "sub" or args[1] == "subclass" or args[1] == "subclasses"): # asking about subclasses
-        embed = subclass_embed(args[0])
+        embed = subclass_embed(args[0]) # ?dnd class <class> args[1] 
 
-    embed.add_field(name="Links", value="[Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
+    std_footer(embed)
     await ctx.send(embed=embed)
 
+@client.command(aliases=['feature', 'f', 'features'])
+async def feat(ctx, *args):
+    embed = std_embed()
+    page = 0
+
+    if len(args) == 0: # list page 1 of feats
+        embed = list_feats()
+    elif args[0].isdigit(): # list page n of feats
+        page = args[0] 
+        embed = list_feats(page)
+    else:       # display specific feat
+        pass
+
+    std_footer(embed)
+    await ctx.send(embed=embed)
+
+
+
+
+
+
+# Displays information about the bot
 @client.command(aliases=['i'])
 async def info(ctx):
     embed = std_embed()
     embed.add_field(name="Written", value="@wyrdsnake\n@MurphyPone\n@Kabir")
     embed.add_field(name="Server count", value=f"{len(client.guilds)}")
     embed.add_field(name="Invite", value="TODO")
-    embed.add_field(name="Links", value="[Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
+    std_footer(embed)
     await ctx.send(embed=embed)
 
+
+# Displays the help message for the bot 
 @client.command(name="help", aliases=['h'])
 async def help(ctx, *args):
     embed = std_embed()
@@ -97,9 +125,6 @@ async def help(ctx, *args):
         embed.add_field(name=":necktie: `class`", value="Lists supported classes", inline=False)
         embed.add_field(name=":unicorn: `race`", value="Lists supported races", inline=False)
         embed.add_field(name=":game_die: `rtd`", value="Roll Some Dice", inline=False)
-        embed.add_field(name="Links", value="[Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
-        await ctx.send(embed=embed)
-        return 
     else: # parse the next arg
 
         # TODO move to individual helpers in a separate class
@@ -114,9 +139,10 @@ async def help(ctx, *args):
         else:
             embed.add_field(name="error", value="are you sure you typed the correct command?", inline=False)
 
-    embed.add_field(name="Links", value="[Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
+    std_footer(embed)
     await ctx.send(embed=embed)
 
+# Roll the Dice command
 @client.command()
 async def rtd(ctx, arg):
     # parse args here
@@ -144,11 +170,12 @@ async def rtd(ctx, arg):
 
     embed.add_field(name=f":game_die: {x}d{y}", value=rolls, inline=False)
     embed.add_field(name="TOTAL: ", value=f"**{score}**/{x*y}", inline=False)
-    embed.add_field(name="Links", value="[Support Calligula](https://www.google.com) | [PHB]({}) | [Invite]({})".format("google.com","google.com" ) , inline=False)
+    std_footer(embed)
 
     await ctx.send(embed=embed)
 
 
+# This should be entirely removed probably
 @client.command()
 async def meat(ctx, member=None):
     msg = None
