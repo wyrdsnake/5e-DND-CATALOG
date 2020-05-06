@@ -1,0 +1,125 @@
+{
+    "_id": "5eb0efc10b1bb138c5060109",
+    "index": "devotion",
+    "class": {
+        "url": "/api/classes/paladin",
+        "name": "Paladin"
+    },
+    "name": "Devotion",
+    "subclass_flavor": "Sacred Oath",
+    "desc": [
+        "The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels--the perfect servants of good--as their ideals, and incorporate images of angelic wings into their helmets or coats of arms."
+    ],
+    "features": [],
+    "spells": [
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/paladin/level/3",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/protection-from-evil-and-good",
+                "name": "Protection from Evil and Good"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/paladin/level/3",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/sanctuary",
+                "name": "Sanctuary"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/paladin/level/5",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/lesser-restoration",
+                "name": "Lesser Restoration"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/paladin/level/5",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/zone-of-truth",
+                "name": "Zone of Truth"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/paladin/level/9",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/beacon-of-hope",
+                "name": "Beacon of Hope"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/paladin/level/9",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/dispel-magic",
+                "name": "Dispel Magic"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/paladin/level/13",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/freedom-of-movement",
+                "name": "Freedom of Movement"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/paladin/level/17",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/commune",
+                "name": "Commune"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/paladin/level/17",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/flame-strike",
+                "name": "Flame Strike"
+            }
+        }
+    ],
+    "url": "/api/subclasses/devotion"
+}

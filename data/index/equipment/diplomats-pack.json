@@ -1,0 +1,58 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa25",
+    "index": "diplomats-pack",
+    "name": "Diplomat's Pack",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Equipment Pack",
+    "cost": {
+        "quantity": 39,
+        "unit": "gp"
+    },
+    "contents": [
+        {
+            "item_url": "/api/equipment/chest",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/case-map-or-scroll",
+            "quantity": 2
+        },
+        {
+            "item_url": "/api/equipment/clothes-fine",
+            "quantity": 5
+        },
+        {
+            "item_url": "/api/equipment/ink-1-ounce-bottle",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/ink-pen",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/lamp",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/oil-flask",
+            "quantity": 2
+        },
+        {
+            "item_url": "/api/equipment/paper-one-sheet",
+            "quantity": 5
+        },
+        {
+            "item_url": "/api/equipment/perfume-vial",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/sealing-wax",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/soap",
+            "quantity": 1
+        }
+    ],
+    "url": "/api/equipment/diplomats-pack"
+}

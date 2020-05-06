@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa63",
+    "index": "cart",
+    "name": "Cart",
+    "equipment_category": "Mounts and Vehicles",
+    "vehicle_category": "Tack, Harness, and Drawn Vehicles",
+    "cost": {
+        "quantity": 15,
+        "unit": "gp"
+    },
+    "weight": 200,
+    "url": "/api/equipment/cart"
+}

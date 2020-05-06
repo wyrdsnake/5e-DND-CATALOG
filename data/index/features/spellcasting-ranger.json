@@ -1,0 +1,15 @@
+{
+    "class": {
+        "url": "/api/classes/ranger",
+        "name": "Ranger"
+    },
+    "desc": [
+        "By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb63",
+    "index": "spellcasting-ranger",
+    "name": "Spellcasting: Ranger",
+    "level": 2,
+    "reference": "/api/spellcasting/ranger",
+    "url": "/api/features/spellcasting-ranger"
+}

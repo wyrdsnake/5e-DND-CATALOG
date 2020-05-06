@@ -1,0 +1,55 @@
+{
+    "_id": "5eb0efbf0b1bb138c5060072",
+    "index": "protection-from-energy",
+    "name": "Protection from Energy",
+    "desc": [
+        "For the duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder."
+    ],
+    "range": "Touch",
+    "components": [
+        "V",
+        "S"
+    ],
+    "ritual": false,
+    "duration": "Up to 1 hour",
+    "concentration": true,
+    "casting_time": "1 action",
+    "level": 3,
+    "school": {
+        "name": "Abjuration",
+        "url": "/api/magic-schools/abjuration"
+    },
+    "classes": [
+        {
+            "name": "Cleric",
+            "url": "/api/classes/cleric"
+        },
+        {
+            "name": "Druid",
+            "url": "/api/classes/druid"
+        },
+        {
+            "name": "Ranger",
+            "url": "/api/classes/ranger"
+        },
+        {
+            "name": "Sorcerer",
+            "url": "/api/classes/sorcerer"
+        },
+        {
+            "name": "Wizard",
+            "url": "/api/classes/wizard"
+        }
+    ],
+    "subclasses": [
+        {
+            "name": "Lore",
+            "url": "/api/subclasses/lore"
+        },
+        {
+            "name": "Land",
+            "url": "/api/subclasses/land"
+        }
+    ],
+    "url": "/api/spells/protection-from-energy"
+}

@@ -1,0 +1,15 @@
+{
+    "class": {
+        "url": "/api/classes/wizard",
+        "name": "Wizard"
+    },
+    "desc": [
+        "As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power."
+    ],
+    "_id": "5eb0efba0b1bb138c505fc0f",
+    "index": "spellcasting-wizard",
+    "name": "Spellcasting: Wizard",
+    "level": 1,
+    "reference": "/api/spellcasting/wizard",
+    "url": "/api/features/spellcasting-wizard"
+}

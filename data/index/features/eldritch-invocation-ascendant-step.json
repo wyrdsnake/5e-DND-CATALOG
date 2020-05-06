@@ -1,0 +1,21 @@
+{
+    "class": {
+        "url": "/api/classes/warlock",
+        "name": "Warlock"
+    },
+    "desc": [
+        "You can cast levitate on yourself at will, without expending a spell slot or material components."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbef",
+    "index": "eldritch-invocation-ascendant-step",
+    "name": "Eldritch Invocation: Ascendant Step",
+    "level": 9,
+    "prerequisites": [
+        {
+            "type": "level",
+            "level": 9
+        }
+    ],
+    "group": "Eldritch Invocations",
+    "url": "/api/features/eldritch-invocation-ascendant-step"
+}

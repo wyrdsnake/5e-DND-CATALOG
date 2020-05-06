@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa13",
+    "index": "rope-hempen-50-feet",
+    "name": "Rope, hempen (50 feet)",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 1,
+        "unit": "gp"
+    },
+    "weight": 10,
+    "desc": [
+        "Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check."
+    ],
+    "url": "/api/equipment/rope-hempen-50-feet"
+}

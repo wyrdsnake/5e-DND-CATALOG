@@ -1,0 +1,22 @@
+{
+    "_id": "5eb0efbd0b1bb138c505ff1a",
+    "index": "saving-throw-con",
+    "type": "Saving Throws",
+    "name": "Saving Throw: CON",
+    "classes": [
+        {
+            "url": "/api/classes/barbarian",
+            "name": "Barbarian"
+        },
+        {
+            "url": "/api/classes/fighter",
+            "name": "Fighter"
+        },
+        {
+            "url": "/api/classes/sorcerer",
+            "name": "Sorcerer"
+        }
+    ],
+    "races": [],
+    "url": "/api/proficiencies/saving-throw-con"
+}

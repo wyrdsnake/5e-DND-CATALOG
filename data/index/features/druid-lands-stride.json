@@ -1,0 +1,19 @@
+{
+    "class": {
+        "url": "/api/classes/druid",
+        "name": "Druid"
+    },
+    "subclass": {
+        "name": "Land",
+        "url": "/api/subclasses/land"
+    },
+    "desc": [
+        "Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
+        "In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell."
+    ],
+    "_id": "5eb0efb90b1bb138c505faf6",
+    "index": "druid-lands-stride",
+    "name": "Land's Stride",
+    "level": 6,
+    "url": "/api/features/druid-lands-stride"
+}

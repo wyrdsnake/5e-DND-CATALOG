@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/barbarian",
+        "name": "Barbarian"
+    },
+    "desc": [
+        "At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated."
+    ],
+    "_id": "5eb0efb90b1bb138c505fa83",
+    "index": "danger-sense",
+    "name": "Danger Sense",
+    "level": 2,
+    "url": "/api/features/danger-sense"
+}

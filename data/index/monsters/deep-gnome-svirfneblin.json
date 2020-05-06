@@ -1,0 +1,137 @@
+{
+    "_id": "5eb0efbc0b1bb138c505fdb2",
+    "index": "deep-gnome-svirfneblin",
+    "name": "Deep Gnome (Svirfneblin)",
+    "size": "Small",
+    "type": "humanoid",
+    "subtype": "gnome",
+    "alignment": "neutral good",
+    "armor_class": 15,
+    "hit_points": 16,
+    "hit_dice": "3d6",
+    "speed": {
+        "walk": "20 ft."
+    },
+    "strength": 15,
+    "dexterity": 14,
+    "constitution": 14,
+    "intelligence": 12,
+    "wisdom": 10,
+    "charisma": 9,
+    "proficiencies": [
+        {
+            "name": "Skill: Investigation",
+            "url": "/api/proficiencies/skill-investigation",
+            "value": 3
+        },
+        {
+            "name": "Skill: Perception",
+            "url": "/api/proficiencies/skill-perception",
+            "value": 2
+        },
+        {
+            "name": "Skill: Stealth",
+            "url": "/api/proficiencies/skill-stealth",
+            "value": 4
+        }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [],
+    "condition_immunities": [],
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": 12
+    },
+    "languages": "Gnomish, Terran, Undercommon",
+    "challenge_rating": 0.5,
+    "special_abilities": [
+        {
+            "name": "Stone Camouflage",
+            "desc": "The gnome has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+        },
+        {
+            "name": "Gnome Cunning",
+            "desc": "The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic."
+        },
+        {
+            "name": "Innate Spellcasting",
+            "desc": "The gnome's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:\nAt will: nondetection (self only)\n1/day each: blindness/deafness, blur, disguise self",
+            "spellcasting": {
+                "ability": {
+                    "name": "INT",
+                    "url": "/api/ability-scores/int"
+                },
+                "dc": 11,
+                "components_required": [],
+                "spells": [
+                    {
+                        "name": "Nondetection",
+                        "notes": "Self only",
+                        "url": "/api/spells/nondetection",
+                        "usage": {
+                            "type": "at will"
+                        }
+                    },
+                    {
+                        "name": "Blindness/Deafness",
+                        "url": "/api/spells/blindness-deafness",
+                        "usage": {
+                            "type": "per day",
+                            "times": 1
+                        }
+                    },
+                    {
+                        "name": "Blur",
+                        "url": "/api/spells/blur",
+                        "usage": {
+                            "type": "per day",
+                            "times": 1
+                        }
+                    },
+                    {
+                        "name": "Disguise Self",
+                        "url": "/api/spells/disguise-self",
+                        "usage": {
+                            "type": "per day",
+                            "times": 1
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "actions": [
+        {
+            "name": "War Pick",
+            "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+            "attack_bonus": 4,
+            "damage": [
+                {
+                    "damage_type": {
+                        "name": "Piercing",
+                        "url": "/api/damage-types/piercing"
+                    },
+                    "damage_dice": "1d8",
+                    "damage_bonus": 2
+                }
+            ]
+        },
+        {
+            "name": "Poisoned Dart",
+            "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success",
+            "attack_bonus": 4,
+            "damage": [
+                {
+                    "damage_type": {
+                        "name": "Piercing",
+                        "url": "/api/damage-types/piercing"
+                    },
+                    "damage_dice": "1d4",
+                    "damage_bonus": 2
+                }
+            ]
+        }
+    ],
+    "url": "/api/monsters/deep-gnome-svirfneblin"
+}

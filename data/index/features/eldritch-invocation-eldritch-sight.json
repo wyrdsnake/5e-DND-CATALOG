@@ -1,0 +1,16 @@
+{
+    "class": {
+        "url": "/api/classes/warlock",
+        "name": "Warlock"
+    },
+    "desc": [
+        "You can cast detect magic at will, without expending a spell slot."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbdf",
+    "index": "eldritch-invocation-eldritch-sight",
+    "name": "Eldritch Invocation: Eldritch Sight",
+    "level": 2,
+    "prerequisites": [],
+    "group": "Eldritch Invocations",
+    "url": "/api/features/eldritch-invocation-eldritch-sight"
+}

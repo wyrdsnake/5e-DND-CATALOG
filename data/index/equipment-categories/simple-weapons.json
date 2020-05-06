@@ -1,0 +1,48 @@
+{
+    "_id": "5eb0efb80b1bb138c505f96a",
+    "index": "simple-weapons",
+    "name": "Simple Weapons",
+    "equipment": [
+        {
+            "url": "/api/equipment/club",
+            "name": "Club"
+        },
+        {
+            "url": "/api/equipment/dagger",
+            "name": "Dagger"
+        },
+        {
+            "url": "/api/equipment/greatclub",
+            "name": "Greatclub"
+        },
+        {
+            "url": "/api/equipment/handaxe",
+            "name": "Handaxe"
+        },
+        {
+            "url": "/api/equipment/javelin",
+            "name": "Javelin"
+        },
+        {
+            "url": "/api/equipment/light-hammer",
+            "name": "Light hammer"
+        },
+        {
+            "url": "/api/equipment/mace",
+            "name": "Mace"
+        },
+        {
+            "url": "/api/equipment/quarterstaff",
+            "name": "Quarterstaff"
+        },
+        {
+            "url": "/api/equipment/sickle",
+            "name": "Sickle"
+        },
+        {
+            "url": "/api/equipment/spear",
+            "name": "Spear"
+        }
+    ],
+    "url": "/api/equipment-categories/simple-weapons"
+}

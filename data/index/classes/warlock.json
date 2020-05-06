@@ -1,0 +1,81 @@
+{
+    "_id": "5eb0efb70b1bb138c505f923",
+    "index": "warlock",
+    "name": "Warlock",
+    "hit_die": 8,
+    "proficiency_choices": [
+        {
+            "choose": 2,
+            "type": "proficiencies",
+            "from": [
+                {
+                    "url": "/api/proficiencies/skill-arcana",
+                    "name": "Skill: Arcana"
+                },
+                {
+                    "url": "/api/proficiencies/skill-deception",
+                    "name": "Skill: Deception"
+                },
+                {
+                    "url": "/api/proficiencies/skill-history",
+                    "name": "Skill: History"
+                },
+                {
+                    "url": "/api/proficiencies/skill-intimidation",
+                    "name": "Skill: Intimidation"
+                },
+                {
+                    "url": "/api/proficiencies/skill-investigation",
+                    "name": "Skill: Investigation"
+                },
+                {
+                    "url": "/api/proficiencies/skill-nature",
+                    "name": "Skill: Nature"
+                },
+                {
+                    "url": "/api/proficiencies/skill-religion",
+                    "name": "Skill: Religion"
+                }
+            ]
+        }
+    ],
+    "proficiencies": [
+        {
+            "name": "Light armor",
+            "url": "/api/proficiencies/light-armor"
+        },
+        {
+            "name": "Simple weapons",
+            "url": "/api/proficiencies/simple-weapons"
+        }
+    ],
+    "saving_throws": [
+        {
+            "name": "WIS",
+            "url": "/api/ability-scores/wis"
+        },
+        {
+            "name": "CHA",
+            "url": "/api/ability-scores/cha"
+        }
+    ],
+    "starting_equipment": {
+        "url": "/api/starting-equipment/11",
+        "class": "Warlock"
+    },
+    "class_levels": {
+        "url": "/api/classes/warlock/levels",
+        "class": "Warlock"
+    },
+    "subclasses": [
+        {
+            "url": "/api/subclasses/fiend",
+            "name": "Fiend"
+        }
+    ],
+    "spellcasting": {
+        "url": "/api/spellcasting/7",
+        "class": "Warlock"
+    },
+    "url": "/api/classes/warlock"
+}

@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa6a",
+    "index": "riding",
+    "name": "Riding",
+    "equipment_category": "Mounts and Vehicles",
+    "vehicle_category": "Tack, Harness, and Drawn Vehicles",
+    "cost": {
+        "quantity": 10,
+        "unit": "gp"
+    },
+    "weight": 25,
+    "url": "/api/equipment/riding"
+}

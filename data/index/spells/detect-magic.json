@@ -1,0 +1,60 @@
+{
+    "_id": "5eb0efbf0b1bb138c505ffd6",
+    "index": "detect-magic",
+    "name": "Detect Magic",
+    "desc": [
+        "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.",
+        "The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+    ],
+    "range": "Self",
+    "components": [
+        "V",
+        "S"
+    ],
+    "ritual": true,
+    "duration": "Up to 10 minutes",
+    "concentration": true,
+    "casting_time": "1 action",
+    "level": 1,
+    "school": {
+        "name": "Divination",
+        "url": "/api/magic-schools/divination"
+    },
+    "classes": [
+        {
+            "name": "Bard",
+            "url": "/api/classes/bard"
+        },
+        {
+            "name": "Cleric",
+            "url": "/api/classes/cleric"
+        },
+        {
+            "name": "Druid",
+            "url": "/api/classes/druid"
+        },
+        {
+            "name": "Paladin",
+            "url": "/api/classes/paladin"
+        },
+        {
+            "name": "Ranger",
+            "url": "/api/classes/ranger"
+        },
+        {
+            "name": "Sorcerer",
+            "url": "/api/classes/sorcerer"
+        },
+        {
+            "name": "Wizard",
+            "url": "/api/classes/wizard"
+        }
+    ],
+    "subclasses": [
+        {
+            "name": "Lore",
+            "url": "/api/subclasses/lore"
+        }
+    ],
+    "url": "/api/spells/detect-magic"
+}

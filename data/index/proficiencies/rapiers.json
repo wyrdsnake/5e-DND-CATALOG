@@ -1,0 +1,18 @@
+{
+    "_id": "5eb0efbd0b1bb138c505fee1",
+    "index": "rapiers",
+    "type": "Weapons",
+    "name": "Rapiers",
+    "classes": [
+        {
+            "url": "/api/classes/bard",
+            "name": "Bard"
+        },
+        {
+            "url": "/api/classes/rogue",
+            "name": "Rogue"
+        }
+    ],
+    "races": [],
+    "url": "/api/proficiencies/rapiers"
+}

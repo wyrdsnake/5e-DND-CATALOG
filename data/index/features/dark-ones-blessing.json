@@ -1,0 +1,18 @@
+{
+    "class": {
+        "url": "/api/classes/warlock",
+        "name": "Warlock"
+    },
+    "subclass": {
+        "url": "/api/subclasses/fiend",
+        "name": "Fiend"
+    },
+    "desc": [
+        "Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1)."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbd4",
+    "index": "dark-ones-blessing",
+    "name": "Dark One's Blessing",
+    "level": 1,
+    "url": "/api/features/dark-ones-blessing"
+}

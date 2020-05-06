@@ -1,0 +1,20 @@
+{
+    "_id": "5eb0efb80b1bb138c505f96f",
+    "index": "light-armor",
+    "name": "Light Armor",
+    "equipment": [
+        {
+            "url": "/api/equipment/padded",
+            "name": "Padded"
+        },
+        {
+            "url": "/api/equipment/leather",
+            "name": "Leather"
+        },
+        {
+            "url": "/api/equipment/studded-leather",
+            "name": "Studded Leather"
+        }
+    ],
+    "url": "/api/equipment-categories/light-armor"
+}

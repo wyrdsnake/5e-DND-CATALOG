@@ -1,0 +1,10 @@
+{
+    "_id": "5eb0efb70b1bb138c505f933",
+    "index": "blinded",
+    "name": "Blinded",
+    "desc": [
+        "- A blinded creature can't see and automatically fails any ability check that requires sight.",
+        "- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage."
+    ],
+    "url": "/api/conditions/blinded"
+}

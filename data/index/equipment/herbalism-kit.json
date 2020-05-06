@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9f7",
+    "index": "herbalism-kit",
+    "name": "Herbalism Kit",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Kit",
+    "cost": {
+        "quantity": 5,
+        "unit": "gp"
+    },
+    "weight": 3,
+    "desc": [
+        "This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing."
+    ],
+    "url": "/api/equipment/herbalism-kit"
+}

@@ -1,0 +1,9 @@
+{
+    "_id": "5eb0efb70b1bb138c505f938",
+    "index": "poisoned",
+    "name": "Poisoned",
+    "desc": [
+        "- A poisoned creature has disadvantage on attack rolls and ability checks."
+    ],
+    "url": "/api/conditions/poisoned"
+}

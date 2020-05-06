@@ -1,0 +1,44 @@
+{
+    "class": {
+        "url": "/api/classes/fighter",
+        "name": "Fighter"
+    },
+    "desc": [
+        "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb05",
+    "index": "fighter-choose-fighting-style",
+    "name": "Choose: Fighting Style",
+    "level": 1,
+    "choice": {
+        "choose": 1,
+        "type": "feature",
+        "from": [
+            {
+                "url": "/api/features/fighter-fighting-style-archery",
+                "name": "Fighting Style: Archery"
+            },
+            {
+                "url": "/api/features/fighter-fighting-style-defense",
+                "name": "Fighting Style: Defense"
+            },
+            {
+                "url": "/api/features/fighter-fighting-style-dueling",
+                "name": "Fighting Style: Dueling"
+            },
+            {
+                "url": "/api/features/fighter-fighting-style-great-weapon-fighting",
+                "name": "Fighting Style: Great Weapon Fighting"
+            },
+            {
+                "url": "/api/features/fighter-fighting-style-protection",
+                "name": "Fighting Style: Protection"
+            },
+            {
+                "url": "/api/features/fighter-fighting-style-two-weapon-fighting",
+                "name": "Fighting Style: Two-Weapon Fighting"
+            }
+        ]
+    },
+    "url": "/api/features/fighter-choose-fighting-style"
+}

@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9d0",
+    "index": "bell",
+    "name": "Bell",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 1,
+        "unit": "gp"
+    },
+    "weight": 0,
+    "url": "/api/equipment/bell"
+}

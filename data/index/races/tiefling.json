@@ -1,0 +1,50 @@
+{
+    "_id": "5eb0efbd0b1bb138c505ff44",
+    "index": "tiefling",
+    "name": "Tiefling",
+    "speed": 30,
+    "ability_bonuses": [
+        {
+            "name": "INT",
+            "url": "/api/ability-scores/int",
+            "bonus": 1
+        },
+        {
+            "name": "CHA",
+            "url": "/api/ability-scores/cha",
+            "bonus": 2
+        }
+    ],
+    "alignment": "Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.",
+    "age": "Tieflings mature at the same rate as humans but live a few years longer.",
+    "size": "Medium",
+    "size_description": "Tieflings are about the same size and build as humans. Your size is Medium.",
+    "starting_proficiencies": [],
+    "languages": [
+        {
+            "url": "/api/languages/common",
+            "name": "Common"
+        },
+        {
+            "url": "/api/languages/abyssal",
+            "name": "Infernal"
+        }
+    ],
+    "language_desc": "You can speak, read, and write Common and Infernal.",
+    "traits": [
+        {
+            "name": "Darkvision",
+            "url": "/api/traits/darkvision"
+        },
+        {
+            "name": "Hellish Resistance",
+            "url": "/api/traits/hellish-resistance"
+        },
+        {
+            "name": "Infernal Legacy",
+            "url": "/api/traits/internal-legacy"
+        }
+    ],
+    "subraces": [],
+    "url": "/api/races/tiefling"
+}

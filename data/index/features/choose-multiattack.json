@@ -1,0 +1,34 @@
+{
+    "class": {
+        "url": "/api/classes/ranger",
+        "name": "Ranger"
+    },
+    "subclass": {
+        "url": "/api/subclasses/hunter",
+        "name": "Hunter"
+    },
+    "desc": [
+        "At 11th level, you gain one of the following features of your choice.",
+        "Volley",
+        "Whirlwind Attack"
+    ],
+    "_id": "5eb0efba0b1bb138c505fb77",
+    "index": "choose-multiattack",
+    "name": "Choose: Multiattack",
+    "level": 11,
+    "choice": {
+        "choose": 1,
+        "type": "feature",
+        "from": [
+            {
+                "url": "/api/features/multiattack-volley",
+                "name": "Multiattack: Volley"
+            },
+            {
+                "url": "/api/features/multiattack-whirlwind-attack",
+                "name": "Multiattack: Whirlwind Attack"
+            }
+        ]
+    },
+    "url": "/api/features/choose-multiattack"
+}

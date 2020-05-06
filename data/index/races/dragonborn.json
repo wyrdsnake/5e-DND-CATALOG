@@ -1,0 +1,96 @@
+{
+    "_id": "5eb0efbd0b1bb138c505ff41",
+    "index": "dragonborn",
+    "name": "Dragonborn",
+    "speed": 30,
+    "ability_bonuses": [
+        {
+            "name": "STR",
+            "url": "/api/ability-scores/str",
+            "bonus": 2
+        },
+        {
+            "name": "CHA",
+            "url": "/api/ability-scores/cha",
+            "bonus": 1
+        }
+    ],
+    "alignment": " Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil. Most dragonborn are good, but those who side with evil can be terrible villains.",
+    "age": "Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.",
+    "size": "Medium",
+    "size_description": "Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium.",
+    "starting_proficiencies": [],
+    "languages": [
+        {
+            "url": "/api/languages/common",
+            "name": "Common"
+        },
+        {
+            "url": "/api/languages/draconic",
+            "name": "Draconic"
+        }
+    ],
+    "language_desc": "You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.",
+    "traits": [
+        {
+            "name": "Draconic Ancestry",
+            "url": "/api/traits/draconic-ancestry"
+        },
+        {
+            "name": "Breath Weapon",
+            "url": "/api/traits/breath-weapon"
+        },
+        {
+            "name": "Damage Resistance",
+            "url": "/api/traits/damage-resistance"
+        }
+    ],
+    "trait_options": {
+        "choose": 1,
+        "from": [
+            {
+                "name": "Breath Weapon (Black)",
+                "url": "/api/traits/breath-weapon"
+            },
+            {
+                "name": "Breath Weapon (Blue)",
+                "url": "/api/traits/breath-weapon"
+            },
+            {
+                "name": "Breath Weapon (Brass)",
+                "url": "/api/traits/breath-weapon"
+            },
+            {
+                "name": "Breath Weapon (Bronze)",
+                "url": "/api/traits/breath-weapon"
+            },
+            {
+                "name": "Breath Weapon (Copper)",
+                "url": "/api/traits/breath-weapon"
+            },
+            {
+                "name": "Breath Weapon (Gold)",
+                "url": "/api/traits/breath-weapon"
+            },
+            {
+                "name": "Breath Weapon (Green)",
+                "url": "/api/traits/breath-weapon"
+            },
+            {
+                "name": "Breath Weapon (Red)",
+                "url": "/api/traits/breath-weapon"
+            },
+            {
+                "name": "Breath Weapon (Silver)",
+                "url": "/api/traits/breath-weapon"
+            },
+            {
+                "name": "Breath Weapon (White)",
+                "url": "/api/traits/breath-weapon"
+            }
+        ],
+        "type": "trait"
+    },
+    "subraces": [],
+    "url": "/api/races/dragonborn"
+}

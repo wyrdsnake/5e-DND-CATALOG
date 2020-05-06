@@ -1,0 +1,15 @@
+{
+    "class": {
+        "url": "/api/classes/fighter",
+        "name": "Fighter"
+    },
+    "desc": [
+        "While you are wearing armor, you gain a +1 bonus to AC."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb04",
+    "index": "fighter-fighting-style-defense",
+    "name": "Fighting Style: Defense",
+    "level": 1,
+    "group": "Fighting Style (Fighter)",
+    "url": "/api/features/fighter-fighting-style-defense"
+}

@@ -1,0 +1,30 @@
+{
+    "_id": "5eb0efbf0b1bb138c5060023",
+    "index": "hellish-rebuke",
+    "name": "Hellish Rebuke",
+    "desc": [
+        "You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a dexterity saving throw. It takes 2d10 fire damage on a failed save, or half as much damage on a successful one."
+    ],
+    "range": "60 feet",
+    "components": [
+        "V",
+        "S"
+    ],
+    "ritual": false,
+    "duration": "Instantaneous",
+    "concentration": false,
+    "casting_time": "1 reaction",
+    "level": 1,
+    "school": {
+        "name": "Evocation",
+        "url": "/api/magic-schools/evocation"
+    },
+    "classes": [
+        {
+            "name": "Warlock",
+            "url": "/api/classes/warlock"
+        }
+    ],
+    "subclasses": [],
+    "url": "/api/spells/hellish-rebuke"
+}

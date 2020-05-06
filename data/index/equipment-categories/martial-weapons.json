@@ -1,0 +1,100 @@
+{
+    "_id": "5eb0efb80b1bb138c505f96d",
+    "index": "martial-weapons",
+    "name": "Martial Weapons",
+    "equipment": [
+        {
+            "url": "/api/equipment/battleaxe",
+            "name": "Battleaxe"
+        },
+        {
+            "url": "/api/equipment/flail",
+            "name": "Flail"
+        },
+        {
+            "url": "/api/equipment/glaive",
+            "name": "Glaive"
+        },
+        {
+            "url": "/api/equipment/greataxe",
+            "name": "Greataxe"
+        },
+        {
+            "url": "/api/equipment/greatsword",
+            "name": "Greatsword"
+        },
+        {
+            "url": "/api/equipment/halberd",
+            "name": "Halberd"
+        },
+        {
+            "url": "/api/equipment/lance",
+            "name": "Lance"
+        },
+        {
+            "url": "/api/equipment/longsword",
+            "name": "Longsword"
+        },
+        {
+            "url": "/api/equipment/maul",
+            "name": "Maul"
+        },
+        {
+            "url": "/api/equipment/morningstar",
+            "name": "Morningstar"
+        },
+        {
+            "url": "/api/equipment/pike",
+            "name": "Pike"
+        },
+        {
+            "url": "/api/equipment/rapier",
+            "name": "Rapier"
+        },
+        {
+            "url": "/api/equipment/scimitar",
+            "name": "Scimitar"
+        },
+        {
+            "url": "/api/equipment/shortsword",
+            "name": "Shortsword"
+        },
+        {
+            "url": "/api/equipment/trident",
+            "name": "Trident"
+        },
+        {
+            "url": "/api/equipment/war-pick",
+            "name": "War pick"
+        },
+        {
+            "url": "/api/equipment/warhammer",
+            "name": "Warhammer"
+        },
+        {
+            "url": "/api/equipment/whip",
+            "name": "Whip"
+        },
+        {
+            "url": "/api/equipment/blowgun",
+            "name": "Blowgun"
+        },
+        {
+            "url": "/api/equipment/crossbow-hand",
+            "name": "Crossbow, hand"
+        },
+        {
+            "url": "/api/equipment/crossbow-heavy",
+            "name": "Crossbow, heavy"
+        },
+        {
+            "url": "/api/equipment/longbow",
+            "name": "Longbow"
+        },
+        {
+            "url": "/api/equipment/net",
+            "name": "Net"
+        }
+    ],
+    "url": "/api/equipment-categories/martial-weapons"
+}

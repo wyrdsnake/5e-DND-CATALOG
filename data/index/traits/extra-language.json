@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efc20b1bb138c506016a",
+    "index": "extra-language",
+    "races": [],
+    "subraces": [
+        {
+            "name": "High Elf",
+            "url": "/api/subraces/high-elf"
+        }
+    ],
+    "name": "Extra Language",
+    "desc": [
+        "You can speak, read, and write one extra language of your choice."
+    ],
+    "url": "/api/traits/extra-language"
+}

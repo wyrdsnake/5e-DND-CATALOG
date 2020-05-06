@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/paladin",
+        "name": "Paladin"
+    },
+    "desc": [
+        "At 18th level, the range of your auras increase to 30 feet."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb59",
+    "index": "aura-improvements",
+    "name": "Aura improvements",
+    "level": 18,
+    "url": "/api/features/aura-improvements"
+}

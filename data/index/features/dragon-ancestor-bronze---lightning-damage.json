@@ -1,0 +1,20 @@
+{
+    "class": {
+        "url": "/api/classes/sorcerer",
+        "name": "Sorcerer"
+    },
+    "subclass": {
+        "url": "/api/subclasses/draconic",
+        "name": "Draconic"
+    },
+    "desc": [
+        "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
+        "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbb6",
+    "index": "dragon-ancestor-bronze---lightning-damage",
+    "name": "Dragon Ancestor: Bronze - Lightning Damage",
+    "level": 1,
+    "group": "Dragon Ancestor",
+    "url": "/api/features/dragon-ancestor-bronze---lightning-damage"
+}

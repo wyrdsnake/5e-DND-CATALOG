@@ -1,0 +1,15 @@
+{
+    "class": {
+        "url": "/api/classes/barbarian",
+        "name": "Barbarian"
+    },
+    "desc": [
+        "By 7th level, your instincts are so honed that you have advantage on initiative rolls.",
+        "Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn."
+    ],
+    "_id": "5eb0efb90b1bb138c505fa8b",
+    "index": "feral-instinct",
+    "name": "Feral Instinct",
+    "level": 7,
+    "url": "/api/features/feral-instinct"
+}

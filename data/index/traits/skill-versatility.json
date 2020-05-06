@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efc20b1bb138c5060175",
+    "index": "skill-versatility",
+    "races": [
+        {
+            "name": "Half-Elf",
+            "url": "/api/races/half-elf"
+        }
+    ],
+    "subraces": [],
+    "name": "Skill Versatility",
+    "desc": [
+        "You gain proficiency in two skills of your choice."
+    ],
+    "url": "/api/traits/skill-versatility"
+}

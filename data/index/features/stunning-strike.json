@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/monk",
+        "name": "Monk"
+    },
+    "desc": [
+        "Starting at 5th level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon attack, you can spend 1 ki point to attempt a stunning strike. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb2c",
+    "index": "stunning-strike",
+    "name": "Stunning Strike",
+    "level": 5,
+    "url": "/api/features/stunning-strike"
+}

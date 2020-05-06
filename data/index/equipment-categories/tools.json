@@ -1,0 +1,132 @@
+{
+    "_id": "5eb0efb80b1bb138c505f967",
+    "index": "tools",
+    "name": "Tools",
+    "equipment": [
+        {
+            "url": "/api/equipment/alchemists-supplies",
+            "name": "Alchemist's supplies"
+        },
+        {
+            "url": "/api/equipment/brewers-supplies",
+            "name": "Brewer's supplies"
+        },
+        {
+            "url": "/api/equipment/calligraphers-supplies",
+            "name": "Calligrapher's supplies"
+        },
+        {
+            "url": "/api/equipment/carpenters-tools",
+            "name": "Carpenter's tools"
+        },
+        {
+            "url": "/api/equipment/cartographers-tools",
+            "name": "Cartographer's tools"
+        },
+        {
+            "url": "/api/equipment/cobblers-tools",
+            "name": "Cobbler's tools"
+        },
+        {
+            "url": "/api/equipment/cooks-utensils",
+            "name": "Cook's utensils"
+        },
+        {
+            "url": "/api/equipment/glassblowers-tools",
+            "name": "Glassblower's tools"
+        },
+        {
+            "url": "/api/equipment/jewelers-tools",
+            "name": "Jeweler's tools"
+        },
+        {
+            "url": "/api/equipment/leatherworkers-tools",
+            "name": "Leatherworker's tools"
+        },
+        {
+            "url": "/api/equipment/masons-tools",
+            "name": "Mason's tools"
+        },
+        {
+            "url": "/api/equipment/painters-supplies",
+            "name": "Painter's supplies"
+        },
+        {
+            "url": "/api/equipment/potters-tools",
+            "name": "Potter's tools"
+        },
+        {
+            "url": "/api/equipment/smiths-tools",
+            "name": "Smith's tools"
+        },
+        {
+            "url": "/api/equipment/tinkers-tools",
+            "name": "Tinker's tools"
+        },
+        {
+            "url": "/api/equipment/weavers-tools",
+            "name": "Weaver's tools"
+        },
+        {
+            "url": "/api/equipment/woodcarvers-tools",
+            "name": "Woodcarver's tools"
+        },
+        {
+            "url": "/api/equipment/dice-set",
+            "name": "Dice set"
+        },
+        {
+            "url": "/api/equipment/playing-card-set",
+            "name": "Playing card set"
+        },
+        {
+            "url": "/api/equipment/bagpipes",
+            "name": "Bagpipes"
+        },
+        {
+            "url": "/api/equipment/drum",
+            "name": "Drum"
+        },
+        {
+            "url": "/api/equipment/dulcimer",
+            "name": "Dulcimer"
+        },
+        {
+            "url": "/api/equipment/flute",
+            "name": "Flute"
+        },
+        {
+            "url": "/api/equipment/lute",
+            "name": "Lute"
+        },
+        {
+            "url": "/api/equipment/lyre",
+            "name": "Lyre"
+        },
+        {
+            "url": "/api/equipment/horn",
+            "name": "Horn"
+        },
+        {
+            "url": "/api/equipment/pan-flute",
+            "name": "Pan flute"
+        },
+        {
+            "url": "/api/equipment/shawm",
+            "name": "Shawm"
+        },
+        {
+            "url": "/api/equipment/viol",
+            "name": "Viol"
+        },
+        {
+            "url": "/api/equipment/navigators-tools",
+            "name": "Navigator's tools"
+        },
+        {
+            "url": "/api/equipment/thieves-tools",
+            "name": "Thieves' tools"
+        }
+    ],
+    "url": "/api/equipment-categories/tools"
+}

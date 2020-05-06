@@ -1,0 +1,14 @@
+{
+    "_id": "5eb0efbd0b1bb138c505ff14",
+    "index": "thieves-tools",
+    "type": "Other",
+    "name": "Thieves' Tools",
+    "classes": [
+        {
+            "url": "/api/classes/rogue",
+            "name": "Rogue"
+        }
+    ],
+    "races": [],
+    "url": "/api/proficiencies/thieves-tools"
+}

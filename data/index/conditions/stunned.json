@@ -1,0 +1,11 @@
+{
+    "_id": "5eb0efb70b1bb138c505f93d",
+    "index": "stunned",
+    "name": "Stunned",
+    "desc": [
+        "- A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.",
+        "- The creature automatically fails Strength and Dexterity saving throws.",
+        "- Attack rolls against the creature have advantage."
+    ],
+    "url": "/api/conditions/stunned"
+}

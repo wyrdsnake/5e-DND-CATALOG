@@ -1,0 +1,15 @@
+{
+    "_id": "5eb0efc10b1bb138c5060107",
+    "index": "champion",
+    "class": {
+        "url": "/api/classes/fighter",
+        "name": "Fighter"
+    },
+    "name": "Champion",
+    "subclass_flavor": "Martial Archetype",
+    "desc": [
+        "The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows."
+    ],
+    "features": [],
+    "url": "/api/subclasses/champion"
+}

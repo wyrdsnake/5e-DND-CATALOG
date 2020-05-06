@@ -1,0 +1,9 @@
+{
+    "_id": "5eb0efb80b1bb138c505f94d",
+    "index": "acid",
+    "name": "Acid",
+    "desc": [
+        "The corrosive spray of a black dragon's breath and the dissolving enzymes secreted by a black pudding deal acid damage."
+    ],
+    "url": "/api/damage-types/acid"
+}

@@ -1,0 +1,36 @@
+{
+    "_id": "5eb0efb80b1bb138c505f975",
+    "index": "equipment-packs",
+    "name": "Equipment Packs",
+    "equipment": [
+        {
+            "url": "/api/equipment/burglars-pack",
+            "name": "Burglar's Pack"
+        },
+        {
+            "url": "/api/equipment/diplomats-pack",
+            "name": "Diplomat's Pack"
+        },
+        {
+            "url": "/api/equipment/dungeoneers-pack",
+            "name": "Dungeoneer's Pack"
+        },
+        {
+            "url": "/api/equipment/entertainers-pack",
+            "name": "Entertainer's Pack"
+        },
+        {
+            "url": "/api/equipment/explorers-pack",
+            "name": "Explorer's Pack"
+        },
+        {
+            "url": "/api/equipment/priests-pack",
+            "name": "Priest's Pack"
+        },
+        {
+            "url": "/api/equipment/scholars-pack",
+            "name": "Scholar's Pack"
+        }
+    ],
+    "url": "/api/equipment-categories/equipment-packs"
+}

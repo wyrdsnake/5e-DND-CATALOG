@@ -1,0 +1,19 @@
+{
+    "class": {
+        "url": "/api/classes/ranger",
+        "name": "Ranger"
+    },
+    "subclass": {
+        "url": "/api/subclasses/hunter",
+        "name": "Hunter"
+    },
+    "desc": [
+        "You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb78",
+    "index": "multiattack-whirlwind-attack",
+    "name": "Multiattack: Whirlwind Attack",
+    "level": 11,
+    "group": "Multiattack",
+    "url": "/api/features/multiattack-whirlwind-attack"
+}

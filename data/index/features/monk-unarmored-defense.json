@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/monk",
+        "name": "Monk"
+    },
+    "desc": [
+        "Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb20",
+    "index": "monk-unarmored-defense",
+    "name": "Unarmored Defense",
+    "level": 1,
+    "url": "/api/features/monk-unarmored-defense"
+}

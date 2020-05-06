@@ -1,0 +1,50 @@
+{
+    "_id": "5eb0efbf0b1bb138c505ffd7",
+    "index": "detect-poison-and-disease",
+    "name": "Detect Poison and Disease",
+    "desc": [
+        "For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.",
+        "The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+    ],
+    "range": "Self",
+    "components": [
+        "V",
+        "S",
+        "M"
+    ],
+    "material": "A yew leaf.",
+    "ritual": true,
+    "duration": "Up to 10 minutes",
+    "concentration": true,
+    "casting_time": "1 action",
+    "level": 1,
+    "school": {
+        "name": "Divination",
+        "url": "/api/magic-schools/divination"
+    },
+    "classes": [
+        {
+            "name": "Cleric",
+            "url": "/api/classes/cleric"
+        },
+        {
+            "name": "Druid",
+            "url": "/api/classes/druid"
+        },
+        {
+            "name": "Paladin",
+            "url": "/api/classes/paladin"
+        },
+        {
+            "name": "Ranger",
+            "url": "/api/classes/ranger"
+        }
+    ],
+    "subclasses": [
+        {
+            "name": "Lore",
+            "url": "/api/subclasses/lore"
+        }
+    ],
+    "url": "/api/spells/detect-poison-and-disease"
+}

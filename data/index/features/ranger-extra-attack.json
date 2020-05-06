@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/ranger",
+        "name": "Ranger"
+    },
+    "desc": [
+        "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb6a",
+    "index": "ranger-extra-attack",
+    "name": "Extra Attack",
+    "level": 5,
+    "url": "/api/features/ranger-extra-attack"
+}

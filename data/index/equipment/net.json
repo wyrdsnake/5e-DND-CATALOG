@@ -1,0 +1,44 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9b0",
+    "index": "net",
+    "name": "Net",
+    "equipment_category": "Weapon",
+    "weapon_category": "Martial",
+    "weapon_range": "Ranged",
+    "category_range": "Martial Ranged",
+    "cost": {
+        "quantity": 1,
+        "unit": "gp"
+    },
+    "damage": {
+        "damage_dice": "1d0",
+        "damage_bonus": 0,
+        "damage_type": {
+            "url": "/api/damage-types/slashing",
+            "name": "Slashing"
+        }
+    },
+    "range": {
+        "normal": 5,
+        "long": 15
+    },
+    "weight": 3,
+    "properties": [
+        {
+            "url": "/api/weapon-properties/thrown",
+            "name": "Thrown"
+        },
+        {
+            "url": "/api/weapon-properties/special",
+            "name": "Special"
+        }
+    ],
+    "special": [
+        "A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
+    ],
+    "throw_range": {
+        "normal": 5,
+        "long": 15
+    },
+    "url": "/api/equipment/net"
+}

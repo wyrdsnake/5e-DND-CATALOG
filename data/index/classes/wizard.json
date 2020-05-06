@@ -1,0 +1,85 @@
+{
+    "_id": "5eb0efb70b1bb138c505f924",
+    "index": "wizard",
+    "name": "Wizard",
+    "hit_die": 6,
+    "proficiency_choices": [
+        {
+            "choose": 2,
+            "type": "proficiencies",
+            "from": [
+                {
+                    "url": "/api/proficiencies/skill-arcana",
+                    "name": "Skill: Arcana"
+                },
+                {
+                    "url": "/api/proficiencies/skill-history",
+                    "name": "Skill: History"
+                },
+                {
+                    "url": "/api/proficiencies/skill-insight",
+                    "name": "Skill: Insight"
+                },
+                {
+                    "url": "/api/proficiencies/skill-investigation",
+                    "name": "Skill: Investigation"
+                },
+                {
+                    "url": "/api/proficiencies/skill-medicine",
+                    "name": "Skill: Medicine"
+                },
+                {
+                    "url": "/api/proficiencies/skill-religion",
+                    "name": "Skill: Religion"
+                }
+            ]
+        }
+    ],
+    "proficiencies": [
+        {
+            "name": "Daggers",
+            "url": "/api/proficiencies/daggers"
+        },
+        {
+            "name": "Quarterstaffs",
+            "url": "/api/proficiencies/quarterstaffs"
+        },
+        {
+            "name": "Darts",
+            "url": "/api/proficiencies/darts"
+        },
+        {
+            "name": "Slings",
+            "url": "/api/proficiencies/slings"
+        }
+    ],
+    "saving_throws": [
+        {
+            "name": "INT",
+            "url": "/api/ability-scores/int"
+        },
+        {
+            "name": "WIS",
+            "url": "/api/ability-scores/wis"
+        }
+    ],
+    "starting_equipment": {
+        "url": "/api/starting-equipment/12",
+        "class": "Wizard"
+    },
+    "class_levels": {
+        "url": "/api/classes/wizard/levels",
+        "class": "Wizard"
+    },
+    "subclasses": [
+        {
+            "url": "/api/subclasses/evocation",
+            "name": "Evocation"
+        }
+    ],
+    "spellcasting": {
+        "url": "/api/spellcasting/8",
+        "class": "Wizard"
+    },
+    "url": "/api/classes/wizard"
+}

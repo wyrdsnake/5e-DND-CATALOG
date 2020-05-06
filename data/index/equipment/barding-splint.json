@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa60",
+    "index": "barding-splint",
+    "name": "Barding: Splint",
+    "equipment_category": "Mounts and Vehicles",
+    "vehicle_category": "Tack, Harness, and Drawn Vehicles",
+    "cost": {
+        "quantity": 800,
+        "unit": "gp"
+    },
+    "weight": 120,
+    "desc": [
+        "Barding is armor designed to protect an animal's head, neck, chest, and body. Any type of armor shown on the Armor table can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much."
+    ],
+    "url": "/api/equipment/barding-splint"
+}

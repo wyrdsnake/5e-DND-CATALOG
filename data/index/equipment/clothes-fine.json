@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9df",
+    "index": "clothes-fine",
+    "name": "Clothes, fine",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 15,
+        "unit": "gp"
+    },
+    "weight": 6,
+    "url": "/api/equipment/clothes-fine"
+}

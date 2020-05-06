@@ -1,0 +1,21 @@
+{
+    "_id": "5eb0efc20b1bb138c506016e",
+    "index": "halfling-nimbleness",
+    "races": [
+        {
+            "name": "Halfling",
+            "url": "/api/races/halfling"
+        }
+    ],
+    "subraces": [
+        {
+            "name": "Lightfoot Halfling",
+            "url": "/api/subraces/lightfoot-halfling"
+        }
+    ],
+    "name": "Halfling Nimbleness",
+    "desc": [
+        "You can move through the space of any creature that is of a size larger than yours."
+    ],
+    "url": "/api/traits/halfling-nimbleness"
+}

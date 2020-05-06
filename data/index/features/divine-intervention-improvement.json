@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/cleric",
+        "name": "Cleric"
+    },
+    "desc": [
+        "At 20th level, your call for intervention succeeds automatically, no roll required."
+    ],
+    "_id": "5eb0efb90b1bb138c505fae4",
+    "index": "divine-intervention-improvement",
+    "name": "Divine Intervention Improvement",
+    "level": 20,
+    "url": "/api/features/divine-intervention-improvement"
+}

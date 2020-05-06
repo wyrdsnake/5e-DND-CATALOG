@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/bard",
+        "name": "Bard"
+    },
+    "desc": [
+        "Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest."
+    ],
+    "_id": "5eb0efb90b1bb138c505fab4",
+    "index": "font-of-inspiration",
+    "name": "Font of Inspiration",
+    "level": 5,
+    "url": "/api/features/font-of-inspiration"
+}

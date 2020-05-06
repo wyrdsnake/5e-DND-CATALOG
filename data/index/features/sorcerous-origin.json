@@ -1,0 +1,15 @@
+{
+    "class": {
+        "url": "/api/classes/sorcerer",
+        "name": "Sorcerer"
+    },
+    "desc": [
+        "Choose a sorcerous origin, which describes the source of your innate magical power: Draconic Bloodline or Wild Magic, both detailed at the end of the class description.",
+        "Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbb0",
+    "index": "sorcerous-origin",
+    "name": "Sorcerous Origin",
+    "level": 1,
+    "url": "/api/features/sorcerous-origin"
+}

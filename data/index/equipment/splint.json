@@ -1,0 +1,20 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9bb",
+    "index": "splint",
+    "name": "Splint",
+    "equipment_category": "Armor",
+    "armor_category": "Heavy",
+    "armor_class": {
+        "base": 17,
+        "dex_bonus": false,
+        "max_bonus": null
+    },
+    "str_minimum": 15,
+    "stealth_disadvantage": true,
+    "weight": 60,
+    "cost": {
+        "quantity": 200,
+        "unit": "gp"
+    },
+    "url": "/api/equipment/splint"
+}

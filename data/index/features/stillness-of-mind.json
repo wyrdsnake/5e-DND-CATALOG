@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/monk",
+        "name": "Monk"
+    },
+    "desc": [
+        "Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb30",
+    "index": "stillness-of-mind",
+    "name": "Stillness of Mind",
+    "level": 7,
+    "url": "/api/features/stillness-of-mind"
+}

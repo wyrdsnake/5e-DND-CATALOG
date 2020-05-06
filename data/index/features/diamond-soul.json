@@ -1,0 +1,15 @@
+{
+    "class": {
+        "url": "/api/classes/monk",
+        "name": "Monk"
+    },
+    "desc": [
+        "Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.",
+        "Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb39",
+    "index": "diamond-soul",
+    "name": "Diamond Soul",
+    "level": 14,
+    "url": "/api/features/diamond-soul"
+}

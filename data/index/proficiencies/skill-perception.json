@@ -1,0 +1,14 @@
+{
+    "_id": "5eb0efbd0b1bb138c505ff29",
+    "index": "skill-perception",
+    "type": "Skills",
+    "name": "Skill: Perception",
+    "classes": [],
+    "races": [
+        {
+            "url": "/api/races/elf",
+            "name": "Elf"
+        }
+    ],
+    "url": "/api/proficiencies/skill-perception"
+}

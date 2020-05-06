@@ -1,0 +1,21 @@
+{
+    "class": {
+        "url": "/api/classes/warlock",
+        "name": "Warlock"
+    },
+    "desc": [
+        "You can cast confusion once using a warlock spell slot. You can't do so again until you finish a long rest."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbec",
+    "index": "eldritch-invocation-dreadful-word",
+    "name": "Eldritch Invocation: Dreadful Word",
+    "level": 7,
+    "prerequisites": [
+        {
+            "type": "level",
+            "level": 7
+        }
+    ],
+    "group": "Eldritch Invocations",
+    "url": "/api/features/eldritch-invocation-dreadful-word"
+}

@@ -1,0 +1,20 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9b1",
+    "index": "padded",
+    "name": "Padded",
+    "equipment_category": "Armor",
+    "armor_category": "Light",
+    "armor_class": {
+        "base": 11,
+        "dex_bonus": true,
+        "max_bonus": null
+    },
+    "str_minimum": 0,
+    "stealth_disadvantage": true,
+    "weight": 8,
+    "cost": {
+        "quantity": 5,
+        "unit": "gp"
+    },
+    "url": "/api/equipment/padded"
+}

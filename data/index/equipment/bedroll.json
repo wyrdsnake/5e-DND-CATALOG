@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9d1",
+    "index": "bedroll",
+    "name": "Bedroll",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 1,
+        "unit": "gp"
+    },
+    "weight": 7,
+    "url": "/api/equipment/bedroll"
+}

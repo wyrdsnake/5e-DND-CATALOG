@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/fighter",
+        "name": "Fighter"
+    },
+    "desc": [
+        "Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest. You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb13",
+    "index": "indomitable-1-use",
+    "name": "Indomitable (1 use)",
+    "level": 9,
+    "url": "/api/features/indomitable-1-use"
+}

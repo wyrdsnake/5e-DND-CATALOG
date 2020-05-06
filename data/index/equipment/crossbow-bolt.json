@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9c2",
+    "index": "crossbow-bolt",
+    "name": "Crossbow bolt",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Ammunition",
+    "cost": {
+        "quantity": 5,
+        "unit": "cp"
+    },
+    "weight": 1.5,
+    "url": "/api/equipment/crossbow-bolt"
+}

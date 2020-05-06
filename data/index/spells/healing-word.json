@@ -1,0 +1,45 @@
+{
+    "_id": "5eb0efbf0b1bb138c5060022",
+    "index": "healing-word",
+    "name": "Healing Word",
+    "desc": [
+        "A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs."
+    ],
+    "higher_level": [
+        "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st."
+    ],
+    "range": "60 feet",
+    "components": [
+        "V"
+    ],
+    "ritual": false,
+    "duration": "Instantaneous",
+    "concentration": false,
+    "casting_time": "1 bonus action",
+    "level": 1,
+    "school": {
+        "name": "Evocation",
+        "url": "/api/magic-schools/evocation"
+    },
+    "classes": [
+        {
+            "name": "Bard",
+            "url": "/api/classes/bard"
+        },
+        {
+            "name": "Cleric",
+            "url": "/api/classes/cleric"
+        },
+        {
+            "name": "Druid",
+            "url": "/api/classes/druid"
+        }
+    ],
+    "subclasses": [
+        {
+            "name": "Lore",
+            "url": "/api/subclasses/lore"
+        }
+    ],
+    "url": "/api/spells/healing-word"
+}

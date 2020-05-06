@@ -1,0 +1,22 @@
+{
+    "_id": "5eb0efbd0b1bb138c505fed9",
+    "index": "slings",
+    "type": "Weapons",
+    "name": "Slings",
+    "classes": [
+        {
+            "url": "/api/classes/druid",
+            "name": "Druid"
+        },
+        {
+            "url": "/api/classes/sorcerer",
+            "name": "Sorcerer"
+        },
+        {
+            "url": "/api/classes/wizard",
+            "name": "Wizard"
+        }
+    ],
+    "races": [],
+    "url": "/api/proficiencies/slings"
+}

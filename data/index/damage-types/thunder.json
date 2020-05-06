@@ -1,0 +1,9 @@
+{
+    "_id": "5eb0efb80b1bb138c505f958",
+    "index": "thunder",
+    "name": "Thunder",
+    "desc": [
+        "A concussive burst of sound, such as the effect of the thunderwave spell, deals thunder damage."
+    ],
+    "url": "/api/damage-types/thunder"
+}

@@ -1,0 +1,86 @@
+{
+    "class": {
+        "url": "/api/classes/warlock",
+        "name": "Warlock"
+    },
+    "desc": [
+        "In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.",
+        "At 2nd level, you gain two eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.",
+        "Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level."
+    ],
+    "_id": "5eb0efba0b1bb138c505fc12",
+    "index": "choose-additional-eldritch-invocation-7",
+    "name": "Choose: Additional Eldritch Invocation",
+    "level": 20,
+    "choice": {
+        "choose": 1,
+        "type": "feature",
+        "from": [
+            {
+                "url": "/api/features/eldritch-invocation-agonizing-blast",
+                "name": "Eldritch Invocation: Agonizing Blast"
+            },
+            {
+                "url": "/api/features/eldritch-invocation-armor-of-shadows",
+                "name": "Eldritch Invocation: Armor of Shadows"
+            },
+            {
+                "url": "/api/features/eldritch-invocation-beast-speech",
+                "name": "Eldritch Invocation: Beast Speech"
+            },
+            {
+                "url": "/api/features/eldritch-invocation-beguiling-influence",
+                "name": "Eldritch Invocation: Beguiling Influence"
+            },
+            {
+                "url": "/api/features/eldritch-invocation-book-of-ancient-secrets",
+                "name": "Eldritch Invocation: Book of Ancient Secrets"
+            },
+            {
+                "url": "/api/features/eldritch-invocation-devils-sight",
+                "name": "Eldritch Invocation: Devil's Sight"
+            },
+            {
+                "url": "/api/features/eldritch-invocation-eldritch-sight",
+                "name": "Eldritch Invocation: Eldritch Sight"
+            },
+            {
+                "url": "/api/features/eldritch-invocation-eldritch-spear",
+                "name": "Eldritch Invocation: Eldritch Spear"
+            },
+            {
+                "url": "/api/features/eldritch-invocation-eyes-of-the-rune-keeper",
+                "name": "Eldritch Invocation: Eyes of the Rune Keeper"
+            },
+            {
+                "url": "/api/features/eldritch-invocation-fiendish-vigor",
+                "name": "Eldritch Invocation: Fiendish Vigor"
+            },
+            {
+                "url": "/api/features/eldritch-invocation-gaze-of-two-minds",
+                "name": "Eldritch Invocation: Gaze of Two Minds"
+            },
+            {
+                "url": "/api/features/eldritch-invocation-mask-of-many-faces",
+                "name": "Eldritch Invocation: Mask of Many Faces"
+            },
+            {
+                "url": "/api/features/eldritch-invocation-misty-visions",
+                "name": "Eldritch Invocation: Misty Visions"
+            },
+            {
+                "url": "/api/features/eldritch-invocation-repelling-blast",
+                "name": "Eldritch Invocation: Repelling Blast"
+            },
+            {
+                "url": "/api/features/eldritch-invocation-thief-of-five-fates",
+                "name": "Eldritch Invocation: Thief of Five Fates"
+            },
+            {
+                "url": "/api/features/eldritch-invocation-voice-of-the-chain-master",
+                "name": "Eldritch Invocation: Voice of the Chain Master"
+            }
+        ]
+    },
+    "url": "/api/features/choose-additional-eldritch-invocation-7"
+}

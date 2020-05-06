@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa6e",
+    "index": "galley",
+    "name": "Galley",
+    "equipment_category": "Mounts and Vehicles",
+    "vehicle_category": "Waterborne Vehicles",
+    "cost": {
+        "quantity": 30000,
+        "unit": "gp"
+    },
+    "speed": {
+        "quantity": 4,
+        "unit": "mph"
+    },
+    "url": "/api/equipment/galley"
+}

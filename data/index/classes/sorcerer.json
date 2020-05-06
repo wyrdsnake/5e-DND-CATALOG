@@ -1,0 +1,85 @@
+{
+    "_id": "5eb0efb70b1bb138c505f922",
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "hit_die": 6,
+    "proficiency_choices": [
+        {
+            "choose": 2,
+            "type": "proficiencies",
+            "from": [
+                {
+                    "url": "/api/proficiencies/skill-arcana",
+                    "name": "Skill: Arcana"
+                },
+                {
+                    "url": "/api/proficiencies/skill-deception",
+                    "name": "Skill: Deception"
+                },
+                {
+                    "url": "/api/proficiencies/skill-insight",
+                    "name": "Skill: Insight"
+                },
+                {
+                    "url": "/api/proficiencies/skill-intimidation",
+                    "name": "Skill: Intimidation"
+                },
+                {
+                    "url": "/api/proficiencies/skill-persuasion",
+                    "name": "Skill: Persuasion"
+                },
+                {
+                    "url": "/api/proficiencies/skill-religion",
+                    "name": "Skill: Religion"
+                }
+            ]
+        }
+    ],
+    "proficiencies": [
+        {
+            "name": "Daggers",
+            "url": "/api/proficiencies/daggers"
+        },
+        {
+            "name": "Quarterstaffs",
+            "url": "/api/proficiencies/quarterstaffs"
+        },
+        {
+            "name": "Darts",
+            "url": "/api/proficiencies/darts"
+        },
+        {
+            "name": "Slings",
+            "url": "/api/proficiencies/slings"
+        }
+    ],
+    "saving_throws": [
+        {
+            "name": "CON",
+            "url": "/api/ability-scores/con"
+        },
+        {
+            "name": "CHA",
+            "url": "/api/ability-scores/cha"
+        }
+    ],
+    "starting_equipment": {
+        "url": "/api/starting-equipment/10",
+        "class": "Sorcerer"
+    },
+    "class_levels": {
+        "url": "/api/classes/sorcerer/levels",
+        "class": "Sorcerer"
+    },
+    "subclasses": [
+        {
+            "url": "/api/subclasses/draconic",
+            "name": "Draconic"
+        }
+    ],
+    "spellcasting": {
+        "url": "/api/spellcasting/6",
+        "class": "Sorcerer"
+    },
+    "url": "/api/classes/sorcerer"
+}

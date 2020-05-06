@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa66",
+    "index": "saddle-exotic",
+    "name": "Saddle, Exotic",
+    "equipment_category": "Mounts and Vehicles",
+    "vehicle_category": "Tack, Harness, and Drawn Vehicles",
+    "cost": {
+        "quantity": 60,
+        "unit": "gp"
+    },
+    "weight": 50,
+    "desc": [
+        "A military saddle braces the rider, helping you keep your seat on an active mount in battle. It gives you advantage on any check you make to remain mounted. An exotic saddle is required for riding any aquatic or flying mount."
+    ],
+    "url": "/api/equipment/saddle-exotic"
+}

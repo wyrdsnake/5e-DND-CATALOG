@@ -1,0 +1,38 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa2a",
+    "index": "priests-pack",
+    "name": "Priest's Pack",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Equipment Pack",
+    "cost": {
+        "quantity": 19,
+        "unit": "gp"
+    },
+    "contents": [
+        {
+            "item_url": "/api/equipment/backpack",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/blanket",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/candle",
+            "quantity": 10
+        },
+        {
+            "item_url": "/api/equipment/tinderbox",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/rations-1-day",
+            "quantity": 2
+        },
+        {
+            "item_url": "/api/equipment/waterskin",
+            "quantity": 1
+        }
+    ],
+    "url": "/api/equipment/priests-pack"
+}

@@ -1,0 +1,37 @@
+{
+    "_id": "5eb0efbf0b1bb138c505ffc9",
+    "index": "counterspell",
+    "name": "Counterspell",
+    "desc": [
+        "You attempt to interrupt a creature in the process of casting a spell. If the creature is casting a spell of 3rd level or lower, its spell fails and has no effect. If it is casting a spell of 4th level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a success, the creature's spell fails and has no effect."
+    ],
+    "range": "60 feet",
+    "components": [
+        "S"
+    ],
+    "ritual": false,
+    "duration": "Instantaneous",
+    "concentration": false,
+    "casting_time": "1 reaction",
+    "level": 3,
+    "school": {
+        "name": "Abjuration",
+        "url": "/api/magic-schools/abjuration"
+    },
+    "classes": [
+        {
+            "name": "Sorcerer",
+            "url": "/api/classes/sorcerer"
+        },
+        {
+            "name": "Warlock",
+            "url": "/api/classes/warlock"
+        },
+        {
+            "name": "Wizard",
+            "url": "/api/classes/wizard"
+        }
+    ],
+    "subclasses": [],
+    "url": "/api/spells/counterspell"
+}

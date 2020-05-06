@@ -1,0 +1,40 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9a1",
+    "index": "lance",
+    "name": "Lance",
+    "equipment_category": "Weapon",
+    "weapon_category": "Martial",
+    "weapon_range": "Melee",
+    "category_range": "Martial Melee",
+    "cost": {
+        "quantity": 10,
+        "unit": "gp"
+    },
+    "damage": {
+        "damage_dice": "1d12",
+        "damage_bonus": 0,
+        "damage_type": {
+            "url": "/api/damage-types/piercing",
+            "name": "Piercing"
+        }
+    },
+    "range": {
+        "normal": 5,
+        "long": null
+    },
+    "weight": 6,
+    "properties": [
+        {
+            "url": "/api/weapon-properties/reach",
+            "name": "Reach"
+        },
+        {
+            "url": "/api/weapon-properties/special",
+            "name": "Special"
+        }
+    ],
+    "special": [
+        "You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
+    ],
+    "url": "/api/equipment/lance"
+}

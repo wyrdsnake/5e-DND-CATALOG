@@ -1,0 +1,18 @@
+{
+    "class": {
+        "url": "/api/classes/rogue",
+        "name": "Rogue"
+    },
+    "subclass": {
+        "url": "/api/subclasses/thief",
+        "name": "Thief"
+    },
+    "desc": [
+        "By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items."
+    ],
+    "_id": "5eb0efba0b1bb138c505fba6",
+    "index": "use-magic-device",
+    "name": "Use Magic Device",
+    "level": 13,
+    "url": "/api/features/use-magic-device"
+}

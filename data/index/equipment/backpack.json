@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9cc",
+    "index": "backpack",
+    "name": "Backpack",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 2,
+        "unit": "gp"
+    },
+    "weight": 5,
+    "url": "/api/equipment/backpack"
+}

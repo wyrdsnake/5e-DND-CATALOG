@@ -1,0 +1,33 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9a4",
+    "index": "rapier",
+    "name": "Rapier",
+    "equipment_category": "Weapon",
+    "weapon_category": "Martial",
+    "weapon_range": "Melee",
+    "category_range": "Martial Melee",
+    "cost": {
+        "quantity": 25,
+        "unit": "gp"
+    },
+    "damage": {
+        "damage_dice": "1d8",
+        "damage_bonus": 0,
+        "damage_type": {
+            "url": "/api/damage-types/piercing",
+            "name": "Piercing"
+        }
+    },
+    "range": {
+        "normal": 5,
+        "long": null
+    },
+    "weight": 2,
+    "properties": [
+        {
+            "url": "/api/weapon-properties/finesse",
+            "name": "Finesse"
+        }
+    ],
+    "url": "/api/equipment/rapier"
+}

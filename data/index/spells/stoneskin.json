@@ -1,0 +1,49 @@
+{
+    "_id": "5eb0efbf0b1bb138c50600a1",
+    "index": "stoneskin",
+    "name": "Stoneskin",
+    "desc": [
+        "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage."
+    ],
+    "range": "Touch",
+    "components": [
+        "V",
+        "S",
+        "M"
+    ],
+    "material": "Diamond dust worth 100 gp, which the spell consumes.",
+    "ritual": false,
+    "duration": "Up to 1 hour",
+    "concentration": true,
+    "casting_time": "1 action",
+    "level": 4,
+    "school": {
+        "name": "Abjuration",
+        "url": "/api/magic-schools/abjuration"
+    },
+    "classes": [
+        {
+            "name": "Druid",
+            "url": "/api/classes/druid"
+        },
+        {
+            "name": "Ranger",
+            "url": "/api/classes/ranger"
+        },
+        {
+            "name": "Sorcerer",
+            "url": "/api/classes/sorcerer"
+        },
+        {
+            "name": "Wizard",
+            "url": "/api/classes/wizard"
+        }
+    ],
+    "subclasses": [
+        {
+            "name": "Land",
+            "url": "/api/subclasses/land"
+        }
+    ],
+    "url": "/api/spells/stoneskin"
+}

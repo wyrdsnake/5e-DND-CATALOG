@@ -1,0 +1,46 @@
+{
+    "_id": "5eb0efbd0b1bb138c505fec8",
+    "index": "simple-weapons",
+    "type": "Weapons",
+    "name": "Simple weapons",
+    "classes": [
+        {
+            "url": "/api/classes/barbarian",
+            "name": "Barbarian"
+        },
+        {
+            "url": "/api/classes/bard",
+            "name": "Bard"
+        },
+        {
+            "url": "/api/classes/cleric",
+            "name": "Cleric"
+        },
+        {
+            "url": "/api/classes/fighter",
+            "name": "Fighter"
+        },
+        {
+            "url": "/api/classes/monk",
+            "name": "Monk"
+        },
+        {
+            "url": "/api/classes/paladin",
+            "name": "Paladin"
+        },
+        {
+            "url": "/api/classes/ranger",
+            "name": "Ranger"
+        },
+        {
+            "url": "/api/classes/rogue",
+            "name": "Rogue"
+        },
+        {
+            "url": "/api/classes/warlock",
+            "name": "Warlock"
+        }
+    ],
+    "races": [],
+    "url": "/api/proficiencies/simple-weapons"
+}

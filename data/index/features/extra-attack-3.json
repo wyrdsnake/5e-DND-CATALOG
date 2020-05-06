@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/fighter",
+        "name": "Fighter"
+    },
+    "desc": [
+        "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb1f",
+    "index": "extra-attack-3",
+    "name": "Extra Attack (3)",
+    "level": 20,
+    "url": "/api/features/extra-attack-3"
+}

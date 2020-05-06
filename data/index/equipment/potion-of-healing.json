@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa0b",
+    "index": "potion-of-healing",
+    "name": "Potion of healing",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 50,
+        "unit": "gp"
+    },
+    "weight": 0.5,
+    "desc": [
+        "A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action."
+    ],
+    "url": "/api/equipment/potion-of-healing"
+}

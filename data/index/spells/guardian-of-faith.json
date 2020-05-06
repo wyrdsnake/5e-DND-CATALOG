@@ -1,0 +1,34 @@
+{
+    "_id": "5eb0efbf0b1bb138c5060018",
+    "index": "guardian-of-faith",
+    "name": "Guardian of Faith",
+    "desc": [
+        "A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.",
+        "Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn must succeed on a dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage."
+    ],
+    "range": "30 feet",
+    "components": [
+        "V"
+    ],
+    "ritual": false,
+    "duration": "8 hours",
+    "concentration": false,
+    "casting_time": "1 action",
+    "level": 4,
+    "school": {
+        "name": "Conjuration",
+        "url": "/api/magic-schools/conjuration"
+    },
+    "classes": [
+        {
+            "name": "Cleric",
+            "url": "/api/classes/cleric"
+        },
+        {
+            "name": "Paladin",
+            "url": "/api/classes/paladin"
+        }
+    ],
+    "subclasses": [],
+    "url": "/api/spells/guardian-of-faith"
+}

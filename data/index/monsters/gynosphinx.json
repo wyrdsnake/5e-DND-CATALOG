@@ -1,0 +1,227 @@
+{
+    "_id": "5eb0efbc0b1bb138c505fe01",
+    "index": "gynosphinx",
+    "name": "Gynosphinx",
+    "size": "Large",
+    "type": "monstrosity",
+    "subtype": null,
+    "alignment": "lawful neutral",
+    "armor_class": 17,
+    "hit_points": 136,
+    "hit_dice": "16d10",
+    "speed": {
+        "walk": "40 ft.",
+        "fly": "60 ft."
+    },
+    "strength": 18,
+    "dexterity": 15,
+    "constitution": 16,
+    "intelligence": 18,
+    "wisdom": 18,
+    "charisma": 18,
+    "proficiencies": [
+        {
+            "name": "Skill: Arcana",
+            "url": "/api/proficiencies/skill-arcana",
+            "value": 12
+        },
+        {
+            "name": "Skill: History",
+            "url": "/api/proficiencies/skill-history",
+            "value": 12
+        },
+        {
+            "name": "Skill: Perception",
+            "url": "/api/proficiencies/skill-perception",
+            "value": 8
+        },
+        {
+            "name": "Skill: Religion",
+            "url": "/api/proficiencies/skill-religion",
+            "value": 8
+        }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [
+        "psychic"
+    ],
+    "condition_immunities": [
+        {
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        }
+    ],
+    "senses": {
+        "truesight": "120 ft.",
+        "passive_perception": 18
+    },
+    "languages": "Common, Sphinx",
+    "challenge_rating": 11,
+    "special_abilities": [
+        {
+            "name": "Inscrutable",
+            "desc": "The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx's intentions or sincerity have disadvantage."
+        },
+        {
+            "name": "Magic Weapons",
+            "desc": "The sphinx's weapon attacks are magical."
+        },
+        {
+            "name": "Spellcasting",
+            "desc": "The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared:\n\n- Cantrips (at will): mage hand, minor illusion, prestidigitation\n- 1st level (4 slots): detect magic, identify, shield\n- 2nd level (3 slots): darkness, locate object, suggestion\n- 3rd level (3 slots): dispel magic, remove curse, tongues\n- 4th level (3 slots): banishment, greater invisibility\n- 5th level (1 slot): legend lore",
+            "spellcasting": {
+                "level": 9,
+                "ability": {
+                    "name": "INT",
+                    "url": "http://www.dnd5eapi.co/api/ability-scores/4"
+                },
+                "dc": 16,
+                "modifier": 8,
+                "components_required": [
+                    "V",
+                    "S"
+                ],
+                "school": "wizard",
+                "slots": {
+                    "1": 4,
+                    "2": 3,
+                    "3": 3,
+                    "4": 3,
+                    "5": 1
+                },
+                "spells": [
+                    {
+                        "name": "Mage Hand",
+                        "level": 0,
+                        "url": "http://www.dnd5eapi.co/api/spells/187"
+                    },
+                    {
+                        "name": "Minor Illusion",
+                        "level": 0,
+                        "url": "http://www.dnd5eapi.co/api/spells/205"
+                    },
+                    {
+                        "name": "Prestidigitation",
+                        "level": 0,
+                        "url": "http://www.dnd5eapi.co/api/spells/227"
+                    },
+                    {
+                        "name": "Detect Magic",
+                        "level": 1,
+                        "url": "http://www.dnd5eapi.co/api/spells/79"
+                    },
+                    {
+                        "name": "Identify",
+                        "level": 1,
+                        "url": "http://www.dnd5eapi.co/api/spells/166"
+                    },
+                    {
+                        "name": "Shield",
+                        "level": 1,
+                        "url": "http://www.dnd5eapi.co/api/spells/261"
+                    },
+                    {
+                        "name": "Darkness",
+                        "level": 2,
+                        "url": "http://www.dnd5eapi.co/api/spells/72"
+                    },
+                    {
+                        "name": "Locate Object",
+                        "level": 2,
+                        "url": "http://www.dnd5eapi.co/api/spells/184"
+                    },
+                    {
+                        "name": "Suggestion",
+                        "level": 2,
+                        "url": "http://www.dnd5eapi.co/api/spells/198"
+                    },
+                    {
+                        "name": "Dispel Magic",
+                        "level": 3,
+                        "url": "http://www.dnd5eapi.co/api/spells/86"
+                    },
+                    {
+                        "name": "Remove Curse",
+                        "level": 3,
+                        "url": "http://www.dnd5eapi.co/api/spells/243"
+                    },
+                    {
+                        "name": "Tongues",
+                        "level": 3,
+                        "url": "http://www.dnd5eapi.co/api/spells/295"
+                    },
+                    {
+                        "name": "Banishment",
+                        "level": 4,
+                        "url": "http://www.dnd5eapi.co/api/spells/23"
+                    },
+                    {
+                        "name": "Greater Invisibility",
+                        "level": 4,
+                        "url": "http://www.dnd5eapi.co/api/spells/142"
+                    },
+                    {
+                        "name": "Legend Lore",
+                        "level": 5,
+                        "url": "http://www.dnd5eapi.co/api/spells/177"
+                    }
+                ]
+            }
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The sphinx makes two claw attacks.",
+            "options": {
+                "choose": 1,
+                "from": [
+                    [
+                        {
+                            "name": "Claw",
+                            "count": 2,
+                            "type": "melee"
+                        }
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Claw",
+            "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.",
+            "attack_bonus": 9,
+            "damage": [
+                {
+                    "damage_type": {
+                        "name": "Slashing",
+                        "url": "/api/damage-types/slashing"
+                    },
+                    "damage_dice": "2d8",
+                    "damage_bonus": 4
+                }
+            ]
+        }
+    ],
+    "legendary_actions": [
+        {
+            "name": "Claw Attack",
+            "desc": "The sphinx makes one claw attack."
+        },
+        {
+            "name": "Teleport (Costs 2 Actions)",
+            "desc": "The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+        },
+        {
+            "name": "Cast a Spell (Costs 3 Actions)",
+            "desc": "The sphinx casts a spell from its list of prepared spells, using a spell slot as normal."
+        }
+    ],
+    "url": "/api/monsters/gynosphinx"
+}

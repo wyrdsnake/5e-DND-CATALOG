@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9ee",
+    "index": "hourglass",
+    "name": "Hourglass",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 25,
+        "unit": "gp"
+    },
+    "weight": 1,
+    "url": "/api/equipment/hourglass"
+}

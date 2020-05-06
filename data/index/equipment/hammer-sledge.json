@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9ed",
+    "index": "hammer-sledge",
+    "name": "Hammer, sledge",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 2,
+        "unit": "gp"
+    },
+    "weight": 10,
+    "url": "/api/equipment/hammer-sledge"
+}

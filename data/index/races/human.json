@@ -1,0 +1,119 @@
+{
+    "_id": "5eb0efbd0b1bb138c505ff40",
+    "index": "human",
+    "name": "Human",
+    "speed": 30,
+    "ability_bonuses": [
+        {
+            "name": "STR",
+            "url": "/api/ability-scores/str",
+            "bonus": 1
+        },
+        {
+            "name": "DEX",
+            "url": "/api/ability-scores/dex",
+            "bonus": 1
+        },
+        {
+            "name": "CON",
+            "url": "/api/ability-scores/con",
+            "bonus": 1
+        },
+        {
+            "name": "INT",
+            "url": "/api/ability-scores/int",
+            "bonus": 1
+        },
+        {
+            "name": "WIS",
+            "url": "/api/ability-scores/wis",
+            "bonus": 1
+        },
+        {
+            "name": "CHA",
+            "url": "/api/ability-scores/cha",
+            "bonus": 1
+        }
+    ],
+    "age": "Humans reach adulthood in their late teens and live less than a century.",
+    "alignment": "Humans tend toward no particular alignment. The best and the worst are found among them.",
+    "size": "Medium",
+    "size_description": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
+    "starting_proficiencies": [],
+    "languages": [
+        {
+            "url": "/api/languages/common",
+            "name": "Common"
+        }
+    ],
+    "language_options": {
+        "choose": 1,
+        "type": "languages",
+        "from": [
+            {
+                "url": "/api/languages/dwarvish",
+                "name": "Dwarvish"
+            },
+            {
+                "url": "/api/languages/elvish",
+                "name": "Elvish"
+            },
+            {
+                "url": "/api/languages/giant",
+                "name": "Giant"
+            },
+            {
+                "url": "/api/languages/gnomish",
+                "name": "Gnomish"
+            },
+            {
+                "url": "/api/languages/goblin",
+                "name": "Goblin"
+            },
+            {
+                "url": "/api/languages/halfling",
+                "name": "Halfling"
+            },
+            {
+                "url": "/api/languages/orc",
+                "name": "Orc"
+            },
+            {
+                "url": "/api/languages/abyssal",
+                "name": "Abyssal"
+            },
+            {
+                "url": "/api/languages/celestial",
+                "name": "Celestial"
+            },
+            {
+                "url": "/api/languages/draconic",
+                "name": "Draconic"
+            },
+            {
+                "url": "/api/languages/deep-speech",
+                "name": "Deep Speech"
+            },
+            {
+                "url": "/api/languages/infernal",
+                "name": "Infernal"
+            },
+            {
+                "url": "/api/languages/primordial",
+                "name": "Primordial"
+            },
+            {
+                "url": "/api/languages/sylvan",
+                "name": "Sylvan"
+            },
+            {
+                "url": "/api/languages/undercommon",
+                "name": "Undercommon"
+            }
+        ]
+    },
+    "language_desc": "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.",
+    "traits": [],
+    "subraces": [],
+    "url": "/api/races/human"
+}

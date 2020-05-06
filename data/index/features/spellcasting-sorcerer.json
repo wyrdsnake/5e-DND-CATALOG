@@ -1,0 +1,15 @@
+{
+    "class": {
+        "url": "/api/classes/sorcerer",
+        "name": "Sorcerer"
+    },
+    "desc": [
+        "An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbaf",
+    "index": "spellcasting-sorcerer",
+    "name": "Spellcasting: Sorcerer",
+    "level": 1,
+    "reference": "/api/spellcasting/sorcerer",
+    "url": "/api/features/spellcasting-sorcerer"
+}

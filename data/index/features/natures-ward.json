@@ -1,0 +1,18 @@
+{
+    "class": {
+        "url": "/api/classes/druid",
+        "name": "Druid"
+    },
+    "subclass": {
+        "name": "Land",
+        "url": "/api/subclasses/land"
+    },
+    "desc": [
+        "When you reach 10th level, you can't be charmed or frightened by elementals or fey, and you are immune to poison and disease."
+    ],
+    "_id": "5eb0efb90b1bb138c505fafc",
+    "index": "natures-ward",
+    "name": "Nature's Ward",
+    "level": 10,
+    "url": "/api/features/natures-ward"
+}

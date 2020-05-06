@@ -1,0 +1,179 @@
+{
+    "_id": "5eb0efbc0b1bb138c505fe69",
+    "index": "spirit-naga",
+    "name": "Spirit Naga",
+    "size": "Large",
+    "type": "monstrosity",
+    "subtype": null,
+    "alignment": "chaotic evil",
+    "armor_class": 15,
+    "hit_points": 75,
+    "hit_dice": "10d10",
+    "speed": {
+        "walk": "40 ft."
+    },
+    "strength": 18,
+    "dexterity": 17,
+    "constitution": 14,
+    "intelligence": 16,
+    "wisdom": 15,
+    "charisma": 16,
+    "proficiencies": [
+        {
+            "name": "Saving Throw: DEX",
+            "url": "/api/proficiencies/saving-throw-dex",
+            "value": 6
+        },
+        {
+            "name": "Saving Throw: CON",
+            "url": "/api/proficiencies/saving-throw-con",
+            "value": 5
+        },
+        {
+            "name": "Saving Throw: WIS",
+            "url": "/api/proficiencies/saving-throw-wis",
+            "value": 5
+        },
+        {
+            "name": "Saving Throw: CHA",
+            "url": "/api/proficiencies/saving-throw-cha",
+            "value": 6
+        }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "poison"
+    ],
+    "condition_immunities": [
+        {
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "name": "Poisoned",
+            "url": "/api/conditions/poisoned"
+        }
+    ],
+    "senses": {
+        "darkvision": "60 ft.",
+        "passive_perception": 12
+    },
+    "languages": "Abyssal, Common",
+    "challenge_rating": 8,
+    "special_abilities": [
+        {
+            "name": "Rejuvenation",
+            "desc": "If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning."
+        },
+        {
+            "name": "Spellcasting",
+            "desc": "The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:\n\n- Cantrips (at will): mage hand, minor illusion, ray of frost\n- 1st level (4 slots): charm person, detect magic, sleep\n- 2nd level (3 slots): detect thoughts, hold person\n- 3rd level (3 slots): lightning bolt, water breathing\n- 4th level (3 slots): blight, dimension door\n- 5th level (2 slots): dominate person",
+            "spellcasting": {
+                "level": 10,
+                "ability": {
+                    "name": "INT",
+                    "url": "http://www.dnd5eapi.co/api/ability-scores/4"
+                },
+                "dc": 14,
+                "modifier": 6,
+                "components_required": [
+                    "V"
+                ],
+                "school": "wizard",
+                "slots": {
+                    "1": 4,
+                    "2": 3,
+                    "3": 3,
+                    "4": 3,
+                    "5": 2
+                },
+                "spells": [
+                    {
+                        "name": "Mage Hand",
+                        "level": 0,
+                        "url": "http://www.dnd5eapi.co/api/spells/180"
+                    },
+                    {
+                        "name": "Minor Illusion",
+                        "level": 0,
+                        "url": "http://www.dnd5eapi.co/api/spells/205"
+                    },
+                    {
+                        "name": "Ray of Frost",
+                        "level": 0,
+                        "url": "http://www.dnd5eapi.co/api/spells/240"
+                    },
+                    {
+                        "name": "Charm Person",
+                        "level": 1,
+                        "url": "http://www.dnd5eapi.co/api/spells/39"
+                    },
+                    {
+                        "name": "Detect Magic",
+                        "level": 1,
+                        "url": "http://www.dnd5eapi.co/api/spells/79"
+                    },
+                    {
+                        "name": "Sleep",
+                        "level": 1,
+                        "url": "http://www.dnd5eapi.co/api/spells/268"
+                    },
+                    {
+                        "name": "Detect Thoughts",
+                        "level": 2,
+                        "url": "http://www.dnd5eapi.co/api/spells/81"
+                    },
+                    {
+                        "name": "Hold Person",
+                        "level": 2,
+                        "url": "http://www.dnd5eapi.co/api/spells/161"
+                    },
+                    {
+                        "name": "Lightning Bolt",
+                        "level": 3,
+                        "url": "http://www.dnd5eapi.co/api/spells/181"
+                    },
+                    {
+                        "name": "Water Breathing",
+                        "level": 3,
+                        "url": "http://www.dnd5eapi.co/api/spells/311"
+                    },
+                    {
+                        "name": "Blight",
+                        "level": 4,
+                        "url": "http://www.dnd5eapi.co/api/spells/30"
+                    },
+                    {
+                        "name": "Dimension Door",
+                        "level": 4,
+                        "url": "http://www.dnd5eapi.co/api/spells/82"
+                    },
+                    {
+                        "name": "Dominate Person",
+                        "level": 5,
+                        "url": "http://www.dnd5eapi.co/api/spells/92"
+                    }
+                ]
+            }
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bite",
+            "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 7 (1d6 + 4) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 31 (7d8) poison damage on a failed save, or half as much damage on a successful one.",
+            "attack_bonus": 7,
+            "damage": [
+                {
+                    "damage_type": {
+                        "name": "Piercing",
+                        "url": "/api/damage-types/piercing"
+                    },
+                    "damage_dice": "1d6",
+                    "damage_bonus": 4
+                }
+            ]
+        }
+    ],
+    "url": "/api/monsters/spirit-naga"
+}

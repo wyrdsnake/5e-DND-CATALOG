@@ -1,0 +1,21 @@
+{
+    "class": {
+        "url": "/api/classes/warlock",
+        "name": "Warlock"
+    },
+    "desc": [
+        "You can cast arcane eye at will, without expending a spell slot."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbf5",
+    "index": "eldritch-invocation-visions-of-distant-realms",
+    "name": "Eldritch Invocation: Visions of Distant Realms",
+    "level": 15,
+    "prerequisites": [
+        {
+            "type": "level",
+            "level": 15
+        }
+    ],
+    "group": "Eldritch Invocations",
+    "url": "/api/features/eldritch-invocation-visions-of-distant-realms"
+}

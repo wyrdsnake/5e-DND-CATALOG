@@ -1,0 +1,33 @@
+{
+    "_id": "5eb0efb60b1bb138c505f90b",
+    "index": "wis",
+    "name": "WIS",
+    "full_name": "Wisdom",
+    "desc": [
+        "Wisdom reflects how attuned you are to the world around you and represents perceptiveness and intuition.",
+        "A Wisdom check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. The Animal Handling, Insight, Medicine, Perception, and Survival skills reflect aptitude in certain kinds of Wisdom checks."
+    ],
+    "skills": [
+        {
+            "url": "/api/skills/animal-handling",
+            "name": "Animal Handling"
+        },
+        {
+            "url": "/api/skills/insight",
+            "name": "Insight"
+        },
+        {
+            "url": "/api/skills/medicine",
+            "name": "Medicine"
+        },
+        {
+            "url": "/api/skills/perception",
+            "name": "Perception"
+        },
+        {
+            "url": "/api/skills/survival",
+            "name": "Survival"
+        }
+    ],
+    "url": "/api/ability-scores/wis"
+}

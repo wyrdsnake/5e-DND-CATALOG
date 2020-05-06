@@ -1,0 +1,21 @@
+{
+    "_id": "5eb0efc20b1bb138c5060166",
+    "index": "keen-senses",
+    "races": [
+        {
+            "name": "Elf",
+            "url": "/api/races/elf"
+        }
+    ],
+    "subraces": [
+        {
+            "name": "High Elf",
+            "url": "/api/subraces/high-elf"
+        }
+    ],
+    "name": "Keen Senses",
+    "desc": [
+        "You have proficiency in the Perception skill."
+    ],
+    "url": "/api/traits/keen-senses"
+}

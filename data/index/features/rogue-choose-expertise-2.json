@@ -1,0 +1,93 @@
+{
+    "class": {
+        "url": "/api/classes/rogue",
+        "name": "Rogue"
+    },
+    "desc": [
+        "At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+        "At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit"
+    ],
+    "_id": "5eb0efba0b1bb138c505fba3",
+    "index": "rogue-choose-expertise-2",
+    "name": "Choose: Expertise 2",
+    "level": 6,
+    "choice": {
+        "choose": 2,
+        "type": "feature",
+        "from": [
+            {
+                "url": "/api/features/rogueexpertise-survival",
+                "name": "Expertise: Acrobatics"
+            },
+            {
+                "url": "/api/features/rogueexpertise-stealth",
+                "name": "Expertise: Animal Handling"
+            },
+            {
+                "url": "/api/features/rogueexpertise-acrobatics",
+                "name": "Expertise: Arcana"
+            },
+            {
+                "url": "/api/features/rogueexpertise-animal-handling",
+                "name": "Expertise: Athletics"
+            },
+            {
+                "url": "/api/features/rogueexpertise-arcana",
+                "name": "Expertise: Deception"
+            },
+            {
+                "url": "/api/features/rogueexpertise-athletics",
+                "name": "Expertise: History"
+            },
+            {
+                "url": "/api/features/rogueexpertise-deception",
+                "name": "Expertise: Insight"
+            },
+            {
+                "url": "/api/features/rogueexpertise-history",
+                "name": "Expertise: Intimidation"
+            },
+            {
+                "url": "/api/features/rogueexpertise-insight",
+                "name": "Expertise: Investigation"
+            },
+            {
+                "url": "/api/features/rogueexpertise-intimidation",
+                "name": "Expertise: Medicine"
+            },
+            {
+                "url": "/api/features/rogueexpertise-investigation",
+                "name": "Expertise: Nature"
+            },
+            {
+                "url": "/api/features/rogueexpertise-medicine",
+                "name": "Expertise: Perception"
+            },
+            {
+                "url": "/api/features/rogueexpertise-nature",
+                "name": "Expertise: Performance"
+            },
+            {
+                "url": "/api/features/rogueexpertise-perception",
+                "name": "Expertise: Persuasion"
+            },
+            {
+                "url": "/api/features/rogueexpertise-performance",
+                "name": "Expertise: Religion"
+            },
+            {
+                "url": "/api/features/rogueexpertise-persuasion",
+                "name": "Expertise: Sleight of Hand"
+            },
+            {
+                "url": "/api/features/rogueexpertise-religion",
+                "name": "Expertise: Stealth"
+            },
+            {
+                "url": "/api/features/rogueexpertise-sleight-of-hand",
+                "name": "Expertise: Survival"
+            }
+        ]
+    },
+    "url": "/api/features/rogue-choose-expertise-2"
+}

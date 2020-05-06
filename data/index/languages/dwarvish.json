@@ -1,0 +1,11 @@
+{
+    "_id": "5eb0efba0b1bb138c505fc2c",
+    "index": "dwarvish",
+    "name": "Dwarvish",
+    "type": "Standard",
+    "typical_speakers": [
+        "Dwarves"
+    ],
+    "script": "Dwarvish",
+    "url": "/api/languages/dwarvish"
+}

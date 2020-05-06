@@ -1,0 +1,53 @@
+{
+    "_id": "5eb0efbf0b1bb138c506008b",
+    "index": "shatter",
+    "name": "Shatter",
+    "desc": [
+        "A strong resonant sound painfully intense sounds of a desired point in the range of the spell. Each creature has a sphere with a 10-foot-radius sphere centered on that point must make a constitution saving throw or it suffers 3d8 thunder damage. If successful, the damage is halved. A creature made of inorganic materials such as stone, crystal or metal, makes its saving throw with a disadvantage.",
+        "A non-magical item that is not worn or carried also suffers damage if it is in the area of the spell."
+    ],
+    "higher_level": [
+        "When you cast this spell using a 3 or higher level spell slot, the damage of the spell increases by 1d8 for each level of higher spell slot 2."
+    ],
+    "range": "60 feet",
+    "components": [
+        "V",
+        "S",
+        "M"
+    ],
+    "material": "A burst of mica.",
+    "ritual": false,
+    "duration": "Instantaneous",
+    "concentration": false,
+    "casting_time": "1 action",
+    "level": 2,
+    "school": {
+        "name": "Evocation",
+        "url": "/api/magic-schools/evocation"
+    },
+    "classes": [
+        {
+            "name": "Bard",
+            "url": "/api/classes/bard"
+        },
+        {
+            "name": "Sorcerer",
+            "url": "/api/classes/sorcerer"
+        },
+        {
+            "name": "Warlock",
+            "url": "/api/classes/warlock"
+        },
+        {
+            "name": "Wizard",
+            "url": "/api/classes/wizard"
+        }
+    ],
+    "subclasses": [
+        {
+            "name": "Lore",
+            "url": "/api/subclasses/lore"
+        }
+    ],
+    "url": "/api/spells/shatter"
+}

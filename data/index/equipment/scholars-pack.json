@@ -1,0 +1,34 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa2d",
+    "index": "scholars-pack",
+    "name": "Scholar's Pack",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Equipment Pack",
+    "cost": {
+        "quantity": 40,
+        "unit": "gp"
+    },
+    "contents": [
+        {
+            "item_url": "/api/equipment/backpack",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/book",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/ink-1-ounce-bottle",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/ink-pen",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/parchment-one-sheet",
+            "quantity": 10
+        }
+    ],
+    "url": "/api/equipment/scholars-pack"
+}

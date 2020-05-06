@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/rogue",
+        "name": "Rogue"
+    },
+    "desc": [
+        "At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities. The Thief archetype is detailed at the bottom of this page. Additional archetypes are available in the original source material. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb9b",
+    "index": "roguish-archetype",
+    "name": "Roguish Archetype",
+    "level": 3,
+    "url": "/api/features/roguish-archetype"
+}

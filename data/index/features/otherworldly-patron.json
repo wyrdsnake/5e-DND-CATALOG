@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/warlock",
+        "name": "Warlock"
+    },
+    "desc": [
+        "At 1st level, you have struck a bargain with an otherworldly being of your choice: the Archfey, the Fiend, or the Great Old One, each of which is detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbd5",
+    "index": "otherworldly-patron",
+    "name": "Otherworldly Patron",
+    "level": 1,
+    "url": "/api/features/otherworldly-patron"
+}

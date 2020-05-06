@@ -1,0 +1,52 @@
+{
+    "_id": "5eb0efbf0b1bb138c5060041",
+    "index": "longstrider",
+    "name": "Longstrider",
+    "desc": [
+        "You touch a creature. The target's speed increases by 10 feet until the spell ends."
+    ],
+    "higher_level": [
+        "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each spell slot above 1st."
+    ],
+    "range": "Touch",
+    "components": [
+        "V",
+        "S",
+        "M"
+    ],
+    "material": "A pinch of dirt.",
+    "ritual": false,
+    "duration": "1 hour",
+    "concentration": false,
+    "casting_time": "1 action",
+    "level": 1,
+    "school": {
+        "name": "Transmutation",
+        "url": "/api/magic-schools/transmutation"
+    },
+    "classes": [
+        {
+            "name": "Bard",
+            "url": "/api/classes/bard"
+        },
+        {
+            "name": "Druid",
+            "url": "/api/classes/druid"
+        },
+        {
+            "name": "Ranger",
+            "url": "/api/classes/ranger"
+        },
+        {
+            "name": "Wizard",
+            "url": "/api/classes/wizard"
+        }
+    ],
+    "subclasses": [
+        {
+            "name": "Lore",
+            "url": "/api/subclasses/lore"
+        }
+    ],
+    "url": "/api/spells/longstrider"
+}

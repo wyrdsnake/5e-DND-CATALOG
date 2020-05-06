@@ -1,0 +1,46 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa27",
+    "index": "dungeoneers-pack",
+    "name": "Dungeoneer's Pack",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Equipment Pack",
+    "cost": {
+        "quantity": 12,
+        "unit": "gp"
+    },
+    "contents": [
+        {
+            "item_url": "/api/equipment/backpack",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/crowbar",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/hammer",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/piton",
+            "quantity": 10
+        },
+        {
+            "item_url": "/api/equipment/torch",
+            "quantity": 10
+        },
+        {
+            "item_url": "/api/equipment/rations-1-day",
+            "quantity": 10
+        },
+        {
+            "item_url": "/api/equipment/waterskin",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/rope-hempen-50-feet",
+            "quantity": 1
+        }
+    ],
+    "url": "/api/equipment/dungeoneers-pack"
+}

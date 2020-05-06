@@ -1,0 +1,17 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa4e",
+    "index": "elephant",
+    "name": "Elephant",
+    "equipment_category": "Mounts and Vehicles",
+    "vehicle_category": "Mounts and Other Animals",
+    "cost": {
+        "quantity": 200,
+        "unit": "gp"
+    },
+    "speed": {
+        "quantity": 40,
+        "unit": "ft/round"
+    },
+    "capacity": "1,320 lb.",
+    "url": "/api/equipment/elephant"
+}

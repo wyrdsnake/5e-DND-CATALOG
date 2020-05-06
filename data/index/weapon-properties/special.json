@@ -1,0 +1,9 @@
+{
+    "_id": "5eb0efc30b1bb138c506018f",
+    "index": "special",
+    "name": "Special",
+    "desc": [
+        "A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see \"Special Weapons\" later in this section)."
+    ],
+    "url": "/api/weapon-properties/special"
+}

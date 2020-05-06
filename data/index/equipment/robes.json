@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa12",
+    "index": "robes",
+    "name": "Robes",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 1,
+        "unit": "gp"
+    },
+    "weight": 4,
+    "url": "/api/equipment/robes"
+}

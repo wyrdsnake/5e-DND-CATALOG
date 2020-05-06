@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa69",
+    "index": "saddlebags",
+    "name": "Saddlebags",
+    "equipment_category": "Mounts and Vehicles",
+    "vehicle_category": "Tack, Harness, and Drawn Vehicles",
+    "cost": {
+        "quantity": 4,
+        "unit": "gp"
+    },
+    "weight": 8,
+    "url": "/api/equipment/saddlebags"
+}

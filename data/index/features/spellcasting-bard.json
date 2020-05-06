@@ -1,0 +1,15 @@
+{
+    "class": {
+        "url": "/api/classes/bard",
+        "name": "Bard"
+    },
+    "desc": [
+        "You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music. Your spells are part of your vast repertoire, magic that you can tune to different situations."
+    ],
+    "_id": "5eb0efb90b1bb138c505fa99",
+    "index": "spellcasting-bard",
+    "name": "Spellcasting: Bard",
+    "level": 1,
+    "reference": "/api/spellcasting/bard",
+    "url": "/api/features/spellcasting-bard"
+}

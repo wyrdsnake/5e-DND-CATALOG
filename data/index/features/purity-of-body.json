@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/monk",
+        "name": "Monk"
+    },
+    "desc": [
+        "At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb34",
+    "index": "purity-of-body",
+    "name": "Purity of Body",
+    "level": 10,
+    "url": "/api/features/purity-of-body"
+}

@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9ff",
+    "index": "lock",
+    "name": "Lock",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 10,
+        "unit": "gp"
+    },
+    "weight": 1,
+    "desc": [
+        "A key is provided with the lock. Without the key, a creature proficient with thieves' tools can pick this lock with a successful DC 15 Dexterity check. Your GM may decide that better locks are available for higher prices."
+    ],
+    "url": "/api/equipment/lock"
+}

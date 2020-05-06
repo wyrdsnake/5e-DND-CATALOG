@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9e9",
+    "index": "flask-or-tankard",
+    "name": "Flask or tankard",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 2,
+        "unit": "cp"
+    },
+    "weight": 1,
+    "url": "/api/equipment/flask-or-tankard"
+}

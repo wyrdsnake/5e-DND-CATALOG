@@ -1,0 +1,53 @@
+{
+    "_id": "5eb0efbf0b1bb138c50600bf",
+    "index": "water-breathing",
+    "name": "Water Breathing",
+    "desc": [
+        "This spell gives a maximum of ten willing creatures within range and you can see, the ability to breathe underwater until the end of its term. Affected creatures also retain their normal breathing pattern."
+    ],
+    "range": "30 feet",
+    "components": [
+        "V",
+        "S",
+        "M"
+    ],
+    "material": "A short piece of reed or straw.",
+    "ritual": true,
+    "duration": "24 hours",
+    "concentration": false,
+    "casting_time": "1 action",
+    "level": 3,
+    "school": {
+        "name": "Transmutation",
+        "url": "/api/magic-schools/transmutation"
+    },
+    "classes": [
+        {
+            "name": "Druid",
+            "url": "/api/classes/druid"
+        },
+        {
+            "name": "Ranger",
+            "url": "/api/classes/ranger"
+        },
+        {
+            "name": "Sorcerer",
+            "url": "/api/classes/sorcerer"
+        },
+        {
+            "name": "Wizard",
+            "url": "/api/classes/wizard"
+        }
+    ],
+    "subclasses": [
+        {
+            "name": "Lore",
+            "url": "/api/subclasses/lore"
+        },
+        {
+            "name": "Land",
+            "url": "/api/subclasses/land"
+        }
+    ],
+    "url": "/api/spells/water-breathing"
+}

@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa6d",
+    "index": "stabling-1-day",
+    "name": "Stabling (1 day)",
+    "equipment_category": "Mounts and Vehicles",
+    "vehicle_category": "Tack, Harness, and Drawn Vehicles",
+    "cost": {
+        "quantity": 5,
+        "unit": "sp"
+    },
+    "weight": 0,
+    "url": "/api/equipment/stabling-1-day"
+}

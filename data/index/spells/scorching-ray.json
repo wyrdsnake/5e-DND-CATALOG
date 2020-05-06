@@ -1,0 +1,47 @@
+{
+    "_id": "5eb0efbf0b1bb138c5060084",
+    "index": "scorching-ray",
+    "name": "Scorching Ray",
+    "desc": [
+        "You generate three rays of fire and will throw to targets in the range of the spell. You can project them on one or more targets.",
+        "Perform a remote attack spell for each department. If it hits, the target takes 2d6 fire damage."
+    ],
+    "higher_level": [
+        "When you cast this spell using a 3 or higher level spell slot, you generate an additional radius for each level of higher spell slot 2."
+    ],
+    "range": "120 feet",
+    "components": [
+        "V",
+        "S"
+    ],
+    "ritual": false,
+    "duration": "Instantaneous",
+    "concentration": false,
+    "casting_time": "1 action",
+    "level": 2,
+    "school": {
+        "name": "Evocation",
+        "url": "/api/magic-schools/evocation"
+    },
+    "classes": [
+        {
+            "name": "Sorcerer",
+            "url": "/api/classes/sorcerer"
+        },
+        {
+            "name": "Wizard",
+            "url": "/api/classes/wizard"
+        }
+    ],
+    "subclasses": [
+        {
+            "name": "Lore",
+            "url": "/api/subclasses/lore"
+        },
+        {
+            "name": "Fiend",
+            "url": "/api/subclasses/fiend"
+        }
+    ],
+    "url": "/api/spells/scorching-ray"
+}
