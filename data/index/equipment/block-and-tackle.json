@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9d3",
+    "index": "block-and-tackle",
+    "name": "Block and tackle",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 1,
+        "unit": "gp"
+    },
+    "weight": 5,
+    "desc": [
+        "A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift."
+    ],
+    "url": "/api/equipment/block-and-tackle"
+}

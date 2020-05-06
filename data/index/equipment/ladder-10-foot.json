@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9fa",
+    "index": "ladder-10-foot",
+    "name": "Ladder (10-foot)",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 1,
+        "unit": "sp"
+    },
+    "weight": 25,
+    "url": "/api/equipment/ladder-10-foot"
+}

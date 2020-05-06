@@ -1,0 +1,20 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9b8",
+    "index": "ring-mail",
+    "name": "Ring Mail",
+    "equipment_category": "Armor",
+    "armor_category": "Heavy",
+    "armor_class": {
+        "base": 14,
+        "dex_bonus": false,
+        "max_bonus": null
+    },
+    "str_minimum": 0,
+    "stealth_disadvantage": true,
+    "weight": 40,
+    "cost": {
+        "quantity": 30,
+        "unit": "gp"
+    },
+    "url": "/api/equipment/ring-mail"
+}

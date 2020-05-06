@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9ec",
+    "index": "fishing-tackle",
+    "name": "Fishing tackle",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 1,
+        "unit": "gp"
+    },
+    "weight": 4,
+    "desc": [
+        "This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting."
+    ],
+    "url": "/api/equipment/fishing-tackle"
+}

@@ -1,0 +1,30 @@
+{
+    "_id": "5eb0efbd0b1bb138c505ff1c",
+    "index": "saving-throw-wis",
+    "type": "Saving Throws",
+    "name": "Saving Throw: WIS",
+    "classes": [
+        {
+            "url": "/api/classes/cleric",
+            "name": "Cleric"
+        },
+        {
+            "url": "/api/classes/druid",
+            "name": "Druid"
+        },
+        {
+            "url": "/api/classes/paladin",
+            "name": "Paladin"
+        },
+        {
+            "url": "/api/classes/warlock",
+            "name": "Warlock"
+        },
+        {
+            "url": "/api/classes/wizard",
+            "name": "Wizard"
+        }
+    ],
+    "races": [],
+    "url": "/api/proficiencies/saving-throw-wis"
+}

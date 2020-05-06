@@ -1,0 +1,15 @@
+{
+    "class": {
+        "url": "/api/classes/sorcerer",
+        "name": "Sorcerer"
+    },
+    "desc": [
+        "When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbc4",
+    "index": "metamagic-extended-spell",
+    "name": "Metamagic: Extended Spell",
+    "level": 3,
+    "group": "Metamagic",
+    "url": "/api/features/metamagic-extended-spell"
+}

@@ -1,0 +1,33 @@
+{
+    "_id": "5eb0efb90b1bb138c505f991",
+    "index": "mace",
+    "name": "Mace",
+    "equipment_category": "Weapon",
+    "weapon_category": "Simple",
+    "weapon_range": "Melee",
+    "category_range": "Simple Melee",
+    "cost": {
+        "quantity": 5,
+        "unit": "gp"
+    },
+    "damage": {
+        "damage_dice": "1d6",
+        "damage_bonus": 0,
+        "damage_type": {
+            "url": "/api/damage-types/bludgeoning",
+            "name": "Bludgeoning"
+        }
+    },
+    "range": {
+        "normal": 5,
+        "long": null
+    },
+    "weight": 4,
+    "properties": [
+        {
+            "url": "/api/weapon-properties/monk",
+            "name": "Monk"
+        }
+    ],
+    "url": "/api/equipment/mace"
+}

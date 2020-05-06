@@ -1,0 +1,137 @@
+{
+    "_id": "5eb0efc10b1bb138c506010f",
+    "index": "fiend",
+    "class": {
+        "url": "/api/classes/warlock",
+        "name": "Warlock"
+    },
+    "name": "Fiend",
+    "subclass_flavor": "Otherworldly Patron",
+    "desc": [
+        "You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths."
+    ],
+    "features": [],
+    "spells": [
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/warlock/level/1",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/burning-hands",
+                "name": "Burning Hands"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/warlock/level/1",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/command",
+                "name": "Command"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/warlock/level/1",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/blindness/deafness",
+                "name": "Blindness/Deafness"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/warlock/level/1",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/scorching-ray",
+                "name": "Scorching Ray"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/warlock/level/1",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/fireball",
+                "name": "Fireball"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/warlock/level/1",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/stinking-cloud",
+                "name": "Stinking Cloud"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/warlock/level/1",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/fire-shield",
+                "name": "Fire Shield"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/warlock/level/1",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/wall-of-fire",
+                "name": "Wall of Fire"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/warlock/level/1",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/flame-strike",
+                "name": "Flame Strike"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/warlock/level/1",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/hallow",
+                "name": "Hallow"
+            }
+        }
+    ],
+    "url": "/api/subclasses/fiend"
+}

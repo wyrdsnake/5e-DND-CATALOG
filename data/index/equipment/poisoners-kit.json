@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9f9",
+    "index": "poisoners-kit",
+    "name": "Poisoner's Kit",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Kit",
+    "cost": {
+        "quantity": 50,
+        "unit": "gp"
+    },
+    "weight": 2,
+    "desc": [
+        "A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons."
+    ],
+    "url": "/api/equipment/poisoners-kit"
+}

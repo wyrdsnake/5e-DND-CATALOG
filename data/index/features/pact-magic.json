@@ -1,0 +1,15 @@
+{
+    "class": {
+        "url": "/api/classes/warlock",
+        "name": "Warlock"
+    },
+    "desc": [
+        "Your arcane research and the magic bestowed on you by your patron have given you facility with spells."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbd6",
+    "index": "pact-magic",
+    "name": "Pact Magic",
+    "level": 1,
+    "reference": "/api/spellcasting/warlock",
+    "url": "/api/features/pact-magic"
+}

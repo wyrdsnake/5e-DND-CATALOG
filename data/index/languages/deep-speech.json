@@ -1,0 +1,12 @@
+{
+    "_id": "5eb0efba0b1bb138c505fc36",
+    "index": "deep-speech",
+    "name": "Deep Speech",
+    "type": "Exotic",
+    "typical_speakers": [
+        "Aboleths",
+        "Cloakers"
+    ],
+    "script": null,
+    "url": "/api/languages/deep-speech"
+}

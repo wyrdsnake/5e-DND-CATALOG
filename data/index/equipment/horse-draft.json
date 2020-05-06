@@ -1,0 +1,17 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa4f",
+    "index": "horse-draft",
+    "name": "Horse, draft",
+    "equipment_category": "Mounts and Vehicles",
+    "vehicle_category": "Mounts and Other Animals",
+    "cost": {
+        "quantity": 50,
+        "unit": "gp"
+    },
+    "speed": {
+        "quantity": 40,
+        "unit": "ft/round"
+    },
+    "capacity": "540 lb.",
+    "url": "/api/equipment/horse-draft"
+}

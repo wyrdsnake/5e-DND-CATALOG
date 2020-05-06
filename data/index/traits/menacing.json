@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efc20b1bb138c5060176",
+    "index": "menacing",
+    "races": [
+        {
+            "name": "Half-Orc",
+            "url": "/api/races/half-orc"
+        }
+    ],
+    "subraces": [],
+    "name": "Menacing",
+    "desc": [
+        "You gain proficiency in the Intimidation skill."
+    ],
+    "url": "/api/traits/menacing"
+}

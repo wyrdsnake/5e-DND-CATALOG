@@ -1,0 +1,20 @@
+{
+    "class": {
+        "url": "/api/classes/bard",
+        "name": "Bard"
+    },
+    "desc": [
+        "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "_id": "5eb0efb90b1bb138c505faa6",
+    "index": "bard-expertise-athletics",
+    "name": "Expertise: Athletics",
+    "prerequisites": [
+        {
+            "type": "proficiency",
+            "proficiency": "/api/proficiencies/skill-athletics"
+        }
+    ],
+    "group": "Expertise (Bard)",
+    "url": "/api/features/bard-expertise-athletics"
+}

@@ -1,0 +1,21 @@
+{
+    "class": {
+        "url": "/api/classes/warlock",
+        "name": "Warlock"
+    },
+    "desc": [
+        "You can cast conjure elemental once using a warlock spell slot. You can't do so again until you finish a long rest."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbf6",
+    "index": "eldritch-invocation-minions-of-chaos",
+    "name": "Eldritch Invocation: Minions of Chaos",
+    "level": 9,
+    "prerequisites": [
+        {
+            "type": "level",
+            "level": 9
+        }
+    ],
+    "group": "Eldritch Invocations",
+    "url": "/api/features/eldritch-invocation-minions-of-chaos"
+}

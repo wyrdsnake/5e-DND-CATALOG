@@ -1,0 +1,17 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa55",
+    "index": "warhorse",
+    "name": "Warhorse",
+    "equipment_category": "Mounts and Vehicles",
+    "vehicle_category": "Mounts and Other Animals",
+    "cost": {
+        "quantity": 400,
+        "unit": "gp"
+    },
+    "speed": {
+        "quantity": 60,
+        "unit": "ft/round"
+    },
+    "capacity": "540 lb.",
+    "url": "/api/equipment/warhorse"
+}

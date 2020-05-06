@@ -1,0 +1,26 @@
+{
+    "_id": "5eb0efbd0b1bb138c505ff19",
+    "index": "saving-throw-str",
+    "type": "Saving Throws",
+    "name": "Saving Throw: STR",
+    "classes": [
+        {
+            "url": "/api/classes/barbarian",
+            "name": "Barbarian"
+        },
+        {
+            "url": "/api/classes/fighter",
+            "name": "Fighter"
+        },
+        {
+            "url": "/api/classes/monk",
+            "name": "Monk"
+        },
+        {
+            "url": "/api/classes/ranger",
+            "name": "Ranger"
+        }
+    ],
+    "races": [],
+    "url": "/api/proficiencies/saving-throw-str"
+}

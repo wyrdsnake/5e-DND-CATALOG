@@ -1,0 +1,9 @@
+{
+    "_id": "5eb0efc30b1bb138c5060193",
+    "index": "reach",
+    "name": "Reach",
+    "desc": [
+        "This weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for opportunity attacks with it."
+    ],
+    "url": "/api/weapon-properties/reach"
+}

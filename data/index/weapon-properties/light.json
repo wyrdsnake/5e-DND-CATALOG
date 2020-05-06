@@ -1,0 +1,9 @@
+{
+    "_id": "5eb0efc30b1bb138c506018c",
+    "index": "light",
+    "name": "Light",
+    "desc": [
+        "A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons."
+    ],
+    "url": "/api/weapon-properties/light"
+}

@@ -1,0 +1,44 @@
+{
+    "_id": "5eb0efbf0b1bb138c505ff8c",
+    "index": "aid",
+    "name": "Aid",
+    "desc": [
+        "Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration."
+    ],
+    "higher_level": [
+        "When you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd."
+    ],
+    "range": "30 feet",
+    "components": [
+        "V",
+        "S",
+        "M"
+    ],
+    "material": "A tiny strip of white cloth.",
+    "ritual": false,
+    "duration": "8 hours",
+    "concentration": false,
+    "casting_time": "1 action",
+    "level": 2,
+    "school": {
+        "name": "Abjuration",
+        "url": "/api/magic-schools/abjuration"
+    },
+    "classes": [
+        {
+            "name": "Cleric",
+            "url": "/api/classes/cleric"
+        },
+        {
+            "name": "Paladin",
+            "url": "/api/classes/paladin"
+        }
+    ],
+    "subclasses": [
+        {
+            "name": "Lore",
+            "url": "/api/subclasses/lore"
+        }
+    ],
+    "url": "/api/spells/aid"
+}

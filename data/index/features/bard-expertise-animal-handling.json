@@ -1,0 +1,20 @@
+{
+    "class": {
+        "url": "/api/classes/bard",
+        "name": "Bard"
+    },
+    "desc": [
+        "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "_id": "5eb0efb90b1bb138c505faa2",
+    "index": "bard-expertise-animal-handling",
+    "name": "Expertise: Animal Handling",
+    "prerequisites": [
+        {
+            "type": "proficiency",
+            "proficiency": "/api/proficiencies/skill-animal-handling"
+        }
+    ],
+    "group": "Expertise (Bard)",
+    "url": "/api/features/bard-expertise-animal-handling"
+}

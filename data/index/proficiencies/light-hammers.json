@@ -1,0 +1,14 @@
+{
+    "_id": "5eb0efbd0b1bb138c505fece",
+    "index": "light-hammers",
+    "type": "Weapons",
+    "name": "Light hammers",
+    "classes": [],
+    "races": [
+        {
+            "url": "/api/races/dwarf",
+            "name": "Dwarf"
+        }
+    ],
+    "url": "/api/proficiencies/light-hammers"
+}

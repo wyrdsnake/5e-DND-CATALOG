@@ -1,0 +1,14 @@
+{
+    "_id": "5eb0efbd0b1bb138c505fed0",
+    "index": "maces",
+    "type": "Weapons",
+    "name": "Maces",
+    "classes": [
+        {
+            "url": "/api/classes/druid",
+            "name": "Druid"
+        }
+    ],
+    "races": [],
+    "url": "/api/proficiencies/maces"
+}

@@ -1,0 +1,21 @@
+{
+    "_id": "5eb0efc20b1bb138c5060163",
+    "index": "stonecunning",
+    "races": [
+        {
+            "name": "Dwarf",
+            "url": "/api/races/dwarf"
+        }
+    ],
+    "subraces": [
+        {
+            "name": "Hill Dwarf",
+            "url": "/api/subraces/hill-dwarf"
+        }
+    ],
+    "name": "Stonecunning",
+    "desc": [
+        "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+    ],
+    "url": "/api/traits/stonecunning"
+}

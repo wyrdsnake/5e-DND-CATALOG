@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa24",
+    "index": "whetstone",
+    "name": "Whetstone",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 1,
+        "unit": "cp"
+    },
+    "weight": 1,
+    "url": "/api/equipment/whetstone"
+}

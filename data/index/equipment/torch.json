@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa21",
+    "index": "torch",
+    "name": "Torch",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 1,
+        "unit": "cp"
+    },
+    "weight": 1,
+    "desc": [
+        "A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage."
+    ],
+    "url": "/api/equipment/torch"
+}

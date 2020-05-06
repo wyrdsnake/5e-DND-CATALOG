@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa08",
+    "index": "piton",
+    "name": "Piton",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 5,
+        "unit": "cp"
+    },
+    "weight": 0.25,
+    "url": "/api/equipment/piton"
+}

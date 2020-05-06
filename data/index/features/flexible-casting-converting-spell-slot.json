@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/sorcerer",
+        "name": "Sorcerer"
+    },
+    "desc": [
+        "As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbbf",
+    "index": "flexible-casting-converting-spell-slot",
+    "name": "Flexible Casting: Converting Spell Slot",
+    "level": 2,
+    "url": "/api/features/flexible-casting-converting-spell-slot"
+}

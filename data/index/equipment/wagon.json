@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa6c",
+    "index": "wagon",
+    "name": "Wagon",
+    "equipment_category": "Mounts and Vehicles",
+    "vehicle_category": "Tack, Harness, and Drawn Vehicles",
+    "cost": {
+        "quantity": 35,
+        "unit": "gp"
+    },
+    "weight": 400,
+    "url": "/api/equipment/wagon"
+}

@@ -1,0 +1,19 @@
+{
+    "class": {
+        "url": "/api/classes/ranger",
+        "name": "Ranger"
+    },
+    "subclass": {
+        "url": "/api/subclasses/hunter",
+        "name": "Hunter"
+    },
+    "desc": [
+        "Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb68",
+    "index": "hunters-prey-horde-breaker",
+    "name": "Hunter's Prey: Horde Breaker",
+    "level": 3,
+    "group": "Hunter's Prey",
+    "url": "/api/features/hunters-prey-horde-breaker"
+}

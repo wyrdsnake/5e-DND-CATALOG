@@ -1,0 +1,11 @@
+{
+    "_id": "5eb0efba0b1bb138c505fc34",
+    "index": "gnomish",
+    "name": "Gnomish",
+    "type": "Standard",
+    "typical_speakers": [
+        "Gnomes"
+    ],
+    "script": "Dwarvish",
+    "url": "/api/languages/gnomish"
+}

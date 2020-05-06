@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9da",
+    "index": "chain-10-feet",
+    "name": "Chain (10 feet)",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 5,
+        "unit": "gp"
+    },
+    "weight": 10,
+    "desc": [
+        "A chain has 10 hit points. It can be burst with a successful DC 20 Strength check."
+    ],
+    "url": "/api/equipment/chain-10-feet"
+}

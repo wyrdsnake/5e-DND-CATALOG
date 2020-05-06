@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9d4",
+    "index": "book",
+    "name": "Book",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 25,
+        "unit": "gp"
+    },
+    "weight": 5,
+    "desc": [
+        "A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook (described later in this section)."
+    ],
+    "url": "/api/equipment/book"
+}

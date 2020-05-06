@@ -1,0 +1,12 @@
+{
+    "_id": "5eb0efba0b1bb138c505fc35",
+    "index": "draconic",
+    "name": "Draconic",
+    "type": "Exotic",
+    "typical_speakers": [
+        "Dragons",
+        "Dragonborn"
+    ],
+    "script": "Draconic",
+    "url": "/api/languages/draconic"
+}

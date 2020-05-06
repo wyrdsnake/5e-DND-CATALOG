@@ -1,0 +1,108 @@
+{
+    "_id": "5eb0efbc0b1bb138c505fdce",
+    "index": "frost-giant",
+    "name": "Frost Giant",
+    "size": "Huge",
+    "type": "giant",
+    "subtype": null,
+    "alignment": "neutral evil",
+    "armor_class": 15,
+    "hit_points": 138,
+    "hit_dice": "12d12",
+    "speed": {
+        "walk": "40 ft."
+    },
+    "strength": 23,
+    "dexterity": 9,
+    "constitution": 21,
+    "intelligence": 9,
+    "wisdom": 10,
+    "charisma": 12,
+    "proficiencies": [
+        {
+            "name": "Saving Throw: CON",
+            "url": "/api/proficiencies/saving-throw-con",
+            "value": 8
+        },
+        {
+            "name": "Saving Throw: WIS",
+            "url": "/api/proficiencies/saving-throw-wis",
+            "value": 3
+        },
+        {
+            "name": "Saving Throw: CHA",
+            "url": "/api/proficiencies/saving-throw-cha",
+            "value": 4
+        },
+        {
+            "name": "Skill: Athletics",
+            "url": "/api/proficiencies/skill-athletics",
+            "value": 9
+        },
+        {
+            "name": "Skill: Perception",
+            "url": "/api/proficiencies/skill-perception",
+            "value": 3
+        }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [],
+    "damage_immunities": [
+        "cold"
+    ],
+    "condition_immunities": [],
+    "senses": {
+        "passive_perception": 13
+    },
+    "languages": "Giant",
+    "challenge_rating": 8,
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The giant makes two greataxe attacks.",
+            "options": {
+                "choose": 1,
+                "from": [
+                    [
+                        {
+                            "name": "Greataxe",
+                            "count": 2,
+                            "type": "melee"
+                        }
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Greataxe",
+            "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 25 (3d12 + 6) slashing damage.",
+            "attack_bonus": 9,
+            "damage": [
+                {
+                    "damage_type": {
+                        "name": "Slashing",
+                        "url": "/api/damage-types/slashing"
+                    },
+                    "damage_dice": "3d12",
+                    "damage_bonus": 6
+                }
+            ]
+        },
+        {
+            "name": "Rock",
+            "desc": "Ranged Weapon Attack: +9 to hit, range 60/240 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.",
+            "attack_bonus": 9,
+            "damage": [
+                {
+                    "damage_type": {
+                        "name": "Bludgeoning",
+                        "url": "/api/damage-types/bludgeoning"
+                    },
+                    "damage_dice": "4d10",
+                    "damage_bonus": 6
+                }
+            ]
+        }
+    ],
+    "url": "/api/monsters/frost-giant"
+}

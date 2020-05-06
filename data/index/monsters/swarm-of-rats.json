@@ -1,0 +1,97 @@
+{
+    "_id": "5eb0efbc0b1bb138c505fe78",
+    "index": "swarm-of-rats",
+    "name": "Swarm of Rats",
+    "size": "Medium",
+    "type": "swarm of Tiny beasts",
+    "subtype": null,
+    "alignment": "unaligned",
+    "armor_class": 10,
+    "hit_points": 24,
+    "hit_dice": "7d8",
+    "speed": {
+        "walk": "30 ft."
+    },
+    "strength": 9,
+    "dexterity": 11,
+    "constitution": 9,
+    "intelligence": 2,
+    "wisdom": 10,
+    "charisma": 3,
+    "proficiencies": [],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+    ],
+    "damage_immunities": [],
+    "condition_immunities": [
+        {
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        },
+        {
+            "name": "Grappled",
+            "url": "/api/conditions/grappled"
+        },
+        {
+            "name": "Paralyzed",
+            "url": "/api/conditions/paralyzed"
+        },
+        {
+            "name": "Petrified",
+            "url": "/api/conditions/petrified"
+        },
+        {
+            "name": "Prone",
+            "url": "/api/conditions/prone"
+        },
+        {
+            "name": "Restrained",
+            "url": "/api/conditions/restrained"
+        },
+        {
+            "name": "Stunned",
+            "url": "/api/conditions/stunned"
+        }
+    ],
+    "senses": {
+        "darkvision": "30 ft.",
+        "passive_perception": 10
+    },
+    "languages": "",
+    "challenge_rating": 0.25,
+    "special_abilities": [
+        {
+            "name": "Keen Smell",
+            "desc": "The swarm has advantage on Wisdom (Perception) checks that rely on smell."
+        },
+        {
+            "name": "Swarm",
+            "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Bites",
+            "desc": "Melee Weapon Attack: +2 to hit, reach 0 ft., one target in the swarm's space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer.",
+            "attack_bonus": 2,
+            "damage": [
+                {
+                    "damage_type": {
+                        "name": "Piercing",
+                        "url": "/api/damage-types/piercing"
+                    },
+                    "damage_dice": "2d6",
+                    "damage_bonus": 0
+                }
+            ]
+        }
+    ],
+    "url": "/api/monsters/swarm-of-rats"
+}

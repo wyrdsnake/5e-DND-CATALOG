@@ -1,0 +1,46 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa29",
+    "index": "explorers-pack",
+    "name": "Explorer's Pack",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Equipment Pack",
+    "cost": {
+        "quantity": 10,
+        "unit": "gp"
+    },
+    "contents": [
+        {
+            "item_url": "/api/equipment/backpack",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/bedroll",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/mess-kit",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/tinderbox",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/torch",
+            "quantity": 10
+        },
+        {
+            "item_url": "/api/equipment/rations-1-day",
+            "quantity": 10
+        },
+        {
+            "item_url": "/api/equipment/waterskin",
+            "quantity": 1
+        },
+        {
+            "item_url": "/api/equipment/disguise-kit",
+            "quantity": 1
+        }
+    ],
+    "url": "/api/equipment/explorers-pack"
+}

@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa0f",
+    "index": "ram-portable",
+    "name": "Ram, portable",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 4,
+        "unit": "gp"
+    },
+    "weight": 35,
+    "desc": [
+        "You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check."
+    ],
+    "url": "/api/equipment/ram-portable"
+}

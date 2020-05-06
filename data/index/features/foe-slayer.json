@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/ranger",
+        "name": "Ranger"
+    },
+    "desc": [
+        "At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb83",
+    "index": "foe-slayer",
+    "name": "Foe Slayer",
+    "level": 20,
+    "url": "/api/features/foe-slayer"
+}

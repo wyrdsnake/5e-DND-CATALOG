@@ -1,0 +1,25 @@
+{
+    "_id": "5eb0efb60b1bb138c505f909",
+    "index": "dex",
+    "name": "DEX",
+    "full_name": "Dexterity",
+    "desc": [
+        "Dexterity measures agility, reflexes, and balance.",
+        "A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The Acrobatics, Sleight of Hand, and Stealth skills reflect aptitude in certain kinds of Dexterity checks."
+    ],
+    "skills": [
+        {
+            "url": "/api/skills/acrobatics",
+            "name": "Acrobatics"
+        },
+        {
+            "url": "/api/skills/sleight-of-hand",
+            "name": "Sleight of Hand"
+        },
+        {
+            "url": "/api/skills/stealth",
+            "name": "Stealth"
+        }
+    ],
+    "url": "/api/ability-scores/dex"
+}

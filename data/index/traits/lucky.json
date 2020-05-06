@@ -1,0 +1,21 @@
+{
+    "_id": "5eb0efc20b1bb138c506016b",
+    "index": "lucky",
+    "races": [
+        {
+            "name": "Halfling",
+            "url": "/api/races/halfling"
+        }
+    ],
+    "subraces": [
+        {
+            "name": "Lightfoot Halfling",
+            "url": "/api/subraces/lightfoot-halfling"
+        }
+    ],
+    "name": "Lucky",
+    "desc": [
+        "When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+    ],
+    "url": "/api/traits/lucky"
+}

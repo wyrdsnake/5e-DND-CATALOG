@@ -1,0 +1,39 @@
+{
+    "class": {
+        "url": "/api/classes/ranger",
+        "name": "Ranger"
+    },
+    "subclass": {
+        "url": "/api/subclasses/hunter",
+        "name": "Hunter"
+    },
+    "desc": [
+        "At 15th level, you gain one of the following features of your choice.",
+        "Evasion",
+        "Stand Against the Tide",
+        "Uncanny Dodge"
+    ],
+    "_id": "5eb0efba0b1bb138c505fb7d",
+    "index": "choose-superior-hunters-defense",
+    "name": "Choose: Superior Hunter's Defense",
+    "level": 15,
+    "choice": {
+        "choose": 1,
+        "type": "feature",
+        "from": [
+            {
+                "url": "/api/features/superior-hunters-defense-evasion",
+                "name": "Superior Hunter's Defense: Evasion"
+            },
+            {
+                "url": "/api/features/superior-hunters-defense-stand-against-the-tide",
+                "name": "Superior Hunter's Defense: Stand Against the Tide"
+            },
+            {
+                "url": "/api/features/superior-hunters-defense-uncanny-dodge",
+                "name": "Superior Hunter's Defense: Uncanny Dodge"
+            }
+        ]
+    },
+    "url": "/api/features/choose-superior-hunters-defense"
+}

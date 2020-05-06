@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/bard",
+        "name": "Bard"
+    },
+    "desc": [
+        "Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus."
+    ],
+    "_id": "5eb0efb90b1bb138c505fa9a",
+    "index": "jack-of-all-trades",
+    "name": "Jack of All Trades",
+    "level": 2,
+    "url": "/api/features/jack-of-all-trades"
+}

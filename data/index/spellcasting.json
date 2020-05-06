@@ -1,0 +1,45 @@
+{
+    "count": 8,
+    "results": [
+        {
+            "index": 1,
+            "class": "Bard",
+            "url": "/api/spellcasting/1"
+        },
+        {
+            "index": 2,
+            "class": "Cleric",
+            "url": "/api/spellcasting/2"
+        },
+        {
+            "index": 3,
+            "class": "Druid",
+            "url": "/api/spellcasting/3"
+        },
+        {
+            "index": 4,
+            "class": "Paladin",
+            "url": "/api/spellcasting/4"
+        },
+        {
+            "index": 5,
+            "class": "Ranger",
+            "url": "/api/spellcasting/5"
+        },
+        {
+            "index": 6,
+            "class": "Sorcerer",
+            "url": "/api/spellcasting/6"
+        },
+        {
+            "index": 7,
+            "class": "Warlock",
+            "url": "/api/spellcasting/7"
+        },
+        {
+            "index": 8,
+            "class": "Wizard",
+            "url": "/api/spellcasting/8"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa03",
+    "index": "paper-one-sheet",
+    "name": "Paper (one sheet)",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 2,
+        "unit": "sp"
+    },
+    "weight": 0,
+    "url": "/api/equipment/paper-one-sheet"
+}

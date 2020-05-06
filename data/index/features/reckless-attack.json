@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/barbarian",
+        "name": "Barbarian"
+    },
+    "desc": [
+        "Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn."
+    ],
+    "_id": "5eb0efb90b1bb138c505fa82",
+    "index": "reckless-attack",
+    "name": "Reckless Attack",
+    "level": 2,
+    "url": "/api/features/reckless-attack"
+}

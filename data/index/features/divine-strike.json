@@ -1,0 +1,18 @@
+{
+    "class": {
+        "url": "/api/classes/cleric",
+        "name": "Cleric"
+    },
+    "subclass": {
+        "url": "/api/subclasses/life",
+        "name": "Life"
+    },
+    "desc": [
+        "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+    ],
+    "_id": "5eb0efb90b1bb138c505fad8",
+    "index": "divine-strike",
+    "name": "Divine Strike",
+    "level": 8,
+    "url": "/api/features/divine-strike"
+}

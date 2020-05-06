@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa0e",
+    "index": "quiver",
+    "name": "Quiver",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 1,
+        "unit": "gp"
+    },
+    "weight": 1,
+    "desc": [
+        "A quiver can hold up to 20 arrows."
+    ],
+    "url": "/api/equipment/quiver"
+}

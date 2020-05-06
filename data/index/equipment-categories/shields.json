@@ -1,0 +1,12 @@
+{
+    "_id": "5eb0efb80b1bb138c505f972",
+    "index": "shields",
+    "name": "Shields",
+    "equipment": [
+        {
+            "url": "/api/equipment/shield",
+            "name": "Shield"
+        }
+    ],
+    "url": "/api/equipment-categories/shields"
+}

@@ -1,0 +1,36 @@
+{
+    "_id": "5eb0efb80b1bb138c505f974",
+    "index": "kits",
+    "name": "Kits",
+    "equipment": [
+        {
+            "url": "/api/equipment/climbers-kit",
+            "name": "Climber's Kit"
+        },
+        {
+            "url": "/api/equipment/disguise-kit",
+            "name": "Disguise Kit"
+        },
+        {
+            "url": "/api/equipment/forgery-kit",
+            "name": "Forgery Kit"
+        },
+        {
+            "url": "/api/equipment/herbalism-kit",
+            "name": "Herbalism Kit"
+        },
+        {
+            "url": "/api/equipment/healers-kit",
+            "name": "Healer's Kit"
+        },
+        {
+            "url": "/api/equipment/mess-kit",
+            "name": "Mess Kit"
+        },
+        {
+            "url": "/api/equipment/poisoners-kit",
+            "name": "Poisoner's Kit"
+        }
+    ],
+    "url": "/api/equipment-categories/kits"
+}

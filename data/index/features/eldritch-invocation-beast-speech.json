@@ -1,0 +1,16 @@
+{
+    "class": {
+        "url": "/api/classes/warlock",
+        "name": "Warlock"
+    },
+    "desc": [
+        "You can cast speak with animals at will, without expending a spell slot."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbd9",
+    "index": "eldritch-invocation-beast-speech",
+    "name": "Eldritch Invocation: Beast Speech",
+    "level": 2,
+    "prerequisites": [],
+    "group": "Eldritch Invocations",
+    "url": "/api/features/eldritch-invocation-beast-speech"
+}

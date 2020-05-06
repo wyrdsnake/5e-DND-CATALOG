@@ -1,0 +1,18 @@
+{
+    "class": {
+        "url": "/api/classes/fighter",
+        "name": "Fighter"
+    },
+    "subclass": {
+        "url": "/api/subclasses/champion",
+        "name": "Champion"
+    },
+    "desc": [
+        "Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb19",
+    "index": "superior-critical",
+    "name": "Superior Critical",
+    "level": 15,
+    "url": "/api/features/superior-critical"
+}

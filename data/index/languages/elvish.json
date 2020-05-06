@@ -1,0 +1,11 @@
+{
+    "_id": "5eb0efba0b1bb138c505fc2d",
+    "index": "elvish",
+    "name": "Elvish",
+    "type": "Standard",
+    "typical_speakers": [
+        "Elves"
+    ],
+    "script": "Elvish",
+    "url": "/api/languages/elvish"
+}

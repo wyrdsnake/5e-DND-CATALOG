@@ -1,0 +1,19 @@
+{
+    "class": {
+        "url": "/api/classes/paladin",
+        "name": "Paladin"
+    },
+    "subclass": {
+        "url": "/api/subclasses/devotion",
+        "name": "Devotion"
+    },
+    "desc": [
+        "Starting at 7th level, you and friendly creatures within 10 feet of you can't be charmed while you are conscious.",
+        "At 18th level, the range of this aura increases to 30 feet."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb50",
+    "index": "aura-of-devotion",
+    "name": "Aura of Devotion",
+    "level": 7,
+    "url": "/api/features/aura-of-devotion"
+}

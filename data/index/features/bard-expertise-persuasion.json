@@ -1,0 +1,20 @@
+{
+    "class": {
+        "url": "/api/classes/bard",
+        "name": "Bard"
+    },
+    "desc": [
+        "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "_id": "5eb0efb90b1bb138c505faad",
+    "index": "bard-expertise-persuasion",
+    "name": "Expertise: Persuasion",
+    "prerequisites": [
+        {
+            "type": "proficiency",
+            "proficiency": "/api/proficiencies/skill-persuasion"
+        }
+    ],
+    "group": "Expertise (Bard)",
+    "url": "/api/features/bard-expertise-persuasion"
+}

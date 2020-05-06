@@ -1,0 +1,20 @@
+{
+    "class": {
+        "url": "/api/classes/rogue",
+        "name": "Rogue"
+    },
+    "desc": [
+        "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb85",
+    "index": "rogue-expertise-animal-handling",
+    "name": "Expertise: Animal Handling",
+    "prerequisites": [
+        {
+            "type": "proficiency",
+            "proficiency": "/api/proficiencies/skill-animal-handling"
+        }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "/api/features/rogue-expertise-animal-handling"
+}

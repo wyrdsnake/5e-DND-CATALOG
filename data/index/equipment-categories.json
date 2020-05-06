@@ -1,0 +1,130 @@
+{
+    "count": 25,
+    "results": [
+        {
+            "index": "adventuring-gear",
+            "name": "Adventuring Gear",
+            "url": "/api/equipment-categories/adventuring-gear"
+        },
+        {
+            "index": "armor",
+            "name": "Armor",
+            "url": "/api/equipment-categories/armor"
+        },
+        {
+            "index": "artisans-tools",
+            "name": "Artisan's Tools",
+            "url": "/api/equipment-categories/artisans-tools"
+        },
+        {
+            "index": "equipment-packs",
+            "name": "Equipment Packs",
+            "url": "/api/equipment-categories/equipment-packs"
+        },
+        {
+            "index": "gaming-sets",
+            "name": "Gaming Sets",
+            "url": "/api/equipment-categories/gaming-sets"
+        },
+        {
+            "index": "heavy-armor",
+            "name": "Heavy Armor",
+            "url": "/api/equipment-categories/heavy-armor"
+        },
+        {
+            "index": "kits",
+            "name": "Kits",
+            "url": "/api/equipment-categories/kits"
+        },
+        {
+            "index": "light-armor",
+            "name": "Light Armor",
+            "url": "/api/equipment-categories/light-armor"
+        },
+        {
+            "index": "martial-melee-weapons",
+            "name": "Martial Melee Weapons",
+            "url": "/api/equipment-categories/martial-melee-weapons"
+        },
+        {
+            "index": "martial-ranged-weapons",
+            "name": "Martial Ranged Weapons",
+            "url": "/api/equipment-categories/martial-ranged-weapons"
+        },
+        {
+            "index": "martial-weapons",
+            "name": "Martial Weapons",
+            "url": "/api/equipment-categories/martial-weapons"
+        },
+        {
+            "index": "medium-armor",
+            "name": "Medium Armor",
+            "url": "/api/equipment-categories/medium-armor"
+        },
+        {
+            "index": "mounts-and-other-animals",
+            "name": "Mounts and Other Animals",
+            "url": "/api/equipment-categories/mounts-and-other-animals"
+        },
+        {
+            "index": "mounts-and-vehicles",
+            "name": "Mounts and Vehicles",
+            "url": "/api/equipment-categories/mounts-and-vehicles"
+        },
+        {
+            "index": "musical-instruments",
+            "name": "Musical Instruments",
+            "url": "/api/equipment-categories/musical-instruments"
+        },
+        {
+            "index": "other-tools",
+            "name": "Other Tools",
+            "url": "/api/equipment-categories/other-tools"
+        },
+        {
+            "index": "shields",
+            "name": "Shields",
+            "url": "/api/equipment-categories/shields"
+        },
+        {
+            "index": "simple-melee-weapons",
+            "name": "Simple Melee Weapons",
+            "url": "/api/equipment-categories/simple-melee-weapons"
+        },
+        {
+            "index": "simple-ranged-weapons",
+            "name": "Simple Ranged Weapons",
+            "url": "/api/equipment-categories/simple-ranged-weapons"
+        },
+        {
+            "index": "simple-weapons",
+            "name": "Simple Weapons",
+            "url": "/api/equipment-categories/simple-weapons"
+        },
+        {
+            "index": "standard-gear",
+            "name": "Standard Gear",
+            "url": "/api/equipment-categories/standard-gear"
+        },
+        {
+            "index": "tack-harness-and-drawn-vehicles",
+            "name": "Tack, Harness, and Drawn Vehicles",
+            "url": "/api/equipment-categories/tack-harness-and-drawn-vehicles"
+        },
+        {
+            "index": "tools",
+            "name": "Tools",
+            "url": "/api/equipment-categories/tools"
+        },
+        {
+            "index": "waterborne-vehicles",
+            "name": "Waterborne Vehicles",
+            "url": "/api/equipment-categories/waterborne-vehicles"
+        },
+        {
+            "index": "weapon",
+            "name": "Weapon",
+            "url": "/api/equipment-categories/weapon"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "_id": "5eb0efb80b1bb138c505f971",
+    "index": "heavy-armor",
+    "name": "Heavy Armor",
+    "equipment": [
+        {
+            "url": "/api/equipment/ring-mail",
+            "name": "Ring Mail"
+        },
+        {
+            "url": "/api/equipment/chain-mail",
+            "name": "Chain Mail"
+        },
+        {
+            "url": "/api/equipment/splint",
+            "name": "Splint"
+        },
+        {
+            "url": "/api/equipment/plate",
+            "name": "Plate"
+        }
+    ],
+    "url": "/api/equipment-categories/heavy-armor"
+}

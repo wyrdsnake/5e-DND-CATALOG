@@ -1,0 +1,15 @@
+{
+    "class": {
+        "url": "/api/classes/paladin",
+        "name": "Paladin"
+    },
+    "desc": [
+        "By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb45",
+    "index": "spellcasting-paladin",
+    "name": "Spellcasting: Paladin",
+    "level": 2,
+    "reference": "/api/spellcasting/paladin",
+    "url": "/api/features/spellcasting-paladin"
+}

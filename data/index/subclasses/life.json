@@ -1,0 +1,125 @@
+{
+    "_id": "5eb0efc10b1bb138c5060106",
+    "index": "life",
+    "class": {
+        "url": "/api/classes/cleric",
+        "name": "Cleric"
+    },
+    "name": "Life",
+    "subclass_flavor": "Divine Domain",
+    "desc": [
+        "The Life domain focuses on the vibrant positive energy--one of the fundamental forces of the universe--that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities, sun gods, gods of healing or endurance, and gods of home and community."
+    ],
+    "features": [],
+    "spells": [
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/cleric/level/1",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/bless",
+                "name": "Bless"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/cleric/level/1",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/cure-wounds",
+                "name": "Cure Wounds"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/cleric/level/3",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/lesser-restoration",
+                "name": "Lesser Restoration"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/cleric/level/3",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/spiritual-weapon",
+                "name": "Spiritual Weapon"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/cleric/level/5",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/beacon-of-hope",
+                "name": "Beacon of Hope"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/cleric/level/5",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/revivify",
+                "name": "Revivify"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/cleric/level/7",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/death-ward",
+                "name": "Death Ward"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/cleric/level/9",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/mass-cure-wounds",
+                "name": "Mass Cure Wounds"
+            }
+        },
+        {
+            "prerequisites": [
+                {
+                    "url": "/api/classes/cleric/level/9",
+                    "type": "level"
+                }
+            ],
+            "spell": {
+                "url": "/api/spells/raise-dead",
+                "name": "Raise Dead"
+            }
+        }
+    ],
+    "url": "/api/subclasses/life"
+}

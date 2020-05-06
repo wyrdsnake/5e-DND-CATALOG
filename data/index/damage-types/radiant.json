@@ -1,0 +1,9 @@
+{
+    "_id": "5eb0efb80b1bb138c505f956",
+    "index": "radiant",
+    "name": "Radiant",
+    "desc": [
+        "Radiant damage, dealt by a cleric's flame strike spell or an angel's smiting weapon, sears the flesh like fire and overloads the spirit with power."
+    ],
+    "url": "/api/damage-types/radiant"
+}

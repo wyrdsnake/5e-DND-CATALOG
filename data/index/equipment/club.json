@@ -1,0 +1,37 @@
+{
+    "_id": "5eb0efb90b1bb138c505f98d",
+    "index": "club",
+    "name": "Club",
+    "equipment_category": "Weapon",
+    "weapon_category": "Simple",
+    "weapon_range": "Melee",
+    "category_range": "Simple Melee",
+    "cost": {
+        "quantity": 1,
+        "unit": "sp"
+    },
+    "damage": {
+        "damage_dice": "1d4",
+        "damage_bonus": 0,
+        "damage_type": {
+            "url": "/api/damage-types/bludgeoning",
+            "name": "Bludgeoning"
+        }
+    },
+    "range": {
+        "normal": 5,
+        "long": null
+    },
+    "weight": 2,
+    "properties": [
+        {
+            "url": "/api/weapon-properties/light",
+            "name": "Light"
+        },
+        {
+            "url": "/api/weapon-properties/monk",
+            "name": "Monk"
+        }
+    ],
+    "url": "/api/equipment/club"
+}

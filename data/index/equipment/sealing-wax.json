@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa16",
+    "index": "sealing-wax",
+    "name": "Sealing wax",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 5,
+        "unit": "sp"
+    },
+    "weight": 0,
+    "url": "/api/equipment/sealing-wax"
+}

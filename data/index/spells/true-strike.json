@@ -1,0 +1,46 @@
+{
+    "_id": "5eb0efbf0b1bb138c50600b5",
+    "index": "true-strike",
+    "name": "True Strike",
+    "desc": [
+        "You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target's defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn't ended."
+    ],
+    "range": "30 feet",
+    "components": [
+        "S"
+    ],
+    "ritual": false,
+    "duration": "Up to 1 round",
+    "concentration": true,
+    "casting_time": "1 action",
+    "level": 0,
+    "school": {
+        "name": "Divination",
+        "url": "/api/magic-schools/divination"
+    },
+    "classes": [
+        {
+            "name": "Bard",
+            "url": "/api/classes/bard"
+        },
+        {
+            "name": "Sorcerer",
+            "url": "/api/classes/sorcerer"
+        },
+        {
+            "name": "Warlock",
+            "url": "/api/classes/warlock"
+        },
+        {
+            "name": "Wizard",
+            "url": "/api/classes/wizard"
+        }
+    ],
+    "subclasses": [
+        {
+            "name": "Lore",
+            "url": "/api/subclasses/lore"
+        }
+    ],
+    "url": "/api/spells/true-strike"
+}

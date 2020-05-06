@@ -1,0 +1,16 @@
+{
+    "class": {
+        "url": "/api/classes/sorcerer",
+        "name": "Sorcerer"
+    },
+    "desc": [
+        "When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.",
+        "You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbc3",
+    "index": "metamagic-empowered-spell",
+    "name": "Metamagic: Empowered Spell",
+    "level": 3,
+    "group": "Metamagic",
+    "url": "/api/features/metamagic-empowered-spell"
+}

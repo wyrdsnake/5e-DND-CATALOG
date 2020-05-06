@@ -1,0 +1,173 @@
+{
+    "_id": "5eb0efbc0b1bb138c505fdb5",
+    "index": "deva",
+    "name": "Deva",
+    "size": "Medium",
+    "type": "celestial",
+    "subtype": null,
+    "alignment": "lawful good",
+    "armor_class": 17,
+    "hit_points": 136,
+    "hit_dice": "16d8",
+    "speed": {
+        "walk": "30 ft.",
+        "fly": "90 ft."
+    },
+    "strength": 18,
+    "dexterity": 18,
+    "constitution": 18,
+    "intelligence": 17,
+    "wisdom": 20,
+    "charisma": 20,
+    "proficiencies": [
+        {
+            "name": "Saving Throw: WIS",
+            "url": "/api/proficiencies/saving-throw-wis",
+            "value": 9
+        },
+        {
+            "name": "Saving Throw: CHA",
+            "url": "/api/proficiencies/saving-throw-cha",
+            "value": 9
+        },
+        {
+            "name": "Skill: Insight",
+            "url": "/api/proficiencies/skill-insight",
+            "value": 9
+        },
+        {
+            "name": "Skill: Perception",
+            "url": "/api/proficiencies/skill-perception",
+            "value": 9
+        }
+    ],
+    "damage_vulnerabilities": [],
+    "damage_resistances": [
+        "radiant",
+        "bludgeoning, piercing, and slashing from nonmagical weapons"
+    ],
+    "damage_immunities": [],
+    "condition_immunities": [
+        {
+            "name": "Charmed",
+            "url": "/api/conditions/charmed"
+        },
+        {
+            "name": "Exhaustion",
+            "url": "/api/conditions/exhaustion"
+        },
+        {
+            "name": "Frightened",
+            "url": "/api/conditions/frightened"
+        }
+    ],
+    "senses": {
+        "darkvision": "120 ft.",
+        "passive_perception": 19
+    },
+    "languages": "all, telepathy 120 ft.",
+    "challenge_rating": 10,
+    "special_abilities": [
+        {
+            "name": "Angelic Weapons",
+            "desc": "The deva's weapon attacks are magical. When the deva hits with any weapon, the weapon deals an extra 4d8 radiant damage (included in the attack)."
+        },
+        {
+            "name": "Innate Spellcasting",
+            "desc": "The deva's spellcasting ability is Charisma (spell save DC 17). The deva can innately cast the following spells, requiring only verbal components:\nAt will: detect evil and good\n1/day each: commune, raise dead",
+            "spellcasting": {
+                "ability": {
+                    "name": "CHA",
+                    "url": "/api/ability-scores/cha"
+                },
+                "dc": 17,
+                "components_required": [
+                    "V"
+                ],
+                "spells": [
+                    {
+                        "name": "Detect Evil and Good",
+                        "url": "/api/spells/detect-evil-and-good",
+                        "usage": {
+                            "type": "at will"
+                        }
+                    },
+                    {
+                        "name": "Commune",
+                        "url": "/api/spells/commune",
+                        "usage": {
+                            "type": "per day",
+                            "times": 1
+                        }
+                    },
+                    {
+                        "name": "Raise Dead",
+                        "url": "/api/spells/raise-dead",
+                        "usage": {
+                            "type": "per day",
+                            "times": 1
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Magic Resistance",
+            "desc": "The deva has advantage on saving throws against spells and other magical effects."
+        }
+    ],
+    "actions": [
+        {
+            "name": "Multiattack",
+            "desc": "The deva makes two melee attacks.",
+            "options": {
+                "choose": 1,
+                "from": [
+                    [
+                        {
+                            "name": "Mace",
+                            "count": 2,
+                            "type": "melee"
+                        }
+                    ]
+                ]
+            }
+        },
+        {
+            "name": "Mace",
+            "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage.",
+            "attack_bonus": 8,
+            "damage": [
+                {
+                    "damage_type": {
+                        "name": "Bludgeoning",
+                        "url": "/api/damage-types/bludgeoning"
+                    },
+                    "damage_dice": "1d6",
+                    "damage_bonus": 4
+                },
+                {
+                    "damage_type": {
+                        "name": "Radiant",
+                        "url": "/api/damage-types/radiant"
+                    },
+                    "damage_dice": "4d8",
+                    "damage_bonus": 0
+                }
+            ]
+        },
+        {
+            "name": "Healing Touch",
+            "desc": "The deva touches another creature. The target magically regains 20 (4d8 + 2) hit points and is freed from any curse, disease, poison, blindness, or deafness.",
+            "usage": {
+                "type": "per day",
+                "times": 3
+            }
+        },
+        {
+            "name": "Change Shape",
+            "desc": "The deva magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the deva's choice).\nIn a new form, the deva retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks."
+        }
+    ],
+    "url": "/api/monsters/deva"
+}

@@ -1,0 +1,9 @@
+{
+    "_id": "5eb0efc30b1bb138c5060191",
+    "index": "two-handed",
+    "name": "Two-Handed",
+    "desc": [
+        "This weapon requires two hands when you attack with it."
+    ],
+    "url": "/api/weapon-properties/two-handed"
+}

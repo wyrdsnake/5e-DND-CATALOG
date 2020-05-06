@@ -1,0 +1,9 @@
+{
+    "_id": "5eb0efc30b1bb138c5060194",
+    "index": "monk",
+    "name": "Monk",
+    "desc": [
+        "Monks gain several benefits while unarmed or wielding only monk weapons while they aren't wearing armor or wielding shields."
+    ],
+    "url": "/api/weapon-properties/monk"
+}

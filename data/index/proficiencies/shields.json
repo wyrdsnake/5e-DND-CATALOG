@@ -1,0 +1,34 @@
+{
+    "_id": "5eb0efbd0b1bb138c505fec5",
+    "index": "shields",
+    "type": "Armor",
+    "name": "Shields",
+    "classes": [
+        {
+            "url": "/api/classes/barbarian",
+            "name": "Barbarian"
+        },
+        {
+            "url": "/api/classes/cleric",
+            "name": "Cleric"
+        },
+        {
+            "url": "/api/classes/druid",
+            "name": "Druid"
+        },
+        {
+            "url": "/api/classes/fighter",
+            "name": "Fighter"
+        },
+        {
+            "url": "/api/classes/paladin",
+            "name": "Paladin"
+        },
+        {
+            "url": "/api/classes/ranger",
+            "name": "Ranger"
+        }
+    ],
+    "races": [],
+    "url": "/api/proficiencies/shields"
+}

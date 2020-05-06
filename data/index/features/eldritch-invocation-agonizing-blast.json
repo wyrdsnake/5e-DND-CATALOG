@@ -1,0 +1,21 @@
+{
+    "class": {
+        "url": "/api/classes/warlock",
+        "name": "Warlock"
+    },
+    "desc": [
+        "When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbd7",
+    "index": "eldritch-invocation-agonizing-blast",
+    "name": "Eldritch Invocation: Agonizing Blast",
+    "level": 2,
+    "prerequisites": [
+        {
+            "type": "Spell",
+            "spell": "/api/spells/dominate-monster"
+        }
+    ],
+    "group": "Eldritch Invocations",
+    "url": "/api/features/eldritch-invocation-agonizing-blast"
+}

@@ -1,0 +1,9 @@
+{
+    "_id": "5eb0efbd0b1bb138c505ff15",
+    "index": "land-vehicles",
+    "type": "Vehicles",
+    "name": "Land Vehicles",
+    "classes": [],
+    "races": [],
+    "url": "/api/proficiencies/land-vehicles"
+}

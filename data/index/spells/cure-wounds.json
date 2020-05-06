@@ -1,0 +1,58 @@
+{
+    "_id": "5eb0efbf0b1bb138c505ffce",
+    "index": "cure-wounds",
+    "name": "Cure Wounds",
+    "desc": [
+        "A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs."
+    ],
+    "higher_level": [
+        "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st."
+    ],
+    "range": "Touch",
+    "components": [
+        "V",
+        "S"
+    ],
+    "ritual": false,
+    "duration": "Instantaneous",
+    "concentration": false,
+    "casting_time": "1 action",
+    "level": 1,
+    "school": {
+        "name": "Evocation",
+        "url": "/api/magic-schools/evocation"
+    },
+    "classes": [
+        {
+            "name": "Bard",
+            "url": "/api/classes/bard"
+        },
+        {
+            "name": "Cleric",
+            "url": "/api/classes/cleric"
+        },
+        {
+            "name": "Druid",
+            "url": "/api/classes/druid"
+        },
+        {
+            "name": "Paladin",
+            "url": "/api/classes/paladin"
+        },
+        {
+            "name": "Ranger",
+            "url": "/api/classes/ranger"
+        }
+    ],
+    "subclasses": [
+        {
+            "name": "Lore",
+            "url": "/api/subclasses/lore"
+        },
+        {
+            "name": "Life",
+            "url": "/api/subclasses/life"
+        }
+    ],
+    "url": "/api/spells/cure-wounds"
+}

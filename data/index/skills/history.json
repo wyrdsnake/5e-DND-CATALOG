@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efbe0b1bb138c505ff5c",
+    "index": "history",
+    "name": "History",
+    "desc": [
+        "Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations."
+    ],
+    "ability_score": {
+        "url": "/api/ability-scores/int",
+        "name": "INT"
+    },
+    "url": "/api/skills/history"
+}

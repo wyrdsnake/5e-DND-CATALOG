@@ -1,0 +1,20 @@
+{
+    "class": {
+        "url": "/api/classes/rogue",
+        "name": "Rogue"
+    },
+    "desc": [
+        "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb96",
+    "index": "rogue-expertise-survival",
+    "name": "Expertise: Survival",
+    "prerequisites": [
+        {
+            "type": "proficiency",
+            "proficiency": "/api/proficiencies/skill-survival"
+        }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "/api/features/rogue-expertise-survival"
+}

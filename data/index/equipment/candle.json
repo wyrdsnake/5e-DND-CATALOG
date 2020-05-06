@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9d9",
+    "index": "candle",
+    "name": "Candle",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 1,
+        "unit": "cp"
+    },
+    "weight": 0,
+    "desc": [
+        "For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet."
+    ],
+    "url": "/api/equipment/candle"
+}

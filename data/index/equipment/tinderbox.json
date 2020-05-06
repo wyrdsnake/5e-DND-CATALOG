@@ -1,0 +1,17 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa20",
+    "index": "tinderbox",
+    "name": "Tinderbox",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 5,
+        "unit": "sp"
+    },
+    "weight": 1,
+    "desc": [
+        "This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch--or anything else with abundant, exposed fuel--takes an action.",
+        "Lighting any other fire takes 1 minute."
+    ],
+    "url": "/api/equipment/tinderbox"
+}

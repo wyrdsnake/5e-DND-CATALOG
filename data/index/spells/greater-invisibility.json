@@ -1,0 +1,43 @@
+{
+    "_id": "5eb0efbf0b1bb138c5060016",
+    "index": "greater-invisibility",
+    "name": "Greater Invisibility",
+    "desc": [
+        "You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person."
+    ],
+    "range": "Touch",
+    "components": [
+        "V",
+        "S"
+    ],
+    "ritual": false,
+    "duration": "Up to 1 minute",
+    "concentration": true,
+    "casting_time": "1 action",
+    "level": 4,
+    "school": {
+        "name": "Illusion",
+        "url": "/api/magic-schools/illusion"
+    },
+    "classes": [
+        {
+            "name": "Bard",
+            "url": "/api/classes/bard"
+        },
+        {
+            "name": "Sorcerer",
+            "url": "/api/classes/sorcerer"
+        },
+        {
+            "name": "Wizard",
+            "url": "/api/classes/wizard"
+        }
+    ],
+    "subclasses": [
+        {
+            "name": "Land",
+            "url": "/api/subclasses/land"
+        }
+    ],
+    "url": "/api/spells/greater-invisibility"
+}

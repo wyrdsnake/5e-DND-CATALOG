@@ -1,0 +1,55 @@
+{
+    "_id": "5eb0efbf0b1bb138c506009f",
+    "index": "stinking-cloud",
+    "name": "Stinking Cloud",
+    "desc": [
+        "You create a 20-foot-radius sphere of yellow, nauseating gas centered on a point within range. The cloud spreads around corners, and its area is heavily obscured. The cloud lingers in the air for the duration.",
+        "Each creature that is completely within the cloud at the start of its turn must make a constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don't need to breathe or are immune to poison automatically succeed on this saving throw.",
+        "A moderate wind (at least 10 miles per hour) disperses the cloud after 4 rounds. A strong wind (at least 20 miles per hour) disperses it after 1 round."
+    ],
+    "range": "90 feet",
+    "components": [
+        "V",
+        "S",
+        "M"
+    ],
+    "material": "A rotten egg or several skunk cabbage leaves.",
+    "ritual": false,
+    "duration": "Up to 1 minute",
+    "concentration": true,
+    "casting_time": "1 action",
+    "level": 3,
+    "school": {
+        "name": "Conjuration",
+        "url": "/api/magic-schools/conjuration"
+    },
+    "classes": [
+        {
+            "name": "Bard",
+            "url": "/api/classes/bard"
+        },
+        {
+            "name": "Sorcerer",
+            "url": "/api/classes/sorcerer"
+        },
+        {
+            "name": "Wizard",
+            "url": "/api/classes/wizard"
+        }
+    ],
+    "subclasses": [
+        {
+            "name": "Lore",
+            "url": "/api/subclasses/lore"
+        },
+        {
+            "name": "Land",
+            "url": "/api/subclasses/land"
+        },
+        {
+            "name": "Fiend",
+            "url": "/api/subclasses/fiend"
+        }
+    ],
+    "url": "/api/spells/stinking-cloud"
+}

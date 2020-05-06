@@ -1,0 +1,49 @@
+{
+    "_id": "5eb0efbf0b1bb138c506009b",
+    "index": "spider-climb",
+    "name": "Spider Climb",
+    "desc": [
+        "Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving its hands free. The target also gains a climbing speed equal to its walking speed."
+    ],
+    "range": "Touch",
+    "components": [
+        "V",
+        "S",
+        "M"
+    ],
+    "material": "A drop of bitumen and a spider.",
+    "ritual": false,
+    "duration": "Up to 1 hour",
+    "concentration": true,
+    "casting_time": "1 action",
+    "level": 2,
+    "school": {
+        "name": "Transmutation",
+        "url": "/api/magic-schools/transmutation"
+    },
+    "classes": [
+        {
+            "name": "Sorcerer",
+            "url": "/api/classes/sorcerer"
+        },
+        {
+            "name": "Warlock",
+            "url": "/api/classes/warlock"
+        },
+        {
+            "name": "Wizard",
+            "url": "/api/classes/wizard"
+        }
+    ],
+    "subclasses": [
+        {
+            "name": "Lore",
+            "url": "/api/subclasses/lore"
+        },
+        {
+            "name": "Land",
+            "url": "/api/subclasses/land"
+        }
+    ],
+    "url": "/api/spells/spider-climb"
+}

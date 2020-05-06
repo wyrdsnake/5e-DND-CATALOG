@@ -1,0 +1,156 @@
+{
+    "_id": "5eb0efb80b1bb138c505f966",
+    "index": "weapon",
+    "name": "Weapon",
+    "equipment": [
+        {
+            "name": "Club",
+            "url": "/api/equipment/club"
+        },
+        {
+            "name": "Dagger",
+            "url": "/api/equipment/dagger"
+        },
+        {
+            "name": "Greatclub",
+            "url": "/api/equipment/greatclub"
+        },
+        {
+            "name": "Handaxe",
+            "url": "/api/equipment/handaxe"
+        },
+        {
+            "name": "Javelin",
+            "url": "/api/equipment/javelin"
+        },
+        {
+            "name": "Light hammer",
+            "url": "/api/equipment/light-hammer"
+        },
+        {
+            "name": "Mace",
+            "url": "/api/equipment/mace"
+        },
+        {
+            "name": "Quarterstaff",
+            "url": "/api/equipment/quarterstaff"
+        },
+        {
+            "name": "Sickle",
+            "url": "/api/equipment/sickle"
+        },
+        {
+            "name": "Spear",
+            "url": "/api/equipment/spear"
+        },
+        {
+            "name": "Crossbow, light",
+            "url": "/api/equipment/crossbow-light"
+        },
+        {
+            "name": "Dart",
+            "url": "/api/equipment/dart"
+        },
+        {
+            "name": "Shortbow",
+            "url": "/api/equipment/shortbow"
+        },
+        {
+            "name": "Sling",
+            "url": "/api/equipment/sling"
+        },
+        {
+            "name": "Battleaxe",
+            "url": "/api/equipment/battleaxe"
+        },
+        {
+            "name": "Flail",
+            "url": "/api/equipment/flail"
+        },
+        {
+            "name": "Glaive",
+            "url": "/api/equipment/glaive"
+        },
+        {
+            "name": "Greataxe",
+            "url": "/api/equipment/greataxe"
+        },
+        {
+            "name": "Greatsword",
+            "url": "/api/equipment/greatsword"
+        },
+        {
+            "name": "Halberd",
+            "url": "/api/equipment/halberd"
+        },
+        {
+            "name": "Lance",
+            "url": "/api/equipment/lance"
+        },
+        {
+            "name": "Longsword",
+            "url": "/api/equipment/longsword"
+        },
+        {
+            "name": "Maul",
+            "url": "/api/equipment/maul"
+        },
+        {
+            "name": "Morningstar",
+            "url": "/api/equipment/morningstar"
+        },
+        {
+            "name": "Pike",
+            "url": "/api/equipment/pike"
+        },
+        {
+            "name": "Rapier",
+            "url": "/api/equipment/rapier"
+        },
+        {
+            "name": "Scimitar",
+            "url": "/api/equipment/scimitar"
+        },
+        {
+            "name": "Shortsword",
+            "url": "/api/equipment/shortsword"
+        },
+        {
+            "name": "Trident",
+            "url": "/api/equipment/trident"
+        },
+        {
+            "name": "War pick",
+            "url": "/api/equipment/war-pick"
+        },
+        {
+            "name": "Warhammer",
+            "url": "/api/equipment/warhammer"
+        },
+        {
+            "name": "Whip",
+            "url": "/api/equipment/whip"
+        },
+        {
+            "name": "Blowgun",
+            "url": "/api/equipment/blowgun"
+        },
+        {
+            "name": "Crossbow, hand",
+            "url": "/api/equipment/crossbow-hand"
+        },
+        {
+            "name": "Crossbow, heavy",
+            "url": "/api/equipment/crossbow-heavy"
+        },
+        {
+            "name": "Longbow",
+            "url": "/api/equipment/longbow"
+        },
+        {
+            "name": "Net",
+            "url": "/api/equipment/net"
+        }
+    ],
+    "url": "/api/equipment-categories/weapon"
+}

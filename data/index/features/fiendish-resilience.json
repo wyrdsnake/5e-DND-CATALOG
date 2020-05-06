@@ -1,0 +1,18 @@
+{
+    "class": {
+        "url": "/api/classes/warlock",
+        "name": "Warlock"
+    },
+    "subclass": {
+        "url": "/api/subclasses/fiend",
+        "name": "Fiend"
+    },
+    "desc": [
+        "Starting at 10th level, you can choose one damage type when you finish a short or long rest. You gain resistance to that damage type until you choose a different one with this feature. Damage from magical weapons or silver weapons ignores this resistance."
+    ],
+    "_id": "5eb0efba0b1bb138c505fc04",
+    "index": "fiendish-resilience",
+    "name": "Fiendish Resilience",
+    "level": 10,
+    "url": "/api/features/fiendish-resilience"
+}

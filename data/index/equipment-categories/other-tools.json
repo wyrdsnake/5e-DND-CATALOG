@@ -1,0 +1,16 @@
+{
+    "_id": "5eb0efb80b1bb138c505f979",
+    "index": "other-tools",
+    "name": "Other Tools",
+    "equipment": [
+        {
+            "url": "/api/equipment/navigators-tools",
+            "name": "Navigator's tools"
+        },
+        {
+            "url": "/api/equipment/thieves-tools",
+            "name": "Thieves' tools"
+        }
+    ],
+    "url": "/api/equipment-categories/other-tools"
+}

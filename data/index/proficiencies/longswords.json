@@ -1,0 +1,23 @@
+{
+    "_id": "5eb0efbd0b1bb138c505fedd",
+    "index": "longswords",
+    "type": "Weapons",
+    "name": "Longswords",
+    "classes": [
+        {
+            "url": "/api/classes/bard",
+            "name": "Bard"
+        },
+        {
+            "url": "/api/classes/rogue",
+            "name": "Rogue"
+        }
+    ],
+    "races": [
+        {
+            "url": "/api/subraces/high-elf",
+            "name": "High Elf"
+        }
+    ],
+    "url": "/api/proficiencies/longswords"
+}

@@ -1,0 +1,48 @@
+{
+    "class": {
+        "url": "/api/classes/fighter",
+        "name": "Fighter"
+    },
+    "subclass": {
+        "url": "/api/subclasses/champion",
+        "name": "Champion"
+    },
+    "desc": [
+        "At 10th level, you can choose a second option from the Fighting Style class feature. Superior Critical Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb14",
+    "index": "choose-additional-fighting-style",
+    "name": "Choose: Additional Fighting Style",
+    "level": 10,
+    "choice": {
+        "choose": 1,
+        "type": "feature",
+        "from": [
+            {
+                "url": "/api/features/fighter-fighting-style-archery",
+                "name": "Fighting Style: Archery"
+            },
+            {
+                "url": "/api/features/fighter-fighting-style-defense",
+                "name": "Fighting Style: Defense"
+            },
+            {
+                "url": "/api/features/fighter-fighting-style-dueling",
+                "name": "Fighting Style: Dueling"
+            },
+            {
+                "url": "/api/features/fighter-fighting-style-great-weapon-fighting",
+                "name": "Fighting Style: Great Weapon Fighting"
+            },
+            {
+                "url": "/api/features/fighter-fighting-style-protection",
+                "name": "Fighting Style: Protection"
+            },
+            {
+                "url": "/api/features/fighter-fighting-style-two-weapon-fighting",
+                "name": "Fighting Style: Two-Weapon Fighting"
+            }
+        ]
+    },
+    "url": "/api/features/choose-additional-fighting-style"
+}

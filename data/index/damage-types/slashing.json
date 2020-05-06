@@ -1,0 +1,9 @@
+{
+    "_id": "5eb0efb80b1bb138c505f957",
+    "index": "slashing",
+    "name": "Slashing",
+    "desc": [
+        "Swords, axes, and monsters' claws deal slashing damage."
+    ],
+    "url": "/api/damage-types/slashing"
+}

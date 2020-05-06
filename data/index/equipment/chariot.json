@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa64",
+    "index": "chariot",
+    "name": "Chariot",
+    "equipment_category": "Mounts and Vehicles",
+    "vehicle_category": "Tack, Harness, and Drawn Vehicles",
+    "cost": {
+        "quantity": 250,
+        "unit": "gp"
+    },
+    "weight": 100,
+    "url": "/api/equipment/chariot"
+}

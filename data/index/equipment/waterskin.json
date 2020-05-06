@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa22",
+    "index": "waterskin",
+    "name": "Waterskin",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 2,
+        "unit": "sp"
+    },
+    "weight": 5,
+    "url": "/api/equipment/waterskin"
+}

@@ -1,0 +1,28 @@
+{
+    "_id": "5eb0efb90b1bb138c505f99b",
+    "index": "flail",
+    "name": "Flail",
+    "equipment_category": "Weapon",
+    "weapon_category": "Martial",
+    "weapon_range": "Melee",
+    "category_range": "Martial Melee",
+    "cost": {
+        "quantity": 10,
+        "unit": "gp"
+    },
+    "damage": {
+        "damage_dice": "1d8",
+        "damage_bonus": 0,
+        "damage_type": {
+            "url": "/api/damage-types/bludgeoning",
+            "name": "Bludgeoning"
+        }
+    },
+    "range": {
+        "normal": 5,
+        "long": null
+    },
+    "weight": 2,
+    "properties": [],
+    "url": "/api/equipment/flail"
+}

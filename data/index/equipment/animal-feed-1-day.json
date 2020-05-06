@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa65",
+    "index": "animal-feed-1-day",
+    "name": "Animal Feed (1 day)",
+    "equipment_category": "Mounts and Vehicles",
+    "vehicle_category": "Tack, Harness, and Drawn Vehicles",
+    "cost": {
+        "quantity": 5,
+        "unit": "cp"
+    },
+    "weight": 10,
+    "url": "/api/equipment/animal-feed-1-day"
+}

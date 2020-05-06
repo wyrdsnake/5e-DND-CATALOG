@@ -1,0 +1,21 @@
+{
+    "class": {
+        "url": "/api/classes/warlock",
+        "name": "Warlock"
+    },
+    "desc": [
+        "You can cast jump on yourself at will, without expending a spell slot or material components."
+    ],
+    "_id": "5eb0efba0b1bb138c505fbf0",
+    "index": "eldritch-invocation-otherworldly-leap",
+    "name": "Eldritch Invocation: Otherworldly Leap",
+    "level": 9,
+    "prerequisites": [
+        {
+            "type": "level",
+            "level": 9
+        }
+    ],
+    "group": "Eldritch Invocations",
+    "url": "/api/features/eldritch-invocation-otherworldly-leap"
+}

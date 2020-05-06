@@ -1,0 +1,18 @@
+{
+    "class": {
+        "url": "/api/classes/fighter",
+        "name": "Fighter"
+    },
+    "subclass": {
+        "url": "/api/subclasses/champion",
+        "name": "Champion"
+    },
+    "desc": [
+        "Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb0d",
+    "index": "improved-critical",
+    "name": "Improved Critical",
+    "level": 3,
+    "url": "/api/features/improved-critical"
+}

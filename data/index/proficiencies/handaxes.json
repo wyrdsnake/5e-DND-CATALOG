@@ -1,0 +1,14 @@
+{
+    "_id": "5eb0efbd0b1bb138c505fecc",
+    "index": "handaxes",
+    "type": "Weapons",
+    "name": "Handaxes",
+    "classes": [],
+    "races": [
+        {
+            "url": "/api/races/dwarf",
+            "name": "Dwarf"
+        }
+    ],
+    "url": "/api/proficiencies/handaxes"
+}

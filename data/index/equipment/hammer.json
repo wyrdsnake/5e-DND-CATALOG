@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9eb",
+    "index": "hammer",
+    "name": "Hammer",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 1,
+        "unit": "gp"
+    },
+    "weight": 3,
+    "url": "/api/equipment/hammer"
+}

@@ -1,0 +1,17 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa51",
+    "index": "mule",
+    "name": "Mule",
+    "equipment_category": "Mounts and Vehicles",
+    "vehicle_category": "Mounts and Other Animals",
+    "cost": {
+        "quantity": 8,
+        "unit": "gp"
+    },
+    "speed": {
+        "quantity": 40,
+        "unit": "ft/round"
+    },
+    "capacity": "420 lb.",
+    "url": "/api/equipment/mule"
+}

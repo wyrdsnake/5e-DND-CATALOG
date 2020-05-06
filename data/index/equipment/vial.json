@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505fa23",
+    "index": "vial",
+    "name": "Vial",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 1,
+        "unit": "gp"
+    },
+    "weight": 0,
+    "url": "/api/equipment/vial"
+}

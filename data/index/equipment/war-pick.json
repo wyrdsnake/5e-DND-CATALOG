@@ -1,0 +1,28 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9a9",
+    "index": "war-pick",
+    "name": "War pick",
+    "equipment_category": "Weapon",
+    "weapon_category": "Martial",
+    "weapon_range": "Melee",
+    "category_range": "Martial Melee",
+    "cost": {
+        "quantity": 5,
+        "unit": "gp"
+    },
+    "damage": {
+        "damage_dice": "1d8",
+        "damage_bonus": 0,
+        "damage_type": {
+            "url": "/api/damage-types/piercing",
+            "name": "Piercing"
+        }
+    },
+    "range": {
+        "normal": 5,
+        "long": null
+    },
+    "weight": 2,
+    "properties": [],
+    "url": "/api/equipment/war-pick"
+}

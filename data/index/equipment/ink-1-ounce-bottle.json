@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9f2",
+    "index": "ink-1-ounce-bottle",
+    "name": "Ink (1 ounce bottle)",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Standard Gear",
+    "cost": {
+        "quantity": 10,
+        "unit": "gp"
+    },
+    "weight": 0,
+    "url": "/api/equipment/ink-1-ounce-bottle"
+}

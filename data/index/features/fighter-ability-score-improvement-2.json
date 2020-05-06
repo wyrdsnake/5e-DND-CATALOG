@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/fighter",
+        "name": "Fighter"
+    },
+    "desc": [
+        "When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "_id": "5eb0efba0b1bb138c505fb11",
+    "index": "fighter-ability-score-improvement-2",
+    "name": "Fighter: Ability Score Improvement 2",
+    "level": 6,
+    "url": "/api/features/fighter-ability-score-improvement-2"
+}

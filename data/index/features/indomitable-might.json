@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/barbarian",
+        "name": "Barbarian"
+    },
+    "desc": [
+        "Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total."
+    ],
+    "_id": "5eb0efb90b1bb138c505fa96",
+    "index": "indomitable-might",
+    "name": "Indomitable Might",
+    "level": 18,
+    "url": "/api/features/indomitable-might"
+}

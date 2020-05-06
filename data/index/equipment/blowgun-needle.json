@@ -1,0 +1,13 @@
+{
+    "_id": "5eb0efb90b1bb138c505f9c3",
+    "index": "blowgun-needle",
+    "name": "Blowgun needle",
+    "equipment_category": "Adventuring Gear",
+    "gear_category": "Ammunition",
+    "cost": {
+        "quantity": 2,
+        "unit": "cp"
+    },
+    "weight": 1,
+    "url": "/api/equipment/blowgun-needle"
+}

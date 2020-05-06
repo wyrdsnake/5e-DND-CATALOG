@@ -1,0 +1,9 @@
+{
+    "_id": "5eb0efc30b1bb138c506018e",
+    "index": "loading",
+    "name": "Loading",
+    "desc": [
+        "Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make."
+    ],
+    "url": "/api/weapon-properties/loading"
+}

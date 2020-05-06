@@ -1,0 +1,26 @@
+{
+    "_id": "5eb0efbd0b1bb138c505ff18",
+    "index": "saving-throw-dex",
+    "type": "Saving Throws",
+    "name": "Saving Throw: DEX",
+    "classes": [
+        {
+            "url": "/api/classes/bard",
+            "name": "Bard"
+        },
+        {
+            "url": "/api/classes/monk",
+            "name": "Monk"
+        },
+        {
+            "url": "/api/classes/ranger",
+            "name": "Ranger"
+        },
+        {
+            "url": "/api/classes/rogue",
+            "name": "Rogue"
+        }
+    ],
+    "races": [],
+    "url": "/api/proficiencies/saving-throw-dex"
+}

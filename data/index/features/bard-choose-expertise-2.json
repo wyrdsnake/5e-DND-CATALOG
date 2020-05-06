@@ -1,0 +1,92 @@
+{
+    "class": {
+        "url": "/api/classes/bard",
+        "name": "Bard"
+    },
+    "desc": [
+        "At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. At 10th level, you can choose another two skill proficiencies to gain this benefit."
+    ],
+    "_id": "5eb0efb90b1bb138c505fabc",
+    "index": "bard-choose-expertise-2",
+    "name": "Choose: Expertise 2",
+    "level": 10,
+    "choice": {
+        "choose": 2,
+        "type": "feature",
+        "from": [
+            {
+                "url": "/api/features/bard-expertise-survival",
+                "name": "Expertise: Acrobatics"
+            },
+            {
+                "url": "/api/features/bard-expertise-stealth",
+                "name": "Expertise: Animal Handling"
+            },
+            {
+                "url": "/api/features/bard-expertise-acrobatics",
+                "name": "Expertise: Arcana"
+            },
+            {
+                "url": "/api/features/bard-expertise-animal-handling",
+                "name": "Expertise: Athletics"
+            },
+            {
+                "url": "/api/features/bard-expertise-arcana",
+                "name": "Expertise: Deception"
+            },
+            {
+                "url": "/api/features/bard-expertise-athletics",
+                "name": "Expertise: History"
+            },
+            {
+                "url": "/api/features/bard-expertise-deception",
+                "name": "Expertise: Insight"
+            },
+            {
+                "url": "/api/features/bard-expertise-history",
+                "name": "Expertise: Intimidation"
+            },
+            {
+                "url": "/api/features/bard-expertise-insight",
+                "name": "Expertise: Investigation"
+            },
+            {
+                "url": "/api/features/bard-expertise-intimidation",
+                "name": "Expertise: Medicine"
+            },
+            {
+                "url": "/api/features/bard-expertise-investigation",
+                "name": "Expertise: Nature"
+            },
+            {
+                "url": "/api/features/bard-expertise-medicine",
+                "name": "Expertise: Perception"
+            },
+            {
+                "url": "/api/features/bard-expertise-nature",
+                "name": "Expertise: Performance"
+            },
+            {
+                "url": "/api/features/bard-expertise-perception",
+                "name": "Expertise: Persuasion"
+            },
+            {
+                "url": "/api/features/bard-expertise-performance",
+                "name": "Expertise: Religion"
+            },
+            {
+                "url": "/api/features/bard-expertise-persuasion",
+                "name": "Expertise: Sleight of Hand"
+            },
+            {
+                "url": "/api/features/bard-expertise-religion",
+                "name": "Expertise: Stealth"
+            },
+            {
+                "url": "/api/features/bard-expertise-sleight-of-hand",
+                "name": "Expertise: Survival"
+            }
+        ]
+    },
+    "url": "/api/features/bard-choose-expertise-2"
+}

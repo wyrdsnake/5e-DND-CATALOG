@@ -1,0 +1,14 @@
+{
+    "class": {
+        "url": "/api/classes/cleric",
+        "name": "Cleric"
+    },
+    "desc": [
+        "Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold."
+    ],
+    "_id": "5eb0efb90b1bb138c505fad1",
+    "index": "destroy-undead-cr-1-2-or-below",
+    "name": "Destroy Undead (CR 1/2 or below)",
+    "level": 5,
+    "url": "/api/features/destroy-undead-cr-1-2-or-below"
+}

@@ -1,0 +1,11 @@
+{
+    "_id": "5eb0efba0b1bb138c505fc39",
+    "index": "undercommon",
+    "name": "Undercommon",
+    "type": "Exotic",
+    "typical_speakers": [
+        "Underdark traders"
+    ],
+    "script": "Elvish",
+    "url": "/api/languages/undercommon"
+}

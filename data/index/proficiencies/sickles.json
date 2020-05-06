@@ -1,0 +1,14 @@
+{
+    "_id": "5eb0efbd0b1bb138c505fed2",
+    "index": "sickles",
+    "type": "Weapons",
+    "name": "Sickles",
+    "classes": [
+        {
+            "url": "/api/classes/druid",
+            "name": "Druid"
+        }
+    ],
+    "races": [],
+    "url": "/api/proficiencies/sickles"
+}

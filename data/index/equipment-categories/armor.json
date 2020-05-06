@@ -1,0 +1,60 @@
+{
+    "_id": "5eb0efb80b1bb138c505f965",
+    "index": "armor",
+    "name": "Armor",
+    "equipment": [
+        {
+            "name": "Padded",
+            "url": "/api/equipment/padded"
+        },
+        {
+            "name": "Leather",
+            "url": "/api/equipment/leather"
+        },
+        {
+            "name": "Studded Leather",
+            "url": "/api/equipment/studded-leather"
+        },
+        {
+            "name": "Hide",
+            "url": "/api/equipment/hide"
+        },
+        {
+            "name": "Chain Shirt",
+            "url": "/api/equipment/chain-shirt"
+        },
+        {
+            "name": "Scale Mail",
+            "url": "/api/equipment/scale-mail"
+        },
+        {
+            "name": "Breastplate",
+            "url": "/api/equipment/breastplate"
+        },
+        {
+            "name": "Half Plate",
+            "url": "/api/equipment/half-plate"
+        },
+        {
+            "name": "Ring Mail",
+            "url": "/api/equipment/ring-mail"
+        },
+        {
+            "name": "Chain Mail",
+            "url": "/api/equipment/chain-mail"
+        },
+        {
+            "name": "Splint",
+            "url": "/api/equipment/splint"
+        },
+        {
+            "name": "Plate",
+            "url": "/api/equipment/plate"
+        },
+        {
+            "name": "Shield",
+            "url": "/api/equipment/shield"
+        }
+    ],
+    "url": "/api/equipment-categories/armor"
+}

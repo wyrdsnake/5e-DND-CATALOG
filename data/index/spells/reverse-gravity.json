@@ -1,0 +1,42 @@
+{
+    "_id": "5eb0efbf0b1bb138c5060080",
+    "index": "reverse-gravity",
+    "name": "Reverse Gravity",
+    "desc": [
+        "This spell reverses gravity in a 50-foot-radius, 100-foot high cylinder centered on a point within range. All creatures and objects that aren't somehow anchored to the ground in the area fall upward and reach the top of the area when you cast this spell. A creature can make a dexterity saving throw to grab onto a fixed object it can reach, thus avoiding the fall.",
+        "If some solid object (such as a ceiling) is encountered in this fall, falling objects and creatures strike it just as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, for the duration.",
+        "At the end of the duration, affected objects and creatures fall back down."
+    ],
+    "range": "100 feet",
+    "components": [
+        "V",
+        "S",
+        "M"
+    ],
+    "material": "A lodestone and iron filings.",
+    "ritual": false,
+    "duration": "Up to 1 minute",
+    "concentration": true,
+    "casting_time": "1 action",
+    "level": 7,
+    "school": {
+        "name": "Transmutation",
+        "url": "/api/magic-schools/transmutation"
+    },
+    "classes": [
+        {
+            "name": "Druid",
+            "url": "/api/classes/druid"
+        },
+        {
+            "name": "Sorcerer",
+            "url": "/api/classes/sorcerer"
+        },
+        {
+            "name": "Wizard",
+            "url": "/api/classes/wizard"
+        }
+    ],
+    "subclasses": [],
+    "url": "/api/spells/reverse-gravity"
+}
