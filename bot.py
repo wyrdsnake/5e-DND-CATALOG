@@ -199,24 +199,4 @@ async def rtd(ctx, arg):
     await ctx.send(embed=embed)
 
 
-
-# This should be entirely removed probably
-@client.command()
-async def meat(ctx, member=None):
-    msg = None
-    if member is None:
-        if ctx.message.author.id == 560601419564974081:
-            msg = f"{ctx.message.author.mention} {random.choice(MEAT['big'])}"
-        else: 
-            msg = f"{ctx.message.author.mention} {random.choice(MEAT['small'])}"   
-
-    else: 
-        if str(member) == "<@!560601419564974081>":
-            msg = f"{member} {random.choice(MEAT['big'])}"
-        else: 
-            msg = f"{member} {random.choice(MEAT['small'])}"   
-    
-    await ctx.send(msg)
-
-
 client.run(KEY)
